@@ -1,6 +1,6 @@
 {
   "snapshot_format": 1,
-  "exported_at": "2026-09-12T03:48:33+00:00",
+  "exported_at": "2026-09-12T04:05:08+00:00",
   "schema_version": "003",
   "tables": {
     "rotation_groups": [
@@ -1449,7 +1449,178 @@
         "month_number": 12
       }
     ],
-    "plant_images": [],
+    "plant_images": [
+      {
+        "id": 1,
+        "plant_reference_id": 1,
+        "filename": "01-tomato.jpg"
+      },
+      {
+        "id": 2,
+        "plant_reference_id": 2,
+        "filename": "02-basil.jpg"
+      },
+      {
+        "id": 3,
+        "plant_reference_id": 3,
+        "filename": "03-lettuce.jpg"
+      },
+      {
+        "id": 4,
+        "plant_reference_id": 4,
+        "filename": "04-carrot.jpg"
+      },
+      {
+        "id": 5,
+        "plant_reference_id": 5,
+        "filename": "05-strawberry.jpg"
+      },
+      {
+        "id": 6,
+        "plant_reference_id": 6,
+        "filename": "06-zucchini.jpg"
+      },
+      {
+        "id": 7,
+        "plant_reference_id": 7,
+        "filename": "07-lebanese-cucumber.jpg"
+      },
+      {
+        "id": 10,
+        "plant_reference_id": 10,
+        "filename": "10-basil-genovese.jpg"
+      },
+      {
+        "id": 11,
+        "plant_reference_id": 11,
+        "filename": "11-bergamot-lemon-mint.jpg"
+      },
+      {
+        "id": 16,
+        "plant_reference_id": 16,
+        "filename": "16-carrot-solar-yellow.jpg"
+      },
+      {
+        "id": 20,
+        "plant_reference_id": 20,
+        "filename": "20-horseradish.jpg"
+      },
+      {
+        "id": 23,
+        "plant_reference_id": 23,
+        "filename": "23-lettuce-buttercrunch.jpg"
+      },
+      {
+        "id": 24,
+        "plant_reference_id": 24,
+        "filename": "24-lilly-of-the-valley.jpg"
+      },
+      {
+        "id": 25,
+        "plant_reference_id": 25,
+        "filename": "25-marigold-french-marigold.jpg"
+      },
+      {
+        "id": 26,
+        "plant_reference_id": 26,
+        "filename": "26-pea-greenfeast.jpg"
+      },
+      {
+        "id": 29,
+        "plant_reference_id": 29,
+        "filename": "29-stepover-apples.jpg"
+      },
+      {
+        "id": 30,
+        "plant_reference_id": 30,
+        "filename": "30-sunflower-golden-prominence-f1.jpg"
+      },
+      {
+        "id": 31,
+        "plant_reference_id": 31,
+        "filename": "31-sweet-corn-terrific-f1.jpg"
+      },
+      {
+        "id": 32,
+        "plant_reference_id": 32,
+        "filename": "32-sweet-potato.jpg"
+      },
+      {
+        "id": 33,
+        "plant_reference_id": 33,
+        "filename": "33-tomato-black-krim.jpg"
+      },
+      {
+        "id": 34,
+        "plant_reference_id": 34,
+        "filename": "34-zinnia.jpg"
+      },
+      {
+        "id": 35,
+        "plant_reference_id": 8,
+        "filename": "08-telegraph-improved-cucumber.jpg"
+      },
+      {
+        "id": 36,
+        "plant_reference_id": 9,
+        "filename": "09-alyssum.jpg"
+      },
+      {
+        "id": 37,
+        "plant_reference_id": 12,
+        "filename": "12-broccoli-purple-sprouting.jpg"
+      },
+      {
+        "id": 38,
+        "plant_reference_id": 13,
+        "filename": "13-bunching-onion-winter-ishikura.jpg"
+      },
+      {
+        "id": 39,
+        "plant_reference_id": 14,
+        "filename": "14-carrot-cosmic-purple.jpg"
+      },
+      {
+        "id": 40,
+        "plant_reference_id": 15,
+        "filename": "15-carrot-nantes.jpg"
+      },
+      {
+        "id": 41,
+        "plant_reference_id": 17,
+        "filename": "17-eggplant-casper.jpg"
+      },
+      {
+        "id": 42,
+        "plant_reference_id": 18,
+        "filename": "18-eggplant-tsakoniki.jpg"
+      },
+      {
+        "id": 43,
+        "plant_reference_id": 19,
+        "filename": "19-grass-jelly.jpg"
+      },
+      {
+        "id": 44,
+        "plant_reference_id": 21,
+        "filename": "21-hyssop.jpg"
+      },
+      {
+        "id": 45,
+        "plant_reference_id": 22,
+        "filename": "22-japanese-raisin-tree.jpg"
+      },
+      {
+        "id": 46,
+        "plant_reference_id": 27,
+        "filename": "27-pea-oregon-dwarf.jpg"
+      },
+      {
+        "id": 47,
+        "plant_reference_id": 28,
+        "filename": "28-radish-french-breakfast.jpg"
+      }
+    ],
     "plant_pests": [
       {
         "plant_id": 3,

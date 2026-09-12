@@ -31,6 +31,17 @@ git push
 
 The export includes plant references, planting months, image filenames, rotation groups, pests, diseases, functions, uses and their links. It deliberately excludes chat messages and model-loop records.
 
+## Plant image sources
+
+Catalogue photos are stored in `localdata/plant_images/`. Their creator, licence,
+source page and original URL are recorded in `localdata/plant-image-sources.json`.
+To fill missing catalogue images from reusable Wikimedia Commons photography:
+
+```sh
+python3 scripts/fetch_plant_images.py
+python3 scripts/export_catalogue.py
+```
+
 ## Later cloud database
 
 Point `DATABASE_URL` at PostgreSQL and continue applying migrations from the application repository. Move uploaded images to private object storage and store only their keys or URLs in PostgreSQL. Do not commit credentials or production database dumps here.
