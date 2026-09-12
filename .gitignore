@@ -1,0 +1,11 @@
+.DS_Store
+.env.local
+__pycache__/
+*.pyc
+
+# The live SQLite database changes as the app runs and is not meaningfully diffable.
+localdata/*.db
+localdata/*.db-*
+
+# Temporary export files.
+snapshots/*.tmp
