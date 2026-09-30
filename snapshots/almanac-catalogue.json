@@ -1,6 +1,6 @@
 {
   "snapshot_format": 1,
-  "exported_at": "2026-09-12T04:05:08+00:00",
+  "exported_at": "2026-09-30T14:08:00+00:00",
   "schema_version": "003",
   "tables": {
     "rotation_groups": [
@@ -57,19 +57,19 @@
       {
         "id": 1,
         "name": "Aphids",
-        "description": null
+        "description": "Small sap-sucking insects that gather on tender shoots and beneath leaves, sometimes causing curled growth and sticky honeydew."
       },
       {
         "id": 2,
         "name": "Slugs and snails",
-        "description": null
+        "description": "Night-feeding molluscs that chew irregular holes in seedlings and soft foliage and may leave silvery trails."
       }
     ],
     "diseases": [
       {
         "id": 1,
         "name": "Powdery mildew",
-        "description": null
+        "description": "A fungal disease recognised by white or grey powdery patches on leaves and stems; airflow and spacing help reduce it."
       }
     ],
     "function_tags": [

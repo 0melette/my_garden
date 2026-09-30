@@ -45,6 +45,8 @@ The export includes plant references, planting months, image filenames, rotation
 
 ## Plant image sources
 
+Pest and disease description references are recorded in [SOURCES.md](SOURCES.md).
+
 Catalogue photos are stored in `localdata/plant_images/`. Their creator, licence,
 source page and original URL are recorded in `localdata/plant-image-sources.json`.
 To fill missing catalogue images from reusable Wikimedia Commons photography:
