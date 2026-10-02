@@ -1,6 +1,6 @@
 {
   "snapshot_format": 1,
-  "exported_at": "2026-09-30T14:08:00+00:00",
+  "exported_at": "2026-10-02T11:33:47.992872+00:00",
   "schema_version": "003",
   "tables": {
     "rotation_groups": [
@@ -1195,6 +1195,244 @@
         "part_used": "flower",
         "rotation_group_id": null,
         "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\", \"diseases\", \"function_tags\"]"
+      },
+      {
+        "id": 35,
+        "slug": "parsley",
+        "common_name": "Parsley",
+        "scientific_name": "Petroselinum crispum",
+        "family": "Apiaceae",
+        "summary": "Leafy biennial culinary herb, available in curly and flat-leaved forms.",
+        "created_at": "2026-10-02T00:18:24.939891+00:00",
+        "yield_qty": null,
+        "in_row_spacing_cm": 30,
+        "row_spacing_cm": 60,
+        "succession_interval_days": null,
+        "harvest_window_weeks": null,
+        "soil_ph_min": 6,
+        "soil_ph_max": 7,
+        "yield_wording": "Harvest outer stems once established, leaving the centre to regrow. Seed-grown plants generally reach first harvest in about 65–135 days. A reliable per-plant weight is not established.",
+        "yield_unit": null,
+        "management_notes": "Protect seedlings from slugs and snails. Allow space and airflow; avoid keeping leaves wet overnight. Feeding and water badges are qualitative care categories, not measured requirements.",
+        "care_notes": "Sydney / warm-temperate guidance. Grow in sun or partial shade with moist, drained soil. The 30 cm plant / 60 cm row spacing uses the wider end of the supplier range. Add compost; feed only as needed. Planning estimates: in row spacing cm, row spacing cm, feeder type, water needs.",
+        "uses_notes": "Use fresh leaves in salads, sauces and cooked dishes; freeze or dry surplus. Retain a separate plant for flowering or seed if desired.",
+        "sowing_notes": "Sydney / warm temperate: sow September–May (Eden mild-climate guide). Sow 0.5–1 cm deep and keep moist; germination can be slow. Calendar refers to seed sowing.",
+        "source_url": "https://www.edenseeds.com.au/Product-Info-seeds?product=parsley-italian",
+        "notion_url": null,
+        "feeder_type": "light feeder",
+        "water_needs": "moderate",
+        "sun_needs": "part shade",
+        "forest_layer": "herbaceous",
+        "part_used": "leaf",
+        "rotation_group_id": 7,
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"feeder_type\", \"water_needs\"]",
+        "plant_group": "Parsley",
+        "plant_category": "herbs",
+        "variety_name": null
+      },
+      {
+        "id": 36,
+        "slug": "okra",
+        "common_name": "Okra",
+        "scientific_name": "Abelmoschus esculentus",
+        "family": "Malvaceae",
+        "summary": "Heat-loving annual vegetable grown for tender immature pods.",
+        "created_at": "2026-10-02T00:18:24.940185+00:00",
+        "yield_qty": null,
+        "in_row_spacing_cm": 60,
+        "row_spacing_cm": 120,
+        "succession_interval_days": null,
+        "harvest_window_weeks": null,
+        "soil_ph_min": 6,
+        "soil_ph_max": 7,
+        "yield_wording": "Pick tender immature pods frequently before they become fibrous. First picking is generally around 80–98 days from sowing; this is maturity time, not harvest-window length. Yield weight varies.",
+        "yield_unit": null,
+        "management_notes": "Mulch and keep drainage open. Inspect leaf undersides and remove badly affected material after identifying the problem. The light-feeder badge means avoid excessive nitrogen, not omit all fertiliser.",
+        "care_notes": "Sydney / warm-temperate guidance. Use a warm, sunny, drained bed. Space 60 cm apart in rows 120 cm apart, the wider end of general okra guidance. Water steadily; excess nitrogen encourages leaves over pods. Planning estimates: in row spacing cm, row spacing cm, feeder type, water needs.",
+        "uses_notes": "Cook young pods in curries, soups or stews, or roast them. Harvest with care where stems or pods are prickly.",
+        "sowing_notes": "Sydney / warm temperate: sow October–December after frost risk, when soil is warm. Sow about 1 cm deep. Calendar and spacing are general okra guidance, not a named-variety trial.",
+        "source_url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=okra-emerald",
+        "notion_url": null,
+        "feeder_type": "light feeder",
+        "water_needs": "moderate",
+        "sun_needs": "full sun",
+        "forest_layer": "herbaceous",
+        "part_used": "fruit",
+        "rotation_group_id": 7,
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"feeder_type\", \"water_needs\"]",
+        "plant_group": "Okra",
+        "plant_category": "vegetables",
+        "variety_name": null
+      },
+      {
+        "id": 37,
+        "slug": "bean-lazy-housewife",
+        "common_name": "Bean - Lazy Housewife",
+        "scientific_name": "Phaseolus vulgaris",
+        "family": "Fabaceae",
+        "summary": "Climbing bean with stringless young pods, grown on a sturdy support.",
+        "created_at": "2026-10-02T00:18:24.940194+00:00",
+        "yield_qty": null,
+        "in_row_spacing_cm": 20,
+        "row_spacing_cm": 100,
+        "succession_interval_days": 21,
+        "harvest_window_weeks": null,
+        "soil_ph_min": 6,
+        "soil_ph_max": 7,
+        "yield_wording": "The supplier gives about 80 days to first harvest. Pick young pods regularly for a continuing crop; no reliable kilogram yield per plant is verified.",
+        "yield_unit": null,
+        "management_notes": "Protect seedlings from slugs and snails. Water the soil rather than foliage. Nitrogen fixation depends on compatible soil bacteria and does not guarantee feeding nearby crops.",
+        "care_notes": "Sydney / warm-temperate guidance. Install a trellis before sowing. Space plants 20 cm apart in rows 100 cm apart. Keep moist after emergence without waterlogging; avoid excessive nitrogen. Planning estimates: in row spacing cm, succession interval days, water needs.",
+        "uses_notes": "Harvest tender green pods for cooking. Let selected pods mature fully only if saving seed or harvesting dry beans; cook mature beans thoroughly.",
+        "sowing_notes": "Sydney / warm temperate: direct sow September–January after frost, 2–3 cm deep. A 21-day repeat sowing is an optional planning interval within that season, interpreting guidance to sow every few weeks.",
+        "source_url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=bean-climbing-lazy-wife",
+        "notion_url": null,
+        "feeder_type": "nitrogen fixer",
+        "water_needs": "moderate",
+        "sun_needs": "full sun",
+        "forest_layer": "vine",
+        "part_used": "fruit",
+        "rotation_group_id": 4,
+        "estimated_fields": "[\"in_row_spacing_cm\", \"succession_interval_days\", \"water_needs\"]",
+        "plant_group": "Bean",
+        "plant_category": "vegetables",
+        "variety_name": "Lazy Housewife"
+      },
+      {
+        "id": 38,
+        "slug": "bean-scarlet-runner",
+        "common_name": "Bean - Scarlet Runner",
+        "scientific_name": "Phaseolus coccineus",
+        "family": "Fabaceae",
+        "summary": "Climbing bean with scarlet flowers and long pods; can regrow from perennial roots in suitable conditions.",
+        "created_at": "2026-10-02T00:18:24.940201+00:00",
+        "yield_qty": null,
+        "in_row_spacing_cm": 20,
+        "row_spacing_cm": 100,
+        "succession_interval_days": null,
+        "harvest_window_weeks": 8,
+        "soil_ph_min": 6,
+        "soil_ph_max": 7,
+        "yield_wording": "Pick tender pods every few days. Eight weeks is a general runner-bean harvest-window baseline, not a Sydney yield guarantee. Perennial roots may regrow in suitable conditions.",
+        "yield_unit": null,
+        "management_notes": "Watch for aphids, slugs and snails. Keep roots moist through flowering. Nitrogen fixation relies on soil bacteria; flowering plants may still need potassium, especially in pots.",
+        "care_notes": "Sydney / warm-temperate guidance. Provide a strong support and moist, compost-rich soil. The 20 cm plant / 100 cm row spacing and pH 6–7 are general climbing-bean planning targets, not cultivar measurements. Planning estimates: in row spacing cm, row spacing cm, soil ph min, soil ph max, harvest window weeks, water needs.",
+        "uses_notes": "Grow for scarlet flowers and edible pods. Cook beans before eating; harvest pods young before strings and mature seeds develop.",
+        "sowing_notes": "Sydney / warm temperate: sow November–February, interpreting the Australian supplier’s late-spring to late-summer window. Wait for warm soil; hot spells can reduce pod set.",
+        "source_url": "https://www.yates.com.au/heirloom-beans-climbing-scarlet-runner/",
+        "notion_url": null,
+        "feeder_type": "nitrogen fixer",
+        "water_needs": "high",
+        "sun_needs": "full sun",
+        "forest_layer": "vine",
+        "part_used": "fruit",
+        "rotation_group_id": 4,
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"soil_ph_min\", \"soil_ph_max\", \"harvest_window_weeks\", \"planting_months\", \"water_needs\"]",
+        "plant_group": "Bean",
+        "plant_category": "vegetables",
+        "variety_name": "Scarlet Runner"
+      },
+      {
+        "id": 39,
+        "slug": "tomato-sweet-1000",
+        "common_name": "Tomato - Sweet 1000",
+        "scientific_name": "Solanum lycopersicum",
+        "family": "Solanaceae",
+        "summary": "Tomato recorded as Sweet 1000. The cultivar name is listed by a supplier; the growing guidance here is for tomatoes generally until the seed-packet identity is confirmed.",
+        "created_at": "2026-10-02T00:18:24.940207+00:00",
+        "yield_qty": null,
+        "in_row_spacing_cm": 90,
+        "row_spacing_cm": 150,
+        "succession_interval_days": null,
+        "harvest_window_weeks": null,
+        "soil_ph_min": 5.5,
+        "soil_ph_max": 7,
+        "yield_wording": "Pick ripe fruit as it develops. Generic tomato guidance suggests about 65–90 days from transplanting to first harvest, but Sweet 1000 maturity, crop duration and yield remain unverified.",
+        "yield_unit": null,
+        "management_notes": "Mulch, water evenly and allow airflow. Rotate away from other nightshade crops. Spacing, feeding, water, pH, layer and calendar are species-level guidance, not verified cultivar traits.",
+        "care_notes": "Sydney / warm-temperate guidance. General tomato guidance: provide full sun, steady soil moisture and support appropriate to the plant’s habit. Allow 90 cm between plants and 150 cm between rows as a roomy planning layout. Planning estimates: in row spacing cm, row spacing cm, soil ph min, soil ph max, feeder type, water needs, sun needs, forest layer.",
+        "uses_notes": "Use ripe tomato fruit fresh or cooked. The record is kept separate from Sweet 100 and Sweet Million; fruit size and flavour are not assumed.",
+        "sowing_notes": "Sydney / warm temperate: sow August–December using general tomato guidance from Eden’s mild-climate calendar. Start early sowings under protection and transplant after frost risk. Not a verified Sweet 1000 calendar.",
+        "source_url": "https://www.hrseeds.com/pepper-and-tomato-seed-list",
+        "notion_url": null,
+        "feeder_type": "heavy feeder",
+        "water_needs": "moderate",
+        "sun_needs": "full sun",
+        "forest_layer": "herbaceous",
+        "part_used": "fruit",
+        "rotation_group_id": 6,
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"soil_ph_min\", \"soil_ph_max\", \"feeder_type\", \"water_needs\", \"sun_needs\", \"forest_layer\", \"planting_months\"]",
+        "plant_group": "Tomato",
+        "plant_category": "vegetables",
+        "variety_name": "Sweet 1000"
+      },
+      {
+        "id": 40,
+        "slug": "vietnamese-mint",
+        "common_name": "Vietnamese Mint",
+        "scientific_name": "Persicaria odorata",
+        "family": "Polygonaceae",
+        "summary": "Spreading perennial herb also called Vietnamese coriander or rau ram, with aromatic leaves used in cooking.",
+        "created_at": "2026-10-02T00:18:24.940212+00:00",
+        "yield_qty": null,
+        "in_row_spacing_cm": 45,
+        "row_spacing_cm": 60,
+        "succession_interval_days": null,
+        "harvest_window_weeks": null,
+        "soil_ph_min": null,
+        "soil_ph_max": null,
+        "yield_wording": "Snip fresh leaves and tender tips once established; allow regrowth between pickings. Repeat harvest depends on warmth and vigour, so a fixed weight or harvest duration is not assigned.",
+        "yield_unit": null,
+        "management_notes": "Prevent drying out and keep spreading stems out of neighbouring pots. RHS lists acid, neutral and alkaline soils without a numeric range, so exact pH limits are not invented. Water/feed badges are qualitative.",
+        "care_notes": "Sydney / warm-temperate guidance. Use a warm, sheltered position with dappled shade and fertile, consistently moist soil. Keep in a container to manage spreading stems. A 45 cm plant / 60 cm row layout is a provisional space allowance. Planning estimates: in row spacing cm, row spacing cm, feeder type, water needs.",
+        "uses_notes": "Use small amounts of fresh peppery leaves in salads, rice-paper rolls and Vietnamese dishes. This is Persicaria odorata, not a Mentha mint.",
+        "sowing_notes": "Sydney / warm temperate: plant rooted cuttings September–February, translating the Australian nursery’s spring/summer propagation guidance. Protect from cold. This calendar is for cuttings, not seed.",
+        "source_url": "https://www.herbcottage.com.au/products/vietnamese-mint",
+        "notion_url": null,
+        "feeder_type": "light feeder",
+        "water_needs": "high",
+        "sun_needs": "part shade",
+        "forest_layer": "groundcover",
+        "part_used": "leaf",
+        "rotation_group_id": 8,
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"feeder_type\", \"water_needs\", \"planting_months\"]",
+        "plant_group": "Vietnamese Mint",
+        "plant_category": "herbs",
+        "variety_name": null
+      },
+      {
+        "id": 41,
+        "slug": "chocolate-mint",
+        "common_name": "Chocolate Mint",
+        "scientific_name": "Mentha × piperita f. citrata 'Chocolate'",
+        "family": "Lamiaceae",
+        "summary": "Vigorous perennial mint grown for aromatic leaves with a chocolate-mint scent.",
+        "created_at": "2026-10-02T00:18:24.940229+00:00",
+        "yield_qty": null,
+        "in_row_spacing_cm": 60,
+        "row_spacing_cm": 65,
+        "succession_interval_days": null,
+        "harvest_window_weeks": null,
+        "soil_ph_min": 6,
+        "soil_ph_max": 7.5,
+        "yield_wording": "Harvest established shoot tips regularly for regrowth. One contained plant can supply repeated small pickings. No measured per-plant yield or fixed harvest duration is available.",
+        "yield_unit": null,
+        "management_notes": "Keep runners contained and avoid overhead watering late in the day. Check for rust and remove affected foliage. pH 6–7.5 is a general herb target, not a measured Chocolate cultivar tolerance.",
+        "care_notes": "Sydney / warm-temperate guidance. Grow in sun or light shade with moist, drained soil. Keep in a pot or root barrier. Allow 60 cm per plant and 65 cm between rows as a contained-bed planning layout; uncontained roots spread farther. Planning estimates: in row spacing cm, row spacing cm, soil ph min, soil ph max, feeder type, water needs.",
+        "uses_notes": "Use aromatic leaves in teas, desserts and drinks, fresh or dried. Pinching tips encourages a bushier plant.",
+        "sowing_notes": "Sydney / warm temperate: divide or plant September–November or March–April. These months translate spring/early-autumn propagation advice to local seasons. Use divisions or cuttings to retain the cultivar.",
+        "source_url": "https://www.herbcottage.com.au/products/chocolate-mint",
+        "notion_url": null,
+        "feeder_type": "light feeder",
+        "water_needs": "high",
+        "sun_needs": "full sun",
+        "forest_layer": "herbaceous",
+        "part_used": "leaf",
+        "rotation_group_id": 8,
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"soil_ph_min\", \"soil_ph_max\", \"feeder_type\", \"water_needs\", \"planting_months\"]",
+        "plant_group": "Chocolate Mint",
+        "plant_category": "herbs",
+        "variety_name": "Chocolate"
       }
     ],
     "planting_months": [
@@ -1447,6 +1685,191 @@
         "id": 50,
         "plant_reference_id": 8,
         "month_number": 12
+      },
+      {
+        "id": 51,
+        "plant_reference_id": 35,
+        "month_number": 1
+      },
+      {
+        "id": 52,
+        "plant_reference_id": 35,
+        "month_number": 2
+      },
+      {
+        "id": 53,
+        "plant_reference_id": 35,
+        "month_number": 3
+      },
+      {
+        "id": 54,
+        "plant_reference_id": 35,
+        "month_number": 4
+      },
+      {
+        "id": 55,
+        "plant_reference_id": 35,
+        "month_number": 5
+      },
+      {
+        "id": 56,
+        "plant_reference_id": 35,
+        "month_number": 9
+      },
+      {
+        "id": 57,
+        "plant_reference_id": 35,
+        "month_number": 10
+      },
+      {
+        "id": 58,
+        "plant_reference_id": 35,
+        "month_number": 11
+      },
+      {
+        "id": 59,
+        "plant_reference_id": 35,
+        "month_number": 12
+      },
+      {
+        "id": 60,
+        "plant_reference_id": 36,
+        "month_number": 10
+      },
+      {
+        "id": 61,
+        "plant_reference_id": 36,
+        "month_number": 11
+      },
+      {
+        "id": 62,
+        "plant_reference_id": 36,
+        "month_number": 12
+      },
+      {
+        "id": 63,
+        "plant_reference_id": 37,
+        "month_number": 1
+      },
+      {
+        "id": 64,
+        "plant_reference_id": 37,
+        "month_number": 9
+      },
+      {
+        "id": 65,
+        "plant_reference_id": 37,
+        "month_number": 10
+      },
+      {
+        "id": 66,
+        "plant_reference_id": 37,
+        "month_number": 11
+      },
+      {
+        "id": 67,
+        "plant_reference_id": 37,
+        "month_number": 12
+      },
+      {
+        "id": 68,
+        "plant_reference_id": 38,
+        "month_number": 1
+      },
+      {
+        "id": 69,
+        "plant_reference_id": 38,
+        "month_number": 2
+      },
+      {
+        "id": 70,
+        "plant_reference_id": 38,
+        "month_number": 11
+      },
+      {
+        "id": 71,
+        "plant_reference_id": 38,
+        "month_number": 12
+      },
+      {
+        "id": 72,
+        "plant_reference_id": 39,
+        "month_number": 8
+      },
+      {
+        "id": 73,
+        "plant_reference_id": 39,
+        "month_number": 9
+      },
+      {
+        "id": 74,
+        "plant_reference_id": 39,
+        "month_number": 10
+      },
+      {
+        "id": 75,
+        "plant_reference_id": 39,
+        "month_number": 11
+      },
+      {
+        "id": 76,
+        "plant_reference_id": 39,
+        "month_number": 12
+      },
+      {
+        "id": 77,
+        "plant_reference_id": 40,
+        "month_number": 1
+      },
+      {
+        "id": 78,
+        "plant_reference_id": 40,
+        "month_number": 2
+      },
+      {
+        "id": 79,
+        "plant_reference_id": 40,
+        "month_number": 9
+      },
+      {
+        "id": 80,
+        "plant_reference_id": 40,
+        "month_number": 10
+      },
+      {
+        "id": 81,
+        "plant_reference_id": 40,
+        "month_number": 11
+      },
+      {
+        "id": 82,
+        "plant_reference_id": 40,
+        "month_number": 12
+      },
+      {
+        "id": 83,
+        "plant_reference_id": 41,
+        "month_number": 3
+      },
+      {
+        "id": 84,
+        "plant_reference_id": 41,
+        "month_number": 4
+      },
+      {
+        "id": 85,
+        "plant_reference_id": 41,
+        "month_number": 9
+      },
+      {
+        "id": 86,
+        "plant_reference_id": 41,
+        "month_number": 10
+      },
+      {
+        "id": 87,
+        "plant_reference_id": 41,
+        "month_number": 11
       }
     ],
     "plant_images": [
@@ -1619,6 +2042,41 @@
         "id": 47,
         "plant_reference_id": 28,
         "filename": "28-radish-french-breakfast.jpg"
+      },
+      {
+        "id": 48,
+        "plant_reference_id": 35,
+        "filename": "35-parsley.jpg"
+      },
+      {
+        "id": 49,
+        "plant_reference_id": 36,
+        "filename": "36-okra.jpg"
+      },
+      {
+        "id": 50,
+        "plant_reference_id": 37,
+        "filename": "37-bean-lazy-housewife.jpg"
+      },
+      {
+        "id": 51,
+        "plant_reference_id": 38,
+        "filename": "38-bean-scarlet-runner.jpg"
+      },
+      {
+        "id": 52,
+        "plant_reference_id": 39,
+        "filename": "39-tomato-sweet-1000.jpg"
+      },
+      {
+        "id": 53,
+        "plant_reference_id": 40,
+        "filename": "40-vietnamese-mint.jpg"
+      },
+      {
+        "id": 54,
+        "plant_reference_id": 41,
+        "filename": "41-chocolate-mint.jpg"
       }
     ],
     "plant_pests": [
@@ -1837,6 +2295,22 @@
       {
         "plant_id": 34,
         "tag_id": 2
+      },
+      {
+        "plant_id": 35,
+        "tag_id": 2
+      },
+      {
+        "plant_id": 37,
+        "tag_id": 2
+      },
+      {
+        "plant_id": 38,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 38,
+        "tag_id": 2
       }
     ],
     "plant_diseases": [
@@ -1885,6 +2359,14 @@
       {
         "plant_id": 34,
         "tag_id": 3
+      },
+      {
+        "plant_id": 37,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 38,
+        "tag_id": 1
       }
     ],
     "plant_uses": [
@@ -1998,6 +2480,38 @@
       },
       {
         "plant_id": 34,
+        "tag_id": 6
+      },
+      {
+        "plant_id": 35,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 36,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 37,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 38,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 39,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 40,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 41,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 38,
         "tag_id": 6
       }
     ],
@@ -2357,5 +2871,18 @@
         "notes": "Add flowers for bees in a sunny border. Allow airflow and keep the taller stems from shading shorter plants."
       }
     ]
+  },
+  "regional_guidance": {
+    "region": "Sydney / warm temperate",
+    "plant_ids": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+    ],
+    "details": "See each sowing_notes field and localdata/plant-growing-sources.json. Earlier records retain their original calendar context."
   }
 }

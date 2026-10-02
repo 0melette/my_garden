@@ -1,0 +1,61 @@
+{
+  "manifest_format": 1,
+  "images": [
+    {
+      "filename": "snail.jpg",
+      "caption": "Garden snail (Cornu aspersum)",
+      "commons_title": "File:Common snail.jpg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Common_snail.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Common_snail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "macrophile on Flickr",
+      "credit": "Flickr . Originally described as \" proud snail after hopping the fence \"",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/snail.jpg",
+      "record_type": "pest",
+      "record_id": 2
+    },
+    {
+      "filename": "slug.png",
+      "caption": "Grey field slug (Deroceras reticulatum)",
+      "commons_title": "File:Deroceras reticulatum.png",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Deroceras_reticulatum.png",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Deroceras_reticulatum.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Joseph Berger",
+      "credit": "https://www.insectimages.org/browse/detail.cfm?imgnum=5386116 , Bugwood.org, cropped 16:9",
+      "license": "CC BY 3.0 us",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+      "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/slug.png",
+      "record_type": "pest",
+      "record_id": 2
+    },
+    {
+      "filename": "aphids.jpg",
+      "caption": "Aphid colony (Aphis fabae)",
+      "commons_title": "File:Aphis fabae colony on Yucca filamentosa in Dnipro by baby-bear.org.jpg 01.jpg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Aphis_fabae_colony_on_Yucca_filamentosa_in_Dnipro_by_baby-bear.org.jpg_01.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Aphis_fabae_colony_on_Yucca_filamentosa_in_Dnipro_by_baby-bear.org.jpg_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Natalka Ukraine ( baby-bear.org )",
+      "credit": "Own work",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/aphids.jpg",
+      "record_type": "pest",
+      "record_id": 1
+    },
+    {
+      "filename": "powdery-mildew.jpg",
+      "caption": "Powdery mildew on a maple leaf; illustrative symptoms, not a diagnosis",
+      "commons_title": "File:Uncinula tulasnei - powdery mildew - Echter Mehltau 01.jpg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Uncinula_tulasnei_-_powdery_mildew_-_Echter_Mehltau_01.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Uncinula_tulasnei_-_powdery_mildew_-_Echter_Mehltau_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "creator": "Norbert Nagel, Mörfelden-Walldorf, Germany",
+      "credit": "Own work",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/powdery-mildew.jpg",
+      "record_type": "disease",
+      "record_id": 1
+    }
+  ]
+}

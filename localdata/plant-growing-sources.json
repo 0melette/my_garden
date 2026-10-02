@@ -1,0 +1,241 @@
+{
+  "reviewed_at": "2026-10-02",
+  "region": "Sydney, Australia — warm temperate",
+  "policy": "Original summaries. Single-value spacing is a planning choice from source ranges or explicitly labelled estimate. Calendar distinguishes seed sowing from vegetative planting. Missing numeric yield is unknown, not zero. Maturity days are not harvest duration.",
+  "sources": {
+    "parsley_au": "https://www.edenseeds.com.au/Product-Info-seeds?product=parsley-italian",
+    "parsley_ph": "https://rvs.umn.edu/Uploads/EducationalMaterials/35181a07-10a3-4430-a86d-8222ab716801..pdf",
+    "parsley_rhs": "https://www.rhs.org.uk/herbs/parsley/grow-your-own",
+    "okra_au": "https://www.edenseeds.com.au/Product-Info-Seeds?product=okra-emerald",
+    "okra_care": "https://extension.usu.edu/yardandgarden/research/okra-in-the-garden",
+    "lazy_au": "https://www.edenseeds.com.au/Product-Info-Seeds?product=bean-climbing-lazy-wife",
+    "lazy_care": "https://greenpatchseeds.com.au/products/bean-climbing-lazy-housewife",
+    "beans_ph": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans",
+    "beans_au": "https://www.yates.com.au/how-to-grow/beans/",
+    "runner_au": "https://www.yates.com.au/heirloom-beans-climbing-scarlet-runner/",
+    "runner_care": "https://www.rhs.org.uk/vegetables/runner-beans/grow-your-own",
+    "tomato_au": "https://edenseeds.com.au/flux-content/eden/pdf/EdenSeedsCatalogue2021-WEB.pdf",
+    "tomato_care": "https://www.extension.umd.edu/resource/growing-tomatoes-home-garden",
+    "tomato_ph": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-tomatoes",
+    "sweet1000_name": "https://www.hrseeds.com/pepper-and-tomato-seed-list",
+    "vietnamese_au": "https://www.herbcottage.com.au/products/vietnamese-mint",
+    "vietnamese_rhs": "https://www.rhs.org.uk/plants/118209/persicaria-odorata/details",
+    "chocolate_au": "https://www.herbcottage.com.au/products/chocolate-mint",
+    "chocolate_rhs": "https://www.rhsplants.co.uk/plants/_/mentha--piperita-f-citrata-chocolate/classid.2000012671/",
+    "mint_care": "https://extension.usu.edu/yardandgarden/research/mint-in-the-garden",
+    "herbs_ph": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-herbs"
+  },
+  "plants": [
+    {
+      "id": 35,
+      "slug": "parsley",
+      "source_ids": [
+        "parsley_au",
+        "parsley_rhs",
+        "parsley_ph"
+      ],
+      "planting_months": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ],
+      "estimated_fields": [
+        "in_row_spacing_cm",
+        "row_spacing_cm",
+        "feeder_type",
+        "water_needs"
+      ],
+      "unfilled_numeric_fields": [
+        "yield_qty",
+        "yield_unit",
+        "succession_interval_days",
+        "harvest_window_weeks"
+      ]
+    },
+    {
+      "id": 36,
+      "slug": "okra",
+      "source_ids": [
+        "okra_au",
+        "okra_care"
+      ],
+      "planting_months": [
+        10,
+        11,
+        12
+      ],
+      "estimated_fields": [
+        "in_row_spacing_cm",
+        "row_spacing_cm",
+        "feeder_type",
+        "water_needs"
+      ],
+      "unfilled_numeric_fields": [
+        "yield_qty",
+        "yield_unit",
+        "succession_interval_days",
+        "harvest_window_weeks"
+      ]
+    },
+    {
+      "id": 37,
+      "slug": "bean-lazy-housewife",
+      "source_ids": [
+        "lazy_au",
+        "lazy_care",
+        "beans_ph",
+        "beans_au"
+      ],
+      "planting_months": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ],
+      "estimated_fields": [
+        "in_row_spacing_cm",
+        "succession_interval_days",
+        "water_needs"
+      ],
+      "unfilled_numeric_fields": [
+        "yield_qty",
+        "yield_unit",
+        "harvest_window_weeks"
+      ]
+    },
+    {
+      "id": 38,
+      "slug": "bean-scarlet-runner",
+      "source_ids": [
+        "runner_au",
+        "runner_care",
+        "beans_ph",
+        "lazy_au"
+      ],
+      "planting_months": [
+        1,
+        2,
+        11,
+        12
+      ],
+      "estimated_fields": [
+        "in_row_spacing_cm",
+        "row_spacing_cm",
+        "soil_ph_min",
+        "soil_ph_max",
+        "harvest_window_weeks",
+        "planting_months",
+        "water_needs"
+      ],
+      "unfilled_numeric_fields": [
+        "yield_qty",
+        "yield_unit",
+        "succession_interval_days"
+      ]
+    },
+    {
+      "id": 39,
+      "slug": "tomato-sweet-1000",
+      "source_ids": [
+        "sweet1000_name",
+        "tomato_au",
+        "tomato_care",
+        "tomato_ph"
+      ],
+      "planting_months": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "estimated_fields": [
+        "in_row_spacing_cm",
+        "row_spacing_cm",
+        "soil_ph_min",
+        "soil_ph_max",
+        "feeder_type",
+        "water_needs",
+        "sun_needs",
+        "forest_layer",
+        "planting_months"
+      ],
+      "unfilled_numeric_fields": [
+        "yield_qty",
+        "yield_unit",
+        "succession_interval_days",
+        "harvest_window_weeks"
+      ]
+    },
+    {
+      "id": 40,
+      "slug": "vietnamese-mint",
+      "source_ids": [
+        "vietnamese_au",
+        "vietnamese_rhs"
+      ],
+      "planting_months": [
+        1,
+        2,
+        9,
+        10,
+        11,
+        12
+      ],
+      "estimated_fields": [
+        "in_row_spacing_cm",
+        "row_spacing_cm",
+        "feeder_type",
+        "water_needs",
+        "planting_months"
+      ],
+      "unfilled_numeric_fields": [
+        "yield_qty",
+        "yield_unit",
+        "succession_interval_days",
+        "harvest_window_weeks",
+        "soil_ph_min",
+        "soil_ph_max"
+      ]
+    },
+    {
+      "id": 41,
+      "slug": "chocolate-mint",
+      "source_ids": [
+        "chocolate_au",
+        "chocolate_rhs",
+        "mint_care",
+        "herbs_ph"
+      ],
+      "planting_months": [
+        3,
+        4,
+        9,
+        10,
+        11
+      ],
+      "estimated_fields": [
+        "in_row_spacing_cm",
+        "row_spacing_cm",
+        "soil_ph_min",
+        "soil_ph_max",
+        "feeder_type",
+        "water_needs",
+        "planting_months"
+      ],
+      "unfilled_numeric_fields": [
+        "yield_qty",
+        "yield_unit",
+        "succession_interval_days",
+        "harvest_window_weeks"
+      ]
+    }
+  ]
+}

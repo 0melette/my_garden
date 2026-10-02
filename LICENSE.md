@@ -44,3 +44,6 @@ Images in `localdata/plant_images/` are third-party works and are **not** covere
 by the dataset or script licences above. Each image retains its own licence and
 attribution. See `localdata/plant-image-sources.json` for its creator, credit,
 licence, licence URL, source page, and original URL.
+
+The same applies to `localdata/reference_images/`. Its per-image attribution,
+licences and source URLs are in `localdata/reference-image-sources.json`.
