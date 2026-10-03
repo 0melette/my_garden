@@ -25,12 +25,14 @@ class MarkdownCatalogueTests(unittest.TestCase):
         self.assertEqual(row['water_needs'],'high');self.assertEqual(row['in_row_spacing_cm'],42)
         self.assertEqual(row['care_notes'],'Unique updated care text.')
     def test_draft_template_then_stable_publish_id(self):
+        baseline=len(compile_catalogue(self.root)['tables']['plant_references'])
+        next_id=max(read_note(p)[0].get('catalogue_id') or 0 for p in (self.root/'Plants').glob('*.md'))+1
         path=create('Test Herb','Herbs',self.root)
-        self.assertEqual(len(compile_catalogue(self.root)['tables']['plant_references']),41)
+        self.assertEqual(len(compile_catalogue(self.root)['tables']['plant_references']),baseline)
         p,b=read_note(path);p['status']='published';p['scientific_name']='Testus example';write_note(path,p,b)
         with self.assertRaisesRegex(ValueError,'assign-ids'):compile_catalogue(self.root)
-        first=compile_catalogue(self.root,True);self.assertEqual(len(first['tables']['plant_references']),42)
-        p,_=read_note(path);self.assertEqual(p['catalogue_id'],42);self.assertEqual(p['slug'],'test-herb')
+        first=compile_catalogue(self.root,True);self.assertEqual(len(first['tables']['plant_references']),baseline+1)
+        p,_=read_note(path);self.assertEqual(p['catalogue_id'],next_id);self.assertEqual(p['slug'],'test-herb')
         self.assertEqual(first,compile_catalogue(self.root))
     def test_duplicate_identity_and_broken_relations_fail(self):
         path=self.root/'Plants/Parsley.md';p,b=read_note(path);p['catalogue_id']=1;write_note(path,p,b)

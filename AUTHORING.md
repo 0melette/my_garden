@@ -41,20 +41,29 @@ Photos go in `localdata/plant_images/`; set photo to `[[localdata/plant_images/f
 
 Use **Garden Notes**, including the **Choose my plants** view in [[Collections/My growing list]]. Growing, favourite, bed and observations are stored there and ignored by Git. Public Plants pages are reference material; anything written there is intended for the public repository. Put personal pictures in **Private Attachments**.
 
-## Generate and publish
+## Commit and publish
 
-From the my_garden folder:
+One-time setup for each clone (already enabled on Amy's current Mac):
 
 ```sh
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/python scripts/export_catalogue.py --assign-ids
-.venv/bin/python scripts/export_catalogue.py --check
+.venv/bin/python scripts/install_hooks.py
 ```
 
-`--assign-ids` assigns IDs/slugs only to new published plants that lack them, after validating the full catalogue. Existing IDs stay stable. Export never reads the working SQLite database or imports private journal text. Edit `catalogue_updated` in [[Catalogue]] before publishing.
+Then edit Markdown, stage the changes you want, commit, and push:
 
-Commit the edited Markdown, relevant public assets and regenerated `snapshots/almanac-catalogue.json` together, then push. GitHub CI rejects stale JSON; it does not silently publish a separate generated commit. There is no background auto-push.
+```sh
+git add Plants References Catalogue.md
+git commit -m "Update plant guidance"
+git push
+```
+
+The pre-commit hook generates and stages the JSON automatically from the **staged** Markdown. New published plants receive permanent IDs/slugs. Drafts stay excluded. Invalid records stop the commit. If a new plant needs an ID, fully stage that note first; the hook will not overwrite unstaged edits to it. Unstaged edits to the generated JSON must also be saved or staged first.
+
+The hook never pushes automatically. It is tracked in `.githooks/`, but Git does not enable hooks automatically on another clone: run the installer there. GitHub CI independently checks the generated JSON. Do not use `--no-verify` for catalogue commits.
+
+Manual export still works: `.venv/bin/python scripts/export_catalogue.py --assign-ids`. Update `catalogue_updated` in [[Catalogue]] when publishing reference changes. Personal Garden Notes remain ignored and are never added by the hook.
 
 The 0melette site reads the generated JSON from main, so it receives changes after the commit is pushed. PMS reads that same format on an explicit import. **Its current importer adds missing records/fills blanks and preserves existing local values. It does not automatically overwrite previously imported fields.** This authoring change does not modify PMS code or its running database.
 

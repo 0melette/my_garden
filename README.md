@@ -15,17 +15,17 @@ An Obsidian-first public plant reference catalogue for the 0melette website and 
 
 See [AUTHORING.md](AUTHORING.md) for the full editing and publishing workflow.
 
-## Generate the consumer snapshot
+## Enable automatic export on commit
 
 ```sh
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/python scripts/export_catalogue.py --assign-ids
+.venv/bin/python scripts/install_hooks.py
 .venv/bin/python -m unittest discover -s tests -v
 .venv/bin/python scripts/export_catalogue.py --check
 ```
 
-Commit Markdown and generated JSON together. CI checks that the JSON matches the Markdown. Drafts are excluded; invalid published records fail validation before the snapshot is replaced.
+Stage your Markdown, then commit normally: the pre-commit hook generates and stages matching JSON. Run `git push` when ready. Install the hook once per clone; it is already enabled on this Mac. CI checks that the JSON matches the Markdown. Drafts are excluded; invalid published records fail validation before the snapshot is replaced.
 
 ## Consumers
 

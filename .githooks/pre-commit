@@ -1,0 +1,14 @@
+#!/bin/sh
+set -eu
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+if [ -x "$repo_root/.venv/bin/python" ]; then
+    python_bin="$repo_root/.venv/bin/python"
+else
+    python_bin=python3
+fi
+if ! "$python_bin" -c 'import yaml' 2>/dev/null; then
+    echo 'My Garden: run python3 -m venv .venv && .venv/bin/pip install -r requirements.txt' >&2
+    exit 1
+fi
+exec "$python_bin" scripts/prepare_commit.py
