@@ -1,0 +1,40 @@
+
+/* My Garden — a quiet botanical field journal. No community theme required. */
+body.theme-light {
+ --background-primary: #faf9f3; --background-primary-alt: #f4f4ea;
+ --background-secondary: #edf0e5; --background-secondary-alt: #e4eadb;
+ --background-modifier-border: #d7dfcc; --background-modifier-hover: #e8eddf;
+ --text-normal: #283e31; --text-muted: #637563; --text-faint: #798570;
+ --text-accent: #396348; --text-accent-hover: #234b32;
+ --interactive-accent: #47764e; --interactive-accent-hover: #365c3c;
+ --color-accent: #47764e; --link-color: #396348; --link-color-hover: #234b32;
+ --tag-background: #e6ebd9; --tag-color: #476044; --table-border-color: #dbe2d1;
+ --table-header-background: #edf1e5;
+}
+body { --font-text-theme: 'Avenir Next', 'Segoe UI', sans-serif; --file-line-width: 1040px;
+ --h1-font: Georgia, serif; --h2-font: Georgia, serif; --h3-font: Georgia, serif;
+ --h1-size: 2.6em; --h2-size: 1.6em; --h1-weight: 500; --h2-weight: 500;
+ --link-decoration: none; --link-decoration-hover: underline; --radius-s: 7px; --radius-m: 12px;
+}
+.garden-home .metadata-container, .garden-index .metadata-container { display: none !important; }
+.garden-home .inline-title, .garden-index .inline-title, .garden-plant .inline-title { display: none !important; }
+.garden-home h1 { margin-top: .35em; letter-spacing: -.04em; }
+.garden-home h2, .garden-index h2, .garden-plant h2 { border-bottom: 1px solid var(--background-modifier-border); padding-bottom: .45em; }
+.garden-home blockquote { border: 0; background: var(--background-secondary); border-radius: 16px; padding: 18px 24px; margin: 1.1em 0; }
+.garden-home blockquote p { margin: 0; }
+.garden-home table { width: 100%; }
+.garden-home td { padding: 14px 18px; }
+.garden-home td a { font-weight: 600; }
+.garden-home .internal-link, .garden-index .internal-link { text-underline-offset: 4px; }
+.garden-plant .image-embed { display: block; }
+.garden-plant .image-embed img { width: 100%; max-height: 340px; object-fit: cover; border-radius: 18px; }
+.garden-plant .metadata-container { border: 1px solid var(--background-modifier-border); border-radius: 12px; padding: 12px 16px; margin-bottom: 24px; }
+.bases-cards-item { border-radius: 16px !important; overflow: hidden; box-shadow: 0 3px 12px #20392008; }
+.bases-cards-item:hover { box-shadow: 0 5px 20px #20392015; }
+.bases-cards-property { padding-left: 12px; padding-right: 12px; }
+.bases-cards-cover { background: var(--background-secondary); }
+.nav-folder-title { font-weight: 600; }
+.callout { border-radius: 12px; }
+@media (prefers-reduced-motion: no-preference) { .bases-cards-item { transition: box-shadow .15s ease; } }
+
+/* Keep the six everyday controls visible; all fields remain in Markdown. */

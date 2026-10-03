@@ -1,0 +1,179 @@
+{
+  "filters": {
+    "and": [
+      "file.inFolder(\"Plants\")",
+      "kind == \"plant\""
+    ]
+  },
+  "properties": {
+    "file.name": {
+      "displayName": "Plant"
+    },
+    "note.category": {
+      "displayName": "Garden group"
+    },
+    "note.sun": {
+      "displayName": "Sunlight"
+    },
+    "note.water": {
+      "displayName": "Water"
+    },
+    "note.planting_months": {
+      "displayName": "Planting months"
+    },
+    "note.calendar_region": {
+      "displayName": "Calendar region"
+    },
+    "note.growing": {
+      "displayName": "In my garden"
+    },
+    "note.favourite": {
+      "displayName": "Favourite"
+    },
+    "note.bed": {
+      "displayName": "Bed or pot"
+    },
+    "note.spacing_cm": {
+      "displayName": "Spacing \u00b7 cm"
+    }
+  },
+  "views": [
+    {
+      "type": "cards",
+      "name": "Photo cards",
+      "filters": {
+        "and": []
+      },
+      "order": [
+        "file.name",
+        "category",
+        "sun",
+        "water",
+        "status"
+      ],
+      "sort": [
+        {
+          "property": "file.name",
+          "direction": "ASC"
+        }
+      ],
+      "image": "note.photo",
+      "imageFit": "cover",
+      "imageAspectRatio": 0.65,
+      "cardSize": 200
+    },
+    {
+      "type": "table",
+      "name": "Editable table",
+      "filters": {
+        "and": []
+      },
+      "order": [
+        "file.name",
+        "category",
+        "sun",
+        "water",
+        "planting_months",
+        "calendar_region",
+        "status"
+      ],
+      "sort": [
+        {
+          "property": "file.name",
+          "direction": "ASC"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "name": "By sunlight",
+      "groupBy": {
+        "property": "sun",
+        "direction": "ASC"
+      },
+      "order": [
+        "file.name",
+        "sun",
+        "category",
+        "spacing_cm",
+        "status"
+      ],
+      "sort": [
+        {
+          "property": "sun",
+          "direction": "ASC"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "name": "By water needs",
+      "groupBy": {
+        "property": "water",
+        "direction": "ASC"
+      },
+      "order": [
+        "file.name",
+        "water",
+        "category",
+        "spacing_cm",
+        "status"
+      ],
+      "sort": [
+        {
+          "property": "water",
+          "direction": "ASC"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "name": "Full sun",
+      "filters": {
+        "and": [
+          "sun == \"full sun\""
+        ]
+      },
+      "order": [
+        "file.name",
+        "sun",
+        "water",
+        "category",
+        "status"
+      ]
+    },
+    {
+      "type": "table",
+      "name": "Part shade",
+      "filters": {
+        "and": [
+          "sun == \"part shade\""
+        ]
+      },
+      "order": [
+        "file.name",
+        "sun",
+        "water",
+        "category",
+        "status"
+      ]
+    },
+    {
+      "type": "table",
+      "name": "Needs more information",
+      "filters": {
+        "or": [
+          "!sun",
+          "!water"
+        ]
+      },
+      "order": [
+        "file.name",
+        "sun",
+        "water",
+        "category",
+        "status"
+      ]
+    }
+  ]
+}

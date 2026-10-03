@@ -1,0 +1,118 @@
+{
+  "filters": {
+    "and": [
+      "file.inFolder(\"Plants\")",
+      "kind == \"plant\""
+    ]
+  },
+  "properties": {
+    "file.name": {
+      "displayName": "Plant"
+    },
+    "note.category": {
+      "displayName": "Garden group"
+    },
+    "note.sun": {
+      "displayName": "Sunlight"
+    },
+    "note.water": {
+      "displayName": "Water"
+    },
+    "note.planting_months": {
+      "displayName": "Planting months"
+    },
+    "note.calendar_region": {
+      "displayName": "Calendar region"
+    },
+    "note.growing": {
+      "displayName": "In my garden"
+    },
+    "note.favourite": {
+      "displayName": "Favourite"
+    },
+    "note.bed": {
+      "displayName": "Bed or pot"
+    },
+    "note.spacing_cm": {
+      "displayName": "Spacing \u00b7 cm"
+    }
+  },
+  "views": [
+    {
+      "type": "cards",
+      "name": "Photo cards",
+      "filters": {
+        "and": []
+      },
+      "order": [
+        "file.name",
+        "category",
+        "sun",
+        "water",
+        "status"
+      ],
+      "sort": [
+        {
+          "property": "file.name",
+          "direction": "ASC"
+        }
+      ],
+      "image": "note.photo",
+      "imageFit": "cover",
+      "imageAspectRatio": 0.65,
+      "cardSize": 200
+    },
+    {
+      "type": "table",
+      "name": "Editable table",
+      "filters": {
+        "and": []
+      },
+      "order": [
+        "file.name",
+        "category",
+        "sun",
+        "water",
+        "planting_months",
+        "calendar_region",
+        "status"
+      ],
+      "sort": [
+        {
+          "property": "file.name",
+          "direction": "ASC"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "name": "Growing details",
+      "order": [
+        "file.name",
+        "sun",
+        "water",
+        "spacing_cm",
+        "row_spacing_cm",
+        "soil_ph_min",
+        "soil_ph_max",
+        "feeder",
+        "succession_interval_days",
+        "harvest_window_weeks"
+      ]
+    },
+    {
+      "type": "table",
+      "name": "Publish checklist",
+      "order": [
+        "file.name",
+        "status",
+        "common_name",
+        "scientific_name",
+        "slug",
+        "catalogue_id",
+        "source_url",
+        "estimated_fields"
+      ]
+    }
+  ]
+}

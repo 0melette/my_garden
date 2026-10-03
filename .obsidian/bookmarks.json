@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "path": "My Garden.md",
+      "title": "\ud83c\udf3f My Garden"
+    },
+    {
+      "type": "file",
+      "path": "Collections/My growing list.md",
+      "title": "\ud83e\udeb4 My growing list"
+    },
+    {
+      "type": "file",
+      "path": "Collections/Planting calendar.md",
+      "title": "\ud83d\uddd3 Planting this month"
+    }
+  ]
+}

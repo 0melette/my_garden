@@ -1,0 +1,47 @@
+{
+  "filters": {
+    "and": [
+      "file.inFolder(\"Plants\")",
+      "kind == \"plant\"",
+      "status == \"draft\""
+    ]
+  },
+  "views": [
+    {
+      "type": "table",
+      "name": "Plant stubs",
+      "order": [
+        "file.name",
+        "status",
+        "common_name",
+        "category",
+        "scientific_name",
+        "sun",
+        "water"
+      ]
+    }
+  ],
+  "properties": {
+    "file.name": {
+      "displayName": "Plant"
+    },
+    "note.status": {
+      "displayName": "Status"
+    },
+    "note.common_name": {
+      "displayName": "Common name"
+    },
+    "note.category": {
+      "displayName": "Group"
+    },
+    "note.scientific_name": {
+      "displayName": "Scientific name"
+    },
+    "note.sun": {
+      "displayName": "Sunlight"
+    },
+    "note.water": {
+      "displayName": "Water"
+    }
+  }
+}

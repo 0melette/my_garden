@@ -1,0 +1,92 @@
+{
+  "filters": {
+    "and": [
+      "file.inFolder(\"Plants\")",
+      "kind == \"plant\""
+    ]
+  },
+  "properties": {
+    "file.name": {
+      "displayName": "Plant"
+    },
+    "note.category": {
+      "displayName": "Garden group"
+    },
+    "note.sun": {
+      "displayName": "Sunlight"
+    },
+    "note.water": {
+      "displayName": "Water"
+    },
+    "note.planting_months": {
+      "displayName": "Planting months"
+    },
+    "note.calendar_region": {
+      "displayName": "Calendar region"
+    },
+    "note.growing": {
+      "displayName": "In my garden"
+    },
+    "note.favourite": {
+      "displayName": "Favourite"
+    },
+    "note.bed": {
+      "displayName": "Bed or pot"
+    },
+    "note.spacing_cm": {
+      "displayName": "Spacing · cm"
+    }
+  },
+  "views": [
+    {
+      "type": "cards",
+      "name": "Photo cards",
+      "filters": {
+        "and": [
+          "category.contains(\"Fruit\")"
+        ]
+      },
+      "order": [
+        "file.name",
+        "category",
+        "sun",
+        "water",
+        "status"
+      ],
+      "sort": [
+        {
+          "property": "file.name",
+          "direction": "ASC"
+        }
+      ],
+      "image": "note.photo",
+      "imageFit": "cover",
+      "imageAspectRatio": 0.65,
+      "cardSize": 200
+    },
+    {
+      "type": "table",
+      "name": "Editable table",
+      "filters": {
+        "and": [
+          "category.contains(\"Fruit\")"
+        ]
+      },
+      "order": [
+        "file.name",
+        "category",
+        "sun",
+        "water",
+        "planting_months",
+        "calendar_region",
+        "status"
+      ],
+      "sort": [
+        {
+          "property": "file.name",
+          "direction": "ASC"
+        }
+      ]
+    }
+  ]
+}

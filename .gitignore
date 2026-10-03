@@ -9,3 +9,15 @@ localdata/*.db-*
 
 # Temporary export files.
 snapshots/*.tmp
+
+# Local authoring environment and private garden records.
+.venv/
+Garden Notes/
+Private Attachments/
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/plugins/
+.obsidian/community-plugins.json
+.obsidian/graph.json
+.trash/
+*.md.tmp

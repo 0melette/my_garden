@@ -1,0 +1,7 @@
+{
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "my-garden"
+  ],
+  "baseFontSize": 16
+}

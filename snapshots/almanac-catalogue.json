@@ -1,15 +1,9 @@
 {
   "snapshot_format": 1,
-  "exported_at": "2026-10-02T11:33:47.992872+00:00",
+  "exported_at": "2026-10-03T00:00:00+00:00",
   "schema_version": "003",
   "tables": {
     "rotation_groups": [
-      {
-        "id": 1,
-        "name": "Alliums",
-        "feeder_weight": "medium",
-        "is_rotation_exempt": 0
-      },
       {
         "id": 2,
         "name": "Brassicas",
@@ -19,6 +13,12 @@
       {
         "id": 3,
         "name": "Cucurbits",
+        "feeder_weight": "heavy",
+        "is_rotation_exempt": 0
+      },
+      {
+        "id": 6,
+        "name": "Solanums",
         "feeder_weight": "heavy",
         "is_rotation_exempt": 0
       },
@@ -35,16 +35,16 @@
         "is_rotation_exempt": 0
       },
       {
-        "id": 6,
-        "name": "Solanums",
-        "feeder_weight": "heavy",
-        "is_rotation_exempt": 0
-      },
-      {
         "id": 7,
         "name": "Anywhere",
         "feeder_weight": "light",
         "is_rotation_exempt": 1
+      },
+      {
+        "id": 1,
+        "name": "Alliums",
+        "feeder_weight": "medium",
+        "is_rotation_exempt": 0
       },
       {
         "id": 8,
@@ -55,14 +55,14 @@
     ],
     "pests": [
       {
-        "id": 1,
-        "name": "Aphids",
-        "description": "Small sap-sucking insects that gather on tender shoots and beneath leaves, sometimes causing curled growth and sticky honeydew."
-      },
-      {
         "id": 2,
         "name": "Slugs and snails",
         "description": "Night-feeding molluscs that chew irregular holes in seedlings and soft foliage and may leave silvery trails."
+      },
+      {
+        "id": 1,
+        "name": "Aphids",
+        "description": "Small sap-sucking insects that gather on tender shoots and beneath leaves, sometimes causing curled growth and sticky honeydew."
       }
     ],
     "diseases": [
@@ -143,1733 +143,1733 @@
     ],
     "plant_references": [
       {
-        "id": 1,
         "slug": "tomato",
         "common_name": "Tomato",
         "scientific_name": "Solanum lycopersicum",
         "family": "Solanaceae",
-        "summary": "A productive warm-season crop for garden beds and containers.",
         "created_at": "2026-09-12 03:44:52.514156",
         "yield_qty": null,
-        "in_row_spacing_cm": null,
         "row_spacing_cm": null,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": null,
         "soil_ph_max": null,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": null,
-        "care_notes": null,
-        "uses_notes": null,
-        "sowing_notes": null,
         "source_url": null,
         "notion_url": null,
-        "feeder_type": null,
-        "water_needs": null,
-        "sun_needs": null,
         "forest_layer": null,
         "part_used": null,
-        "rotation_group_id": null,
-        "estimated_fields": null
+        "id": 1,
+        "sun_needs": null,
+        "water_needs": null,
+        "in_row_spacing_cm": null,
+        "feeder_type": null,
+        "summary": "A productive warm-season crop for garden beds and containers.",
+        "sowing_notes": null,
+        "care_notes": null,
+        "management_notes": null,
+        "yield_wording": null,
+        "uses_notes": null,
+        "estimated_fields": null,
+        "rotation_group_id": null
       },
       {
-        "id": 2,
         "slug": "basil",
         "common_name": "Basil",
         "scientific_name": "Ocimum basilicum",
         "family": "Lamiaceae",
-        "summary": "A tender aromatic herb suited to warm-season growing.",
         "created_at": "2026-09-12 03:44:52.515135",
         "yield_qty": null,
-        "in_row_spacing_cm": null,
         "row_spacing_cm": null,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": null,
         "soil_ph_max": null,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": null,
-        "care_notes": null,
-        "uses_notes": null,
-        "sowing_notes": null,
         "source_url": null,
         "notion_url": null,
-        "feeder_type": null,
-        "water_needs": null,
-        "sun_needs": null,
         "forest_layer": null,
         "part_used": null,
-        "rotation_group_id": null,
-        "estimated_fields": null
+        "id": 2,
+        "sun_needs": null,
+        "water_needs": null,
+        "in_row_spacing_cm": null,
+        "feeder_type": null,
+        "summary": "A tender aromatic herb suited to warm-season growing.",
+        "sowing_notes": null,
+        "care_notes": null,
+        "management_notes": null,
+        "yield_wording": null,
+        "uses_notes": null,
+        "estimated_fields": null,
+        "rotation_group_id": null
       },
       {
-        "id": 3,
         "slug": "lettuce",
         "common_name": "Lettuce",
         "scientific_name": "Lactuca sativa",
         "family": "Asteraceae",
-        "summary": "A quick leafy crop with varieties for each season.",
         "created_at": "2026-09-12 03:44:52.515756",
         "yield_qty": 1.0,
-        "in_row_spacing_cm": 30.0,
         "row_spacing_cm": 30.0,
         "succession_interval_days": 14,
         "harvest_window_weeks": 1.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "1 head per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
         "yield_unit": "head",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Grow in full sun or part shade in rich, well-drained soil; keep evenly moist.",
-        "uses_notes": "Quick leafy food crop.\nFresh leaves for salads, sandwiches and wraps.",
-        "sowing_notes": "All year",
         "source_url": "https://www.theseedcollection.com.au/growguide/lettuce-seeds",
         "notion_url": "https://app.notion.com/3b8a295fe2fa807a88fdde8edffdccc6",
-        "feeder_type": "light feeder",
-        "water_needs": "high",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "leaf",
-        "rotation_group_id": 7,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 3,
+        "sun_needs": "full sun",
+        "water_needs": "high",
+        "in_row_spacing_cm": 30.0,
+        "feeder_type": "light feeder",
+        "summary": "A quick leafy crop with varieties for each season.",
+        "sowing_notes": "All year",
+        "care_notes": "Grow in full sun or part shade in rich, well-drained soil; keep evenly moist.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "1 head per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
+        "uses_notes": "Quick leafy food crop.\nFresh leaves for salads, sandwiches and wraps.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": 7
       },
       {
-        "id": 4,
         "slug": "carrot",
         "common_name": "Carrot",
         "scientific_name": "Daucus carota subsp. sativus",
         "family": "Apiaceae",
-        "summary": "A root crop commonly direct-sown through much of the year.",
         "created_at": "2026-09-12 03:44:52.516309",
         "yield_qty": null,
-        "in_row_spacing_cm": null,
         "row_spacing_cm": null,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": null,
         "soil_ph_max": null,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": null,
-        "care_notes": null,
-        "uses_notes": null,
-        "sowing_notes": null,
         "source_url": null,
         "notion_url": null,
-        "feeder_type": null,
-        "water_needs": null,
-        "sun_needs": null,
         "forest_layer": null,
         "part_used": null,
-        "rotation_group_id": null,
-        "estimated_fields": null
+        "id": 4,
+        "sun_needs": null,
+        "water_needs": null,
+        "in_row_spacing_cm": null,
+        "feeder_type": null,
+        "summary": "A root crop commonly direct-sown through much of the year.",
+        "sowing_notes": null,
+        "care_notes": null,
+        "management_notes": null,
+        "yield_wording": null,
+        "uses_notes": null,
+        "estimated_fields": null,
+        "rotation_group_id": null
       },
       {
-        "id": 5,
         "slug": "strawberry",
         "common_name": "Strawberry",
         "scientific_name": "Fragaria × ananassa",
         "family": "Rosaceae",
-        "summary": "A compact perennial fruit for pots, baskets, and beds.",
         "created_at": "2026-09-12 03:44:52.516738",
         "yield_qty": null,
-        "in_row_spacing_cm": null,
         "row_spacing_cm": null,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": null,
         "soil_ph_max": null,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": null,
-        "care_notes": null,
-        "uses_notes": null,
-        "sowing_notes": null,
         "source_url": null,
         "notion_url": null,
-        "feeder_type": null,
-        "water_needs": null,
-        "sun_needs": null,
         "forest_layer": null,
         "part_used": null,
-        "rotation_group_id": null,
-        "estimated_fields": null
+        "id": 5,
+        "sun_needs": null,
+        "water_needs": null,
+        "in_row_spacing_cm": null,
+        "feeder_type": null,
+        "summary": "A compact perennial fruit for pots, baskets, and beds.",
+        "sowing_notes": null,
+        "care_notes": null,
+        "management_notes": null,
+        "yield_wording": null,
+        "uses_notes": null,
+        "estimated_fields": null,
+        "rotation_group_id": null
       },
       {
-        "id": 6,
         "slug": "zucchini",
         "common_name": "Zucchini",
         "scientific_name": "Cucurbita pepo",
         "family": "Cucurbitaceae",
-        "summary": "A vigorous warm-season crop that produces generously.",
         "created_at": "2026-09-12 03:44:52.517110",
         "yield_qty": null,
-        "in_row_spacing_cm": null,
         "row_spacing_cm": null,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": null,
         "soil_ph_max": null,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": null,
-        "care_notes": null,
-        "uses_notes": null,
-        "sowing_notes": null,
         "source_url": null,
         "notion_url": null,
-        "feeder_type": null,
-        "water_needs": null,
-        "sun_needs": null,
         "forest_layer": null,
         "part_used": null,
-        "rotation_group_id": null,
-        "estimated_fields": null
+        "id": 6,
+        "sun_needs": null,
+        "water_needs": null,
+        "in_row_spacing_cm": null,
+        "feeder_type": null,
+        "summary": "A vigorous warm-season crop that produces generously.",
+        "sowing_notes": null,
+        "care_notes": null,
+        "management_notes": null,
+        "yield_wording": null,
+        "uses_notes": null,
+        "estimated_fields": null,
+        "rotation_group_id": null
       },
       {
-        "id": 7,
         "slug": "lebanese-cucumber",
         "common_name": "Lebanese Cucumber",
         "scientific_name": "Cucumis sativus",
         "family": "Cucurbitaceae",
-        "summary": "A sweet-tasting, burpless and high-yielding cucumber with excellent flavour. Best picked young and tender at about 10–15 cm long.",
         "created_at": "2026-09-12 03:44:52.517511",
         "yield_qty": null,
-        "in_row_spacing_cm": null,
         "row_spacing_cm": null,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": null,
         "soil_ph_max": null,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": null,
-        "care_notes": null,
-        "uses_notes": null,
-        "sowing_notes": null,
         "source_url": null,
         "notion_url": null,
-        "feeder_type": null,
-        "water_needs": null,
-        "sun_needs": null,
         "forest_layer": null,
         "part_used": null,
-        "rotation_group_id": null,
-        "estimated_fields": null
+        "id": 7,
+        "sun_needs": null,
+        "water_needs": null,
+        "in_row_spacing_cm": null,
+        "feeder_type": null,
+        "summary": "A sweet-tasting, burpless and high-yielding cucumber with excellent flavour. Best picked young and tender at about 10–15 cm long.",
+        "sowing_notes": null,
+        "care_notes": null,
+        "management_notes": null,
+        "yield_wording": null,
+        "uses_notes": null,
+        "estimated_fields": null,
+        "rotation_group_id": null
       },
       {
-        "id": 8,
         "slug": "telegraph-improved-cucumber",
         "common_name": "Telegraph Improved Cucumber",
         "scientific_name": "Cucumis sativus",
         "family": "Cucurbitaceae",
-        "summary": "A heavy-cropping cucumber with smooth, thin skin and a sweet, crisp flavour. The long fruit is well suited to salads, sandwiches and tzatziki.",
         "created_at": "2026-09-12 03:44:52.517875",
         "yield_qty": null,
-        "in_row_spacing_cm": null,
         "row_spacing_cm": null,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": null,
         "soil_ph_max": null,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": null,
-        "care_notes": null,
-        "uses_notes": null,
-        "sowing_notes": null,
         "source_url": null,
         "notion_url": null,
-        "feeder_type": null,
-        "water_needs": null,
-        "sun_needs": null,
         "forest_layer": null,
         "part_used": null,
-        "rotation_group_id": null,
-        "estimated_fields": null
+        "id": 8,
+        "sun_needs": null,
+        "water_needs": null,
+        "in_row_spacing_cm": null,
+        "feeder_type": null,
+        "summary": "A heavy-cropping cucumber with smooth, thin skin and a sweet, crisp flavour. The long fruit is well suited to salads, sandwiches and tzatziki.",
+        "sowing_notes": null,
+        "care_notes": null,
+        "management_notes": null,
+        "yield_wording": null,
+        "uses_notes": null,
+        "estimated_fields": null,
+        "rotation_group_id": null
       },
       {
-        "id": 9,
         "slug": "alyssum",
         "common_name": "Alyssum",
         "scientific_name": "Lobularia maritima",
         "family": "",
-        "summary": "Low-growing sweet alyssum used as an edging or groundcover flower that supports pollinators.",
         "created_at": "2026-09-12 03:44:52.521301",
         "yield_qty": null,
-        "in_row_spacing_cm": 20.0,
         "row_spacing_cm": 25.0,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Keep soil moist but not wet while establishing; container plants may need additional fertiliser.",
-        "uses_notes": "Low flowering edge or groundcover plant that can support pollinators.",
-        "sowing_notes": "Aug–May",
         "source_url": "https://www.theseedcollection.com.au/growguide/alyssum-seeds",
         "notion_url": "https://app.notion.com/3b8a295fe2fa80f7be23d96a7361065d",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "groundcover",
         "part_used": "flower",
-        "rotation_group_id": null,
-        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"function_tags\"]"
+        "id": 9,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 20.0,
+        "feeder_type": "light feeder",
+        "summary": "Low-growing sweet alyssum used as an edging or groundcover flower that supports pollinators.",
+        "sowing_notes": "Aug–May",
+        "care_notes": "Keep soil moist but not wet while establishing; container plants may need additional fertiliser.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": null,
+        "uses_notes": "Low flowering edge or groundcover plant that can support pollinators.",
+        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"function_tags\"]",
+        "rotation_group_id": null
       },
       {
-        "id": 10,
         "slug": "basil-genovese",
         "common_name": "Basil - Genovese",
         "scientific_name": "Ocimum basilicum",
         "family": "",
-        "summary": "Sweet basil with aromatic leaves for the kitchen and flowers for visiting insects.",
         "created_at": "2026-09-12 03:44:52.521754",
         "yield_qty": 0.2,
-        "in_row_spacing_cm": 25.0,
         "row_spacing_cm": 30.0,
         "succession_interval_days": 28,
         "harvest_window_weeks": 8.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "0.2 kg per established plant over a 8-week harvest window. Total across repeated pickings, not the yield at every picking.",
         "yield_unit": "kg",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Pinch growing tips to encourage branching and harvest before cold weather.",
-        "uses_notes": "Culinary herb for the herbaceous layer; allow a few stems to flower for visiting insects.\nFresh leaves for pesto, pasta, salads and sauces.",
-        "sowing_notes": "Sep–Feb",
         "source_url": null,
         "notion_url": "https://app.notion.com/3bea295fe2fa81068000c5bb13d3c686",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "leaf",
-        "rotation_group_id": 7,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 10,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 25.0,
+        "feeder_type": "light feeder",
+        "summary": "Sweet basil with aromatic leaves for the kitchen and flowers for visiting insects.",
+        "sowing_notes": "Sep–Feb",
+        "care_notes": "Pinch growing tips to encourage branching and harvest before cold weather.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "0.2 kg per established plant over a 8-week harvest window. Total across repeated pickings, not the yield at every picking.",
+        "uses_notes": "Culinary herb for the herbaceous layer; allow a few stems to flower for visiting insects.\nFresh leaves for pesto, pasta, salads and sauces.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": 7
       },
       {
-        "id": 11,
         "slug": "bergamot-lemon-mint",
         "common_name": "Bergamot - Lemon Mint",
         "scientific_name": "Monarda citriodora",
         "family": "",
-        "summary": "Lemon-scented annual herb to about 60cm with lavender flowers; also called Lemon Bee Balm; attracts bees and suits borders.",
         "created_at": "2026-09-12 03:44:52.522658",
         "yield_qty": null,
-        "in_row_spacing_cm": 30.0,
         "row_spacing_cm": 40.0,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Raise seedlings; protect from slugs, snails and powdery mildew.",
-        "uses_notes": "Flowering border herb that attracts bees.\nLeaves can be used to flavour poultry and fish dishes.",
-        "sowing_notes": "Jan-Apr, Sep-Dec",
         "source_url": "https://www.theseedcollection.com.au/Bergamot-Lemon-Mint",
         "notion_url": "https://app.notion.com/3b7a295fe2fa80da9ff8e32a6b6d2f2c",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "leaf",
-        "rotation_group_id": null,
-        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"diseases\", \"function_tags\"]"
+        "id": 11,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 30.0,
+        "feeder_type": "light feeder",
+        "summary": "Lemon-scented annual herb to about 60cm with lavender flowers; also called Lemon Bee Balm; attracts bees and suits borders.",
+        "sowing_notes": "Jan-Apr, Sep-Dec",
+        "care_notes": "Raise seedlings; protect from slugs, snails and powdery mildew.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": null,
+        "uses_notes": "Flowering border herb that attracts bees.\nLeaves can be used to flavour poultry and fish dishes.",
+        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"diseases\", \"function_tags\"]",
+        "rotation_group_id": null
       },
       {
-        "id": 12,
         "slug": "broccoli-purple-sprouting",
         "common_name": "Broccoli - Purple Sprouting",
         "scientific_name": "Brassica oleracea",
         "family": "",
-        "summary": "Purple sprouting broccoli with green stalks and small to medium purple heads; continues producing side shoots after picking.",
         "created_at": "2026-09-12 03:44:52.522991",
         "yield_qty": 0.6,
-        "in_row_spacing_cm": 50.0,
         "row_spacing_cm": 60.0,
         "succession_interval_days": 28,
         "harvest_window_weeks": 6.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "0.6 kg per established plant over a 6-week harvest window. Total across repeated pickings, not the yield at every picking.",
         "yield_unit": "kg",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Sow direct or raise seedlings. Cut heads before flowers open. Protect from aphids and caterpillars.",
-        "uses_notes": "Long-season cool-weather food crop.\nGood for stir-frying or steaming; purple colour reduces when cooked.",
-        "sowing_notes": "Late summer to autumn",
         "source_url": "https://www.theseedcollection.com.au/Broccoli-Purple-Sprouting",
         "notion_url": "https://app.notion.com/3b7a295fe2fa807d9ba8e7cbcc9f53ba",
-        "feeder_type": "heavy feeder",
-        "water_needs": "high",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "flower",
-        "rotation_group_id": 2,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 12,
+        "sun_needs": "full sun",
+        "water_needs": "high",
+        "in_row_spacing_cm": 50.0,
+        "feeder_type": "heavy feeder",
+        "summary": "Purple sprouting broccoli with green stalks and small to medium purple heads; continues producing side shoots after picking.",
+        "sowing_notes": "Late summer to autumn",
+        "care_notes": "Sow direct or raise seedlings. Cut heads before flowers open. Protect from aphids and caterpillars.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "0.6 kg per established plant over a 6-week harvest window. Total across repeated pickings, not the yield at every picking.",
+        "uses_notes": "Long-season cool-weather food crop.\nGood for stir-frying or steaming; purple colour reduces when cooked.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": 2
       },
       {
-        "id": 13,
         "slug": "bunching-onion-winter-ishikura",
         "common_name": "Bunching Onion - Winter Ishikura",
         "scientific_name": "Allium fistulosum",
         "family": "",
-        "summary": "Hardy bunching onion with long white bases and green tops to about 45cm; used similarly to spring onions.",
         "created_at": "2026-09-12 03:44:52.523505",
         "yield_qty": 1.0,
-        "in_row_spacing_cm": 3.0,
         "row_spacing_cm": 30.0,
         "succession_interval_days": 21,
         "harvest_window_weeks": 1.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "1 plant per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
         "yield_unit": "plant",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Sow direct or raise seedlings; hardy and suitable for cool-season production.",
-        "uses_notes": "Compact cool-season allium and repeat-harvest kitchen crop.\nGood raw or cooked wherever spring onions are used.",
-        "sowing_notes": "Mar-Nov",
         "source_url": "https://www.theseedcollection.com.au/Bunching-Onion-Winter-Ishikura",
         "notion_url": "https://app.notion.com/3b7a295fe2fa80ef9955d02d40e94849",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "leaf",
-        "rotation_group_id": 1,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 13,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 3.0,
+        "feeder_type": "light feeder",
+        "summary": "Hardy bunching onion with long white bases and green tops to about 45cm; used similarly to spring onions.",
+        "sowing_notes": "Mar-Nov",
+        "care_notes": "Sow direct or raise seedlings; hardy and suitable for cool-season production.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "1 plant per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
+        "uses_notes": "Compact cool-season allium and repeat-harvest kitchen crop.\nGood raw or cooked wherever spring onions are used.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": 1
       },
       {
-        "id": 14,
         "slug": "carrot-cosmic-purple",
         "common_name": "Carrot - Cosmic Purple",
         "scientific_name": "Daucus carota",
         "family": "",
-        "summary": "Fast-growing carrot with smooth purple skin, near core-less orange interior and sweet roots to about 18cm.",
         "created_at": "2026-09-12 03:44:52.524012",
         "yield_qty": 1.0,
-        "in_row_spacing_cm": 5.0,
         "row_spacing_cm": 25.0,
         "succession_interval_days": 21,
         "harvest_window_weeks": 1.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "1 root per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
         "yield_unit": "root",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Direct sow into well-cultivated soil; thin to final spacing.",
-        "uses_notes": "Direct-sown root crop.\nSweet and crunchy; retains colour well when cooked.",
-        "sowing_notes": "Spring, summer and autumn",
         "source_url": "https://www.theseedcollection.com.au/Carrot-Cosmic-Purple",
         "notion_url": "https://app.notion.com/3b7a295fe2fa80d39425da91e1597434",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "rhizosphere",
         "part_used": "root",
-        "rotation_group_id": 5,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 14,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 5.0,
+        "feeder_type": "light feeder",
+        "summary": "Fast-growing carrot with smooth purple skin, near core-less orange interior and sweet roots to about 18cm.",
+        "sowing_notes": "Spring, summer and autumn",
+        "care_notes": "Direct sow into well-cultivated soil; thin to final spacing.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "1 root per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
+        "uses_notes": "Direct-sown root crop.\nSweet and crunchy; retains colour well when cooked.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": 5
       },
       {
-        "id": 15,
         "slug": "carrot-nantes",
         "common_name": "Carrot - Nantes",
         "scientific_name": "Daucus carota",
         "family": "",
-        "summary": "Cylindrical carrot suited to loose, well-prepared soil or a deep container.",
         "created_at": "2026-09-12 03:44:52.524498",
         "yield_qty": 1.0,
-        "in_row_spacing_cm": 7.0,
         "row_spacing_cm": 25.0,
         "succession_interval_days": 21,
         "harvest_window_weeks": 1.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "1 root per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
         "yield_unit": "root",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Use loose soil and thin seedlings to their final spacing.",
-        "uses_notes": "Root crop suited to a deep container with loose soil.\nRaw, roasted, steamed, in soups or in baking.",
-        "sowing_notes": "Feb–Nov",
         "source_url": null,
         "notion_url": "https://app.notion.com/3bea295fe2fa81b298c1de801783eccd",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "rhizosphere",
         "part_used": "root",
-        "rotation_group_id": 5,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 15,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 7.0,
+        "feeder_type": "light feeder",
+        "summary": "Cylindrical carrot suited to loose, well-prepared soil or a deep container.",
+        "sowing_notes": "Feb–Nov",
+        "care_notes": "Use loose soil and thin seedlings to their final spacing.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "1 root per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
+        "uses_notes": "Root crop suited to a deep container with loose soil.\nRaw, roasted, steamed, in soups or in baking.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": 5
       },
       {
-        "id": 16,
         "slug": "carrot-solar-yellow",
         "common_name": "Carrot - Solar Yellow",
         "scientific_name": "Daucus carota",
         "family": "",
-        "summary": "Yellow-rooted carrot growing to about 18cm; sweet, juicy and very crunchy.",
         "created_at": "2026-09-12 03:44:52.524980",
         "yield_qty": 1.0,
-        "in_row_spacing_cm": 5.0,
         "row_spacing_cm": 25.0,
         "succession_interval_days": 21,
         "harvest_window_weeks": 1.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "1 root per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
         "yield_unit": "root",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Direct sow into cultivated soil and thin to final spacing.",
-        "uses_notes": "Direct-sown root crop.\nFresh eating or cooked as a colourful carrot variety.",
-        "sowing_notes": "Spring, summer and autumn",
         "source_url": "https://www.theseedcollection.com.au/Carrot-Solar-Yellow",
         "notion_url": "https://app.notion.com/3b7a295fe2fa80d4824ff05fc014822c",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "rhizosphere",
         "part_used": "root",
-        "rotation_group_id": 5,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 16,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 5.0,
+        "feeder_type": "light feeder",
+        "summary": "Yellow-rooted carrot growing to about 18cm; sweet, juicy and very crunchy.",
+        "sowing_notes": "Spring, summer and autumn",
+        "care_notes": "Direct sow into cultivated soil and thin to final spacing.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "1 root per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
+        "uses_notes": "Direct-sown root crop.\nFresh eating or cooked as a colourful carrot variety.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": 5
       },
       {
-        "id": 17,
         "slug": "eggplant-casper",
         "common_name": "Eggplant - Casper",
         "scientific_name": "Solanum melongena",
         "family": "",
-        "summary": "",
         "created_at": "2026-09-12 03:44:52.525454",
         "yield_qty": 8.0,
-        "in_row_spacing_cm": 60.0,
         "row_spacing_cm": 80.0,
         "succession_interval_days": null,
         "harvest_window_weeks": 10.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "8 fruit per established plant over a 10-week harvest window. Total across repeated pickings, not the yield at every picking.",
         "yield_unit": "fruit",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": null,
-        "uses_notes": null,
-        "sowing_notes": null,
         "source_url": null,
         "notion_url": "https://app.notion.com/3c6a295fe2fa80d985e0c3827d634d4a",
-        "feeder_type": "heavy feeder",
-        "water_needs": "high",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "fruit",
-        "rotation_group_id": 6,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\", \"scientific_name\", \"in_row_spacing_cm\"]"
+        "id": 17,
+        "sun_needs": "full sun",
+        "water_needs": "high",
+        "in_row_spacing_cm": 60.0,
+        "feeder_type": "heavy feeder",
+        "summary": null,
+        "sowing_notes": null,
+        "care_notes": null,
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "8 fruit per established plant over a 10-week harvest window. Total across repeated pickings, not the yield at every picking.",
+        "uses_notes": null,
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\", \"scientific_name\", \"in_row_spacing_cm\"]",
+        "rotation_group_id": 6
       },
       {
-        "id": 18,
         "slug": "eggplant-tsakoniki",
         "common_name": "Eggplant - Tsakoniki",
         "scientific_name": "Solanum melongena",
         "family": "",
-        "summary": "Greek variety producing attractive purple-and-white striped cylindrical fruit to about 22cm; mild firm flesh. Often grown as an annual in cooler climates.",
         "created_at": "2026-09-12 03:44:52.526275",
         "yield_qty": 8.0,
-        "in_row_spacing_cm": 70.0,
         "row_spacing_cm": 80.0,
         "succession_interval_days": null,
         "harvest_window_weeks": 10.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "8 fruit per established plant over a 10-week harvest window. Total across repeated pickings, not the yield at every picking.",
         "yield_unit": "fruit",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Sow direct or raise seedlings. Frost tender. Pick regularly to encourage more fruit; may need staking.",
-        "uses_notes": "Warm-season fruiting crop.\nGood for stews, sauces, baking, frying, stuffing and grilling.",
-        "sowing_notes": "Jan-Feb, Sep-Dec",
         "source_url": "https://www.theseedcollection.com.au/Eggplant-Tsakoniki",
         "notion_url": "https://app.notion.com/3b7a295fe2fa8097af65fde6c644e131",
-        "feeder_type": "heavy feeder",
-        "water_needs": "high",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "fruit",
-        "rotation_group_id": 6,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 18,
+        "sun_needs": "full sun",
+        "water_needs": "high",
+        "in_row_spacing_cm": 70.0,
+        "feeder_type": "heavy feeder",
+        "summary": "Greek variety producing attractive purple-and-white striped cylindrical fruit to about 22cm; mild firm flesh. Often grown as an annual in cooler climates.",
+        "sowing_notes": "Jan-Feb, Sep-Dec",
+        "care_notes": "Sow direct or raise seedlings. Frost tender. Pick regularly to encourage more fruit; may need staking.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "8 fruit per established plant over a 10-week harvest window. Total across repeated pickings, not the yield at every picking.",
+        "uses_notes": "Warm-season fruiting crop.\nGood for stews, sauces, baking, frying, stuffing and grilling.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": 6
       },
       {
-        "id": 19,
         "slug": "grass-jelly",
         "common_name": "Grass Jelly",
         "scientific_name": "Cyclea barbata",
         "family": "",
-        "summary": "Tropical climbing plant traditionally used to make green grass jelly in Indonesia; confirm identity and food safety before use.",
         "created_at": "2026-09-12 03:44:52.527026",
         "yield_qty": null,
-        "in_row_spacing_cm": 200.0,
         "row_spacing_cm": 150.0,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Grow with a trellis or other support under light shade; cultivation guidance is limited.",
-        "uses_notes": "Climbing tropical plant with traditional culinary and medicinal associations.\nTraditional grass jelly preparation; confirm species identity and food safety before use.",
-        "sowing_notes": null,
         "source_url": "https://plantuse.plantnet.org/en/Cyclea_%28PROSEA%29",
         "notion_url": "https://app.notion.com/3b9a295fe2fa8022b348c832e3753dd5",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "part shade",
         "forest_layer": "vine",
         "part_used": "leaf",
-        "rotation_group_id": 8,
-        "estimated_fields": "[\"feeder_type\", \"forest_layer\", \"part_used\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"rotation_group\"]"
+        "id": 19,
+        "sun_needs": "part shade",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 200.0,
+        "feeder_type": "light feeder",
+        "summary": "Tropical climbing plant traditionally used to make green grass jelly in Indonesia; confirm identity and food safety before use.",
+        "sowing_notes": null,
+        "care_notes": "Grow with a trellis or other support under light shade; cultivation guidance is limited.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": null,
+        "uses_notes": "Climbing tropical plant with traditional culinary and medicinal associations.\nTraditional grass jelly preparation; confirm species identity and food safety before use.",
+        "estimated_fields": "[\"feeder_type\", \"forest_layer\", \"part_used\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"rotation_group\"]",
+        "rotation_group_id": 8
       },
       {
-        "id": 20,
         "slug": "horseradish",
         "common_name": "Horseradish",
         "scientific_name": "Armoracia rusticana",
         "family": "",
-        "summary": "Deep-rooted perennial vegetable grown for its pungent edible root; best contained because small root pieces can regrow.",
         "created_at": "2026-09-12 03:44:52.527404",
         "yield_qty": 0.3,
-        "in_row_spacing_cm": 15.0,
         "row_spacing_cm": 60.0,
         "succession_interval_days": null,
         "harvest_window_weeks": 1.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "0.3 kg per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
         "yield_unit": "kg",
-        "management_notes": "Shallow rooted plants around the edge ot he container",
-        "care_notes": "Grow in full sun or light shade in moist soil, preferably in a large container to limit spread.",
-        "uses_notes": "Deep-rooted perennial crop; shallow-rooted plants can occupy the container edge.\nFreshly grated horseradish with vinegar and a pinch of salt makes a classic sauce.",
-        "sowing_notes": "Late autumn–early spring",
         "source_url": "https://www.abc.net.au/gardening/how-to/plant-profile-horseradish/105355418",
         "notion_url": "https://app.notion.com/3b7a295fe2fa8022a68dd3850478e2fd",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "rhizosphere",
         "part_used": "root",
-        "rotation_group_id": 8,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"pests\", \"rotation_group\"]"
+        "id": 20,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 15.0,
+        "feeder_type": "light feeder",
+        "summary": "Deep-rooted perennial vegetable grown for its pungent edible root; best contained because small root pieces can regrow.",
+        "sowing_notes": "Late autumn–early spring",
+        "care_notes": "Grow in full sun or light shade in moist soil, preferably in a large container to limit spread.",
+        "management_notes": "Shallow rooted plants around the edge ot he container",
+        "yield_wording": "0.3 kg per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
+        "uses_notes": "Deep-rooted perennial crop; shallow-rooted plants can occupy the container edge.\nFreshly grated horseradish with vinegar and a pinch of salt makes a classic sauce.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"pests\", \"rotation_group\"]",
+        "rotation_group_id": 8
       },
       {
-        "id": 21,
         "slug": "hyssop",
         "common_name": "Hyssop",
         "scientific_name": "Hyssopus officinalis",
         "family": "",
-        "summary": "Evergreen aromatic herb to about 50cm with violet-blue flower spikes; culinary and medicinal use; attracts bees and butterflies.",
         "created_at": "2026-09-12 03:44:52.527739",
         "yield_qty": null,
-        "in_row_spacing_cm": 60.0,
         "row_spacing_cm": 60.0,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Raise seedlings; transplant at 5-10cm tall. Water deeply when soil is dry about 5cm down. Prune after flowering / in spring.",
-        "uses_notes": "Aromatic perennial herb that attracts bees and butterflies.\nStrong bitter-minty flavour; used in soups, stews, salads, meat and egg dishes.",
-        "sowing_notes": "Jan-Feb, Sep-Dec",
         "source_url": "https://www.theseedcollection.com.au/Hyssop",
         "notion_url": "https://app.notion.com/3b7a295fe2fa801cb409e08de8d722f3",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "shrub",
         "part_used": "leaf",
-        "rotation_group_id": 8,
-        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"function_tags\", \"rotation_group\"]"
+        "id": 21,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 60.0,
+        "feeder_type": "light feeder",
+        "summary": "Evergreen aromatic herb to about 50cm with violet-blue flower spikes; culinary and medicinal use; attracts bees and butterflies.",
+        "sowing_notes": "Jan-Feb, Sep-Dec",
+        "care_notes": "Raise seedlings; transplant at 5-10cm tall. Water deeply when soil is dry about 5cm down. Prune after flowering / in spring.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": null,
+        "uses_notes": "Aromatic perennial herb that attracts bees and butterflies.\nStrong bitter-minty flavour; used in soups, stews, salads, meat and egg dishes.",
+        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"function_tags\", \"rotation_group\"]",
+        "rotation_group_id": 8
       },
       {
-        "id": 22,
         "slug": "japanese-raisin-tree",
         "common_name": "Japanese Raisin Tree",
         "scientific_name": "Hovenia dulcis",
         "family": "",
-        "summary": "Deciduous tree whose small dry fruit is inedible but whose swollen fruit stalks, or peduncles, are edible when ripe.",
         "created_at": "2026-09-12 03:44:52.528069",
         "yield_qty": null,
-        "in_row_spacing_cm": null,
         "row_spacing_cm": null,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Grow in full sun to partial shade in well-drained soil; sandy loam is preferred.",
-        "uses_notes": "Unusual deciduous specimen tree with edible swollen fruit stalks.\nRipe swollen peduncles can be eaten fresh or dried.",
-        "sowing_notes": null,
         "source_url": "https://ucanr.edu/blog/under-solano-sun/article/fruit-tree-edible-stalks",
         "notion_url": "https://app.notion.com/3bfa295fe2fa8025827ae7cbbb5df6f5",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "canopy",
         "part_used": null,
-        "rotation_group_id": 8,
-        "estimated_fields": "[\"feeder_type\", \"forest_layer\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"rotation_group\"]"
+        "id": 22,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": null,
+        "feeder_type": "light feeder",
+        "summary": "Deciduous tree whose small dry fruit is inedible but whose swollen fruit stalks, or peduncles, are edible when ripe.",
+        "sowing_notes": null,
+        "care_notes": "Grow in full sun to partial shade in well-drained soil; sandy loam is preferred.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": null,
+        "uses_notes": "Unusual deciduous specimen tree with edible swollen fruit stalks.\nRipe swollen peduncles can be eaten fresh or dried.",
+        "estimated_fields": "[\"feeder_type\", \"forest_layer\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"rotation_group\"]",
+        "rotation_group_id": 8
       },
       {
-        "id": 23,
         "slug": "lettuce-buttercrunch",
         "common_name": "Lettuce - Buttercrunch",
         "scientific_name": "Lactuca sativa",
         "family": "",
-        "summary": "Compact butterhead lettuce with tender leaves for fresh picking.",
         "created_at": "2026-09-12 03:44:52.529036",
         "yield_qty": 1.0,
-        "in_row_spacing_cm": 25.0,
         "row_spacing_cm": 30.0,
         "succession_interval_days": 14,
         "harvest_window_weeks": 1.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "1 head per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
         "yield_unit": "head",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Keep evenly moist and protect from heat when conditions turn warm.",
-        "uses_notes": "Compact leafy crop suited to containers.\nFresh leaves for salads, sandwiches and wraps.",
-        "sowing_notes": "Feb–Nov",
         "source_url": null,
         "notion_url": "https://app.notion.com/3bea295fe2fa81cfa29ac444bf52704b",
-        "feeder_type": "light feeder",
-        "water_needs": "high",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "leaf",
-        "rotation_group_id": 7,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 23,
+        "sun_needs": "full sun",
+        "water_needs": "high",
+        "in_row_spacing_cm": 25.0,
+        "feeder_type": "light feeder",
+        "summary": "Compact butterhead lettuce with tender leaves for fresh picking.",
+        "sowing_notes": "Feb–Nov",
+        "care_notes": "Keep evenly moist and protect from heat when conditions turn warm.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "1 head per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
+        "uses_notes": "Compact leafy crop suited to containers.\nFresh leaves for salads, sandwiches and wraps.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": 7
       },
       {
-        "id": 24,
         "slug": "lilly-of-the-valley",
         "common_name": "Lilly of the Valley",
         "scientific_name": "Convallaria majalis",
         "family": "",
-        "summary": "",
         "created_at": "2026-09-12 03:44:52.529534",
         "yield_qty": null,
-        "in_row_spacing_cm": 20.0,
         "row_spacing_cm": 30.0,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": null,
-        "uses_notes": "Lily of the valley (Convallaria majalis). Ornamental only; poisonous if eaten. Confirm identification before using this record.",
-        "sowing_notes": null,
         "source_url": null,
         "notion_url": "https://app.notion.com/3bfa295fe2fa800392a4f43bbd50d721",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "part shade",
         "forest_layer": "groundcover",
         "part_used": "flower",
-        "rotation_group_id": 8,
-        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"scientific_name\", \"in_row_spacing_cm\", \"uses_notes\", \"rotation_group\"]"
+        "id": 24,
+        "sun_needs": "part shade",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 20.0,
+        "feeder_type": "light feeder",
+        "summary": null,
+        "sowing_notes": null,
+        "care_notes": null,
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": null,
+        "uses_notes": "Lily of the valley (Convallaria majalis). Ornamental only; poisonous if eaten. Confirm identification before using this record.",
+        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"scientific_name\", \"in_row_spacing_cm\", \"uses_notes\", \"rotation_group\"]",
+        "rotation_group_id": 8
       },
       {
-        "id": 25,
         "slug": "marigold-french-marigold",
         "common_name": "Marigold - French Marigold",
         "scientific_name": "Tagetes patula",
         "family": "",
-        "summary": "Compact flowering plant for sunny bed edges and borders.",
         "created_at": "2026-09-12 03:44:52.529852",
         "yield_qty": null,
-        "in_row_spacing_cm": 20.0,
         "row_spacing_cm": 30.0,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Deadhead spent flowers and keep in a sunny position.",
-        "uses_notes": "Flowering edge plant for a varied insect-friendly border.\nPrimarily ornamental; do not eat unless the packet confirms an edible cultivar.",
-        "sowing_notes": "Sep-Feb",
         "source_url": null,
         "notion_url": "https://app.notion.com/3bea295fe2fa81daab2ccc82f2e90970",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "flower",
-        "rotation_group_id": null,
-        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"function_tags\"]"
+        "id": 25,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 20.0,
+        "feeder_type": "light feeder",
+        "summary": "Compact flowering plant for sunny bed edges and borders.",
+        "sowing_notes": "Sep-Feb",
+        "care_notes": "Deadhead spent flowers and keep in a sunny position.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": null,
+        "uses_notes": "Flowering edge plant for a varied insect-friendly border.\nPrimarily ornamental; do not eat unless the packet confirms an edible cultivar.",
+        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"function_tags\"]",
+        "rotation_group_id": null
       },
       {
-        "id": 26,
         "slug": "pea-greenfeast",
         "common_name": "Pea - Greenfeast",
         "scientific_name": "Pisum sativum",
         "family": "",
-        "summary": "Cool-season shelling pea; pick pods while the peas are young and tender.",
         "created_at": "2026-09-12 03:44:52.530164",
         "yield_qty": 0.25,
-        "in_row_spacing_cm": 10.0,
         "row_spacing_cm": 50.0,
         "succession_interval_days": 21,
         "harvest_window_weeks": 4.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "0.25 kg per established plant over a 4-week harvest window. Total across repeated pickings, not the yield at every picking.",
         "yield_unit": "kg",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Provide a pea frame or trellis and pick pods regularly.",
-        "uses_notes": "Cool-season legume and vertical layer when grown on support.\nFresh or cooked in soups, risotto and side dishes.",
-        "sowing_notes": "Feb–Aug",
         "source_url": null,
         "notion_url": "https://app.notion.com/3bea295fe2fa81dd81d6d3d573bd5e85",
-        "feeder_type": "nitrogen fixer",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "vine",
         "part_used": "fruit",
-        "rotation_group_id": 4,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\", \"diseases\", \"function_tags\"]"
+        "id": 26,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 10.0,
+        "feeder_type": "nitrogen fixer",
+        "summary": "Cool-season shelling pea; pick pods while the peas are young and tender.",
+        "sowing_notes": "Feb–Aug",
+        "care_notes": "Provide a pea frame or trellis and pick pods regularly.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "0.25 kg per established plant over a 4-week harvest window. Total across repeated pickings, not the yield at every picking.",
+        "uses_notes": "Cool-season legume and vertical layer when grown on support.\nFresh or cooked in soups, risotto and side dishes.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\", \"diseases\", \"function_tags\"]",
+        "rotation_group_id": 4
       },
       {
-        "id": 27,
         "slug": "pea-oregon-dwarf",
         "common_name": "Pea - Oregon Dwarf",
         "scientific_name": "Pisum sativum",
         "family": "",
-        "summary": "Dwarf Oregon snow pea producing edible flat pods; direct sow in cool conditions and provide support.",
         "created_at": "2026-09-12 03:44:52.530647",
         "yield_qty": 0.25,
-        "in_row_spacing_cm": 8.0,
         "row_spacing_cm": 50.0,
         "succession_interval_days": 21,
         "harvest_window_weeks": 4.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "0.25 kg per established plant over a 4-week harvest window. Total across repeated pickings, not the yield at every picking.",
         "yield_unit": "kg",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Grow in well-drained soil with a short trellis or other support.",
-        "uses_notes": null,
-        "sowing_notes": "Feb–Sep",
         "source_url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=pea-snowpea-oregon",
         "notion_url": "https://app.notion.com/3b7a295fe2fa802599adccee7d84204d",
-        "feeder_type": "nitrogen fixer",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "vine",
         "part_used": "fruit",
-        "rotation_group_id": 4,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\", \"diseases\", \"function_tags\"]"
+        "id": 27,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 8.0,
+        "feeder_type": "nitrogen fixer",
+        "summary": "Dwarf Oregon snow pea producing edible flat pods; direct sow in cool conditions and provide support.",
+        "sowing_notes": "Feb–Sep",
+        "care_notes": "Grow in well-drained soil with a short trellis or other support.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "0.25 kg per established plant over a 4-week harvest window. Total across repeated pickings, not the yield at every picking.",
+        "uses_notes": null,
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\", \"diseases\", \"function_tags\"]",
+        "rotation_group_id": 4
       },
       {
-        "id": 28,
         "slug": "radish-french-breakfast",
         "common_name": "Radish - French Breakfast",
         "scientific_name": "Raphanus sativus",
         "family": "",
-        "summary": "Quick-growing radish suited to small, repeated sowings.",
         "created_at": "2026-09-12 03:44:52.531124",
         "yield_qty": 1.0,
-        "in_row_spacing_cm": 5.0,
         "row_spacing_cm": 20.0,
         "succession_interval_days": 14,
         "harvest_window_weeks": 1.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "1 root per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
         "yield_unit": "root",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Sow small batches regularly and harvest while roots are young.",
-        "uses_notes": "Quick root crop for succession sowing.\nRaw in salads, pickled, or roasted.",
-        "sowing_notes": "Feb–Nov",
         "source_url": null,
         "notion_url": "https://app.notion.com/3bea295fe2fa814f92caf190146c2050",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "rhizosphere",
         "part_used": "root",
-        "rotation_group_id": 7,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 28,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 5.0,
+        "feeder_type": "light feeder",
+        "summary": "Quick-growing radish suited to small, repeated sowings.",
+        "sowing_notes": "Feb–Nov",
+        "care_notes": "Sow small batches regularly and harvest while roots are young.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "1 root per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
+        "uses_notes": "Quick root crop for succession sowing.\nRaw in salads, pickled, or roasted.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": 7
       },
       {
-        "id": 29,
         "slug": "stepover-apples",
         "common_name": "Stepover Apples",
         "scientific_name": "Malus domestica",
         "family": "",
-        "summary": "",
         "created_at": "2026-09-12 03:44:52.531599",
         "yield_qty": null,
-        "in_row_spacing_cm": 150.0,
         "row_spacing_cm": 150.0,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": null,
         "yield_unit": null,
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": null,
-        "uses_notes": null,
-        "sowing_notes": null,
         "source_url": null,
         "notion_url": "https://app.notion.com/3c3a295fe2fa8031a8e2d35ca71ccd79",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "shrub",
         "part_used": "fruit",
-        "rotation_group_id": 8,
-        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"scientific_name\", \"in_row_spacing_cm\", \"rotation_group\"]"
+        "id": 29,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 150.0,
+        "feeder_type": "light feeder",
+        "summary": null,
+        "sowing_notes": null,
+        "care_notes": null,
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": null,
+        "uses_notes": null,
+        "estimated_fields": "[\"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"management_notes\", \"pests\", \"scientific_name\", \"in_row_spacing_cm\", \"rotation_group\"]",
+        "rotation_group_id": 8
       },
       {
-        "id": 30,
         "slug": "sunflower-golden-prominence-f1",
         "common_name": "Sunflower - Golden Prominence F1",
         "scientific_name": "Helianthus annuus",
         "family": "",
-        "summary": "Tall pollen-free sunflower with a single large golden-yellow flower, deep red inner ring and dark centre; good for beds, borders and cut flowers.",
         "created_at": "2026-09-12 03:44:52.531915",
         "yield_qty": 1.0,
-        "in_row_spacing_cm": 30.0,
         "row_spacing_cm": 45.0,
         "succession_interval_days": 21,
         "harvest_window_weeks": 1.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "1 flower per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
         "yield_unit": "flower",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Sow direct or raise seedlings. Water deeply at less frequent intervals. Hybrid F1 seed will not grow true to type if saved.",
-        "uses_notes": "Tall cut flower and visual feature; this cultivar is recorded as pollen-free.",
-        "sowing_notes": "Spring and early summer",
         "source_url": "https://www.theseedcollection.com.au/sunflower-golden-prominence",
         "notion_url": "https://app.notion.com/3b7a295fe2fa80fdaabfe29f6160ea70",
-        "feeder_type": "heavy feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "flower",
-        "rotation_group_id": null,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 30,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 30.0,
+        "feeder_type": "heavy feeder",
+        "summary": "Tall pollen-free sunflower with a single large golden-yellow flower, deep red inner ring and dark centre; good for beds, borders and cut flowers.",
+        "sowing_notes": "Spring and early summer",
+        "care_notes": "Sow direct or raise seedlings. Water deeply at less frequent intervals. Hybrid F1 seed will not grow true to type if saved.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "1 flower per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
+        "uses_notes": "Tall cut flower and visual feature; this cultivar is recorded as pollen-free.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": null
       },
       {
-        "id": 31,
         "slug": "sweet-corn-terrific-f1",
         "common_name": "Sweet Corn Terrific F1",
         "scientific_name": "Zea mays",
         "family": "",
-        "summary": "Early-cropping sweet corn with traditional sweet-corn flavour. Best grown in a block for pollination.",
         "created_at": "2026-09-12 03:44:52.532233",
         "yield_qty": 1.0,
-        "in_row_spacing_cm": 25.0,
         "row_spacing_cm": 50.0,
         "succession_interval_days": 14,
         "harvest_window_weeks": 1.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "1 cob per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
         "yield_unit": "cob",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Direct sow in blocks rather than a single row; keep moist, water regularly in hot weather and fertilise well. For succession, sow the next crop when the first plants are about 20cm tall.",
-        "uses_notes": "Warm-season crop grown in a block for pollination.\nHarvest fresh when silks have browned and kernels release a milky liquid when pierced.",
-        "sowing_notes": "Early spring to summer",
         "source_url": "https://www.mrfothergills.com.au/products/sweet-corn-terrific-f1-value-pack",
         "notion_url": "https://app.notion.com/3b7a295fe2fa804aa6eefa1538d9caa2",
-        "feeder_type": "heavy feeder",
-        "water_needs": "high",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "seed",
-        "rotation_group_id": null,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 31,
+        "sun_needs": "full sun",
+        "water_needs": "high",
+        "in_row_spacing_cm": 25.0,
+        "feeder_type": "heavy feeder",
+        "summary": "Early-cropping sweet corn with traditional sweet-corn flavour. Best grown in a block for pollination.",
+        "sowing_notes": "Early spring to summer",
+        "care_notes": "Direct sow in blocks rather than a single row; keep moist, water regularly in hot weather and fertilise well. For succession, sow the next crop when the first plants are about 20cm tall.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "1 cob per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
+        "uses_notes": "Warm-season crop grown in a block for pollination.\nHarvest fresh when silks have browned and kernels release a milky liquid when pierced.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": null
       },
       {
-        "id": 32,
         "slug": "sweet-potato",
         "common_name": "Sweet potato",
         "scientific_name": "Ipomoea batatas",
         "family": "",
-        "summary": "Vigorous warm-season groundcover crop grown for edible tubers and young leaf tips.",
         "created_at": "2026-09-12 03:44:52.532547",
         "yield_qty": 1.0,
-        "in_row_spacing_cm": 100.0,
         "row_spacing_cm": 100.0,
         "succession_interval_days": null,
         "harvest_window_weeks": 1.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "1 kg per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
         "yield_unit": "kg",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Plant in prepared soil rich in organic matter; water deeply during dry weather.",
-        "uses_notes": "Spreading warm-season food crop.\nRoast, bake, mash or add to curries and soups.",
-        "sowing_notes": "Warm frost-free months",
         "source_url": "https://www.abc.net.au/gardening/how-to/on-the-verge/9433346",
         "notion_url": "https://app.notion.com/3b8a295fe2fa80c5ac76ff259e705b2d",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "groundcover",
         "part_used": "root",
-        "rotation_group_id": null,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 32,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 100.0,
+        "feeder_type": "light feeder",
+        "summary": "Vigorous warm-season groundcover crop grown for edible tubers and young leaf tips.",
+        "sowing_notes": "Warm frost-free months",
+        "care_notes": "Plant in prepared soil rich in organic matter; water deeply during dry weather.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "1 kg per established plant over a 1-week harvest window. Harvest each plant once during this picking period.",
+        "uses_notes": "Spreading warm-season food crop.\nRoast, bake, mash or add to curries and soups.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": null
       },
       {
-        "id": 33,
         "slug": "tomato-black-krim",
         "common_name": "Tomato - Black Krim",
         "scientific_name": "Solanum lycopersicum",
         "family": "",
-        "summary": "Dark slicing tomato for warm-season growing with a sturdy stake or cage.",
         "created_at": "2026-09-12 03:44:52.532856",
         "yield_qty": 3.0,
-        "in_row_spacing_cm": 50.0,
         "row_spacing_cm": 80.0,
         "succession_interval_days": null,
         "harvest_window_weeks": 10.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "3 kg per established plant over a 10-week harvest window. Total across repeated pickings, not the yield at every picking.",
         "yield_unit": "kg",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Provide a sturdy stake or cage and tie stems loosely as the plant grows.",
-        "uses_notes": "Tall summer crop; keep lower-growing companions outside its main root and shade area.\nFresh in salads, roasted, or cooked into sauces and relishes.",
-        "sowing_notes": "Aug–Dec",
         "source_url": null,
         "notion_url": "https://app.notion.com/3bea295fe2fa81c98420eac31c2012ec",
-        "feeder_type": "heavy feeder",
-        "water_needs": "high",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "fruit",
-        "rotation_group_id": 6,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]"
+        "id": 33,
+        "sun_needs": "full sun",
+        "water_needs": "high",
+        "in_row_spacing_cm": 50.0,
+        "feeder_type": "heavy feeder",
+        "summary": "Dark slicing tomato for warm-season growing with a sturdy stake or cage.",
+        "sowing_notes": "Aug–Dec",
+        "care_notes": "Provide a sturdy stake or cage and tie stems loosely as the plant grows.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "3 kg per established plant over a 10-week harvest window. Total across repeated pickings, not the yield at every picking.",
+        "uses_notes": "Tall summer crop; keep lower-growing companions outside its main root and shade area.\nFresh in salads, roasted, or cooked into sauces and relishes.",
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"row_spacing_cm\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\"]",
+        "rotation_group_id": 6
       },
       {
-        "id": 34,
         "slug": "zinnia",
         "common_name": "Zinnia",
         "scientific_name": "Zinnia elegans",
         "family": "",
-        "summary": "Warm-season annual flower grown for colourful blooms, pollinators and cut flowers.",
         "created_at": "2026-09-12 03:44:52.533330",
         "yield_qty": 8.0,
-        "in_row_spacing_cm": 20.0,
         "row_spacing_cm": 20.0,
         "succession_interval_days": 28,
         "harvest_window_weeks": 8.0,
         "soil_ph_min": 6.0,
         "soil_ph_max": 7.0,
-        "yield_wording": "8 flower per established plant over a 8-week harvest window. Total across repeated pickings, not the yield at every picking.",
         "yield_unit": "flower",
-        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
-        "care_notes": "Grow in full sun and well-drained soil; water regularly and deadhead to extend flowering.",
-        "uses_notes": null,
-        "sowing_notes": "Sep–Dec",
         "source_url": "https://www.theseedcollection.com.au/growguide/zinnia-seeds",
         "notion_url": "https://app.notion.com/3bfa295fe2fa80008eefe04361c22fa6",
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "flower",
-        "rotation_group_id": null,
-        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\", \"diseases\", \"function_tags\"]"
+        "id": 34,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 20.0,
+        "feeder_type": "light feeder",
+        "summary": "Warm-season annual flower grown for colourful blooms, pollinators and cut flowers.",
+        "sowing_notes": "Sep–Dec",
+        "care_notes": "Grow in full sun and well-drained soil; water regularly and deadhead to extend flowering.",
+        "management_notes": "Inspect weekly, remove affected plant material, use clean tools and encourage beneficial insects. Confirm the pest or disease before choosing treatment.",
+        "yield_wording": "8 flower per established plant over a 8-week harvest window. Total across repeated pickings, not the yield at every picking.",
+        "uses_notes": null,
+        "estimated_fields": "[\"yield_qty\", \"yield_unit\", \"harvest_window_weeks\", \"succession_interval_days\", \"feeder_type\", \"forest_layer\", \"part_used\", \"uses\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"sun_needs\", \"yield_wording\", \"management_notes\", \"pests\", \"diseases\", \"function_tags\"]",
+        "rotation_group_id": null
       },
       {
-        "id": 35,
         "slug": "parsley",
         "common_name": "Parsley",
         "scientific_name": "Petroselinum crispum",
         "family": "Apiaceae",
-        "summary": "Leafy biennial culinary herb, available in curly and flat-leaved forms.",
         "created_at": "2026-10-02T00:18:24.939891+00:00",
         "yield_qty": null,
-        "in_row_spacing_cm": 30,
         "row_spacing_cm": 60,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 6,
         "soil_ph_max": 7,
-        "yield_wording": "Harvest outer stems once established, leaving the centre to regrow. Seed-grown plants generally reach first harvest in about 65–135 days. A reliable per-plant weight is not established.",
         "yield_unit": null,
-        "management_notes": "Protect seedlings from slugs and snails. Allow space and airflow; avoid keeping leaves wet overnight. Feeding and water badges are qualitative care categories, not measured requirements.",
-        "care_notes": "Sydney / warm-temperate guidance. Grow in sun or partial shade with moist, drained soil. The 30 cm plant / 60 cm row spacing uses the wider end of the supplier range. Add compost; feed only as needed. Planning estimates: in row spacing cm, row spacing cm, feeder type, water needs.",
-        "uses_notes": "Use fresh leaves in salads, sauces and cooked dishes; freeze or dry surplus. Retain a separate plant for flowering or seed if desired.",
-        "sowing_notes": "Sydney / warm temperate: sow September–May (Eden mild-climate guide). Sow 0.5–1 cm deep and keep moist; germination can be slow. Calendar refers to seed sowing.",
         "source_url": "https://www.edenseeds.com.au/Product-Info-seeds?product=parsley-italian",
         "notion_url": null,
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "part shade",
         "forest_layer": "herbaceous",
         "part_used": "leaf",
-        "rotation_group_id": 7,
-        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"feeder_type\", \"water_needs\"]",
         "plant_group": "Parsley",
         "plant_category": "herbs",
-        "variety_name": null
+        "variety_name": null,
+        "id": 35,
+        "sun_needs": "part shade",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 30,
+        "feeder_type": "light feeder",
+        "summary": "Leafy biennial culinary herb, available in curly and flat-leaved forms.",
+        "sowing_notes": "Sydney / warm temperate: sow September–May (Eden mild-climate guide). Sow 0.5–1 cm deep and keep moist; germination can be slow. Calendar refers to seed sowing.",
+        "care_notes": "Sydney / warm-temperate guidance. Grow in sun or partial shade with moist, drained soil. The 30 cm plant / 60 cm row spacing uses the wider end of the supplier range. Add compost; feed only as needed. Planning estimates: in row spacing cm, row spacing cm, feeder type, water needs.",
+        "management_notes": "Protect seedlings from slugs and snails. Allow space and airflow; avoid keeping leaves wet overnight. Feeding and water badges are qualitative care categories, not measured requirements.",
+        "yield_wording": "Harvest outer stems once established, leaving the centre to regrow. Seed-grown plants generally reach first harvest in about 65–135 days. A reliable per-plant weight is not established.",
+        "uses_notes": "Use fresh leaves in salads, sauces and cooked dishes; freeze or dry surplus. Retain a separate plant for flowering or seed if desired.",
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"feeder_type\", \"water_needs\"]",
+        "rotation_group_id": 7
       },
       {
-        "id": 36,
         "slug": "okra",
         "common_name": "Okra",
         "scientific_name": "Abelmoschus esculentus",
         "family": "Malvaceae",
-        "summary": "Heat-loving annual vegetable grown for tender immature pods.",
         "created_at": "2026-10-02T00:18:24.940185+00:00",
         "yield_qty": null,
-        "in_row_spacing_cm": 60,
         "row_spacing_cm": 120,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 6,
         "soil_ph_max": 7,
-        "yield_wording": "Pick tender immature pods frequently before they become fibrous. First picking is generally around 80–98 days from sowing; this is maturity time, not harvest-window length. Yield weight varies.",
         "yield_unit": null,
-        "management_notes": "Mulch and keep drainage open. Inspect leaf undersides and remove badly affected material after identifying the problem. The light-feeder badge means avoid excessive nitrogen, not omit all fertiliser.",
-        "care_notes": "Sydney / warm-temperate guidance. Use a warm, sunny, drained bed. Space 60 cm apart in rows 120 cm apart, the wider end of general okra guidance. Water steadily; excess nitrogen encourages leaves over pods. Planning estimates: in row spacing cm, row spacing cm, feeder type, water needs.",
-        "uses_notes": "Cook young pods in curries, soups or stews, or roast them. Harvest with care where stems or pods are prickly.",
-        "sowing_notes": "Sydney / warm temperate: sow October–December after frost risk, when soil is warm. Sow about 1 cm deep. Calendar and spacing are general okra guidance, not a named-variety trial.",
         "source_url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=okra-emerald",
         "notion_url": null,
-        "feeder_type": "light feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "fruit",
-        "rotation_group_id": 7,
-        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"feeder_type\", \"water_needs\"]",
         "plant_group": "Okra",
         "plant_category": "vegetables",
-        "variety_name": null
+        "variety_name": null,
+        "id": 36,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 60,
+        "feeder_type": "light feeder",
+        "summary": "Heat-loving annual vegetable grown for tender immature pods.",
+        "sowing_notes": "Sydney / warm temperate: sow October–December after frost risk, when soil is warm. Sow about 1 cm deep. Calendar and spacing are general okra guidance, not a named-variety trial.",
+        "care_notes": "Sydney / warm-temperate guidance. Use a warm, sunny, drained bed. Space 60 cm apart in rows 120 cm apart, the wider end of general okra guidance. Water steadily; excess nitrogen encourages leaves over pods. Planning estimates: in row spacing cm, row spacing cm, feeder type, water needs.",
+        "management_notes": "Mulch and keep drainage open. Inspect leaf undersides and remove badly affected material after identifying the problem. The light-feeder badge means avoid excessive nitrogen, not omit all fertiliser.",
+        "yield_wording": "Pick tender immature pods frequently before they become fibrous. First picking is generally around 80–98 days from sowing; this is maturity time, not harvest-window length. Yield weight varies.",
+        "uses_notes": "Cook young pods in curries, soups or stews, or roast them. Harvest with care where stems or pods are prickly.",
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"feeder_type\", \"water_needs\"]",
+        "rotation_group_id": 7
       },
       {
-        "id": 37,
         "slug": "bean-lazy-housewife",
         "common_name": "Bean - Lazy Housewife",
         "scientific_name": "Phaseolus vulgaris",
         "family": "Fabaceae",
-        "summary": "Climbing bean with stringless young pods, grown on a sturdy support.",
         "created_at": "2026-10-02T00:18:24.940194+00:00",
         "yield_qty": null,
-        "in_row_spacing_cm": 20,
         "row_spacing_cm": 100,
         "succession_interval_days": 21,
         "harvest_window_weeks": null,
         "soil_ph_min": 6,
         "soil_ph_max": 7,
-        "yield_wording": "The supplier gives about 80 days to first harvest. Pick young pods regularly for a continuing crop; no reliable kilogram yield per plant is verified.",
         "yield_unit": null,
-        "management_notes": "Protect seedlings from slugs and snails. Water the soil rather than foliage. Nitrogen fixation depends on compatible soil bacteria and does not guarantee feeding nearby crops.",
-        "care_notes": "Sydney / warm-temperate guidance. Install a trellis before sowing. Space plants 20 cm apart in rows 100 cm apart. Keep moist after emergence without waterlogging; avoid excessive nitrogen. Planning estimates: in row spacing cm, succession interval days, water needs.",
-        "uses_notes": "Harvest tender green pods for cooking. Let selected pods mature fully only if saving seed or harvesting dry beans; cook mature beans thoroughly.",
-        "sowing_notes": "Sydney / warm temperate: direct sow September–January after frost, 2–3 cm deep. A 21-day repeat sowing is an optional planning interval within that season, interpreting guidance to sow every few weeks.",
         "source_url": "https://www.edenseeds.com.au/Product-Info-Seeds?product=bean-climbing-lazy-wife",
         "notion_url": null,
-        "feeder_type": "nitrogen fixer",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "vine",
         "part_used": "fruit",
-        "rotation_group_id": 4,
-        "estimated_fields": "[\"in_row_spacing_cm\", \"succession_interval_days\", \"water_needs\"]",
         "plant_group": "Bean",
         "plant_category": "vegetables",
-        "variety_name": "Lazy Housewife"
+        "variety_name": "Lazy Housewife",
+        "id": 37,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 20,
+        "feeder_type": "nitrogen fixer",
+        "summary": "Climbing bean with stringless young pods, grown on a sturdy support.",
+        "sowing_notes": "Sydney / warm temperate: direct sow September–January after frost, 2–3 cm deep. A 21-day repeat sowing is an optional planning interval within that season, interpreting guidance to sow every few weeks.",
+        "care_notes": "Sydney / warm-temperate guidance. Install a trellis before sowing. Space plants 20 cm apart in rows 100 cm apart. Keep moist after emergence without waterlogging; avoid excessive nitrogen. Planning estimates: in row spacing cm, succession interval days, water needs.",
+        "management_notes": "Protect seedlings from slugs and snails. Water the soil rather than foliage. Nitrogen fixation depends on compatible soil bacteria and does not guarantee feeding nearby crops.",
+        "yield_wording": "The supplier gives about 80 days to first harvest. Pick young pods regularly for a continuing crop; no reliable kilogram yield per plant is verified.",
+        "uses_notes": "Harvest tender green pods for cooking. Let selected pods mature fully only if saving seed or harvesting dry beans; cook mature beans thoroughly.",
+        "estimated_fields": "[\"in_row_spacing_cm\", \"succession_interval_days\", \"water_needs\"]",
+        "rotation_group_id": 4
       },
       {
-        "id": 38,
         "slug": "bean-scarlet-runner",
         "common_name": "Bean - Scarlet Runner",
         "scientific_name": "Phaseolus coccineus",
         "family": "Fabaceae",
-        "summary": "Climbing bean with scarlet flowers and long pods; can regrow from perennial roots in suitable conditions.",
         "created_at": "2026-10-02T00:18:24.940201+00:00",
         "yield_qty": null,
-        "in_row_spacing_cm": 20,
         "row_spacing_cm": 100,
         "succession_interval_days": null,
         "harvest_window_weeks": 8,
         "soil_ph_min": 6,
         "soil_ph_max": 7,
-        "yield_wording": "Pick tender pods every few days. Eight weeks is a general runner-bean harvest-window baseline, not a Sydney yield guarantee. Perennial roots may regrow in suitable conditions.",
         "yield_unit": null,
-        "management_notes": "Watch for aphids, slugs and snails. Keep roots moist through flowering. Nitrogen fixation relies on soil bacteria; flowering plants may still need potassium, especially in pots.",
-        "care_notes": "Sydney / warm-temperate guidance. Provide a strong support and moist, compost-rich soil. The 20 cm plant / 100 cm row spacing and pH 6–7 are general climbing-bean planning targets, not cultivar measurements. Planning estimates: in row spacing cm, row spacing cm, soil ph min, soil ph max, harvest window weeks, water needs.",
-        "uses_notes": "Grow for scarlet flowers and edible pods. Cook beans before eating; harvest pods young before strings and mature seeds develop.",
-        "sowing_notes": "Sydney / warm temperate: sow November–February, interpreting the Australian supplier’s late-spring to late-summer window. Wait for warm soil; hot spells can reduce pod set.",
         "source_url": "https://www.yates.com.au/heirloom-beans-climbing-scarlet-runner/",
         "notion_url": null,
-        "feeder_type": "nitrogen fixer",
-        "water_needs": "high",
-        "sun_needs": "full sun",
         "forest_layer": "vine",
         "part_used": "fruit",
-        "rotation_group_id": 4,
-        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"soil_ph_min\", \"soil_ph_max\", \"harvest_window_weeks\", \"planting_months\", \"water_needs\"]",
         "plant_group": "Bean",
         "plant_category": "vegetables",
-        "variety_name": "Scarlet Runner"
+        "variety_name": "Scarlet Runner",
+        "id": 38,
+        "sun_needs": "full sun",
+        "water_needs": "high",
+        "in_row_spacing_cm": 20,
+        "feeder_type": "nitrogen fixer",
+        "summary": "Climbing bean with scarlet flowers and long pods; can regrow from perennial roots in suitable conditions.",
+        "sowing_notes": "Sydney / warm temperate: sow November–February, interpreting the Australian supplier’s late-spring to late-summer window. Wait for warm soil; hot spells can reduce pod set.",
+        "care_notes": "Sydney / warm-temperate guidance. Provide a strong support and moist, compost-rich soil. The 20 cm plant / 100 cm row spacing and pH 6–7 are general climbing-bean planning targets, not cultivar measurements. Planning estimates: in row spacing cm, row spacing cm, soil ph min, soil ph max, harvest window weeks, water needs.",
+        "management_notes": "Watch for aphids, slugs and snails. Keep roots moist through flowering. Nitrogen fixation relies on soil bacteria; flowering plants may still need potassium, especially in pots.",
+        "yield_wording": "Pick tender pods every few days. Eight weeks is a general runner-bean harvest-window baseline, not a Sydney yield guarantee. Perennial roots may regrow in suitable conditions.",
+        "uses_notes": "Grow for scarlet flowers and edible pods. Cook beans before eating; harvest pods young before strings and mature seeds develop.",
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"soil_ph_min\", \"soil_ph_max\", \"harvest_window_weeks\", \"planting_months\", \"water_needs\"]",
+        "rotation_group_id": 4
       },
       {
-        "id": 39,
         "slug": "tomato-sweet-1000",
         "common_name": "Tomato - Sweet 1000",
         "scientific_name": "Solanum lycopersicum",
         "family": "Solanaceae",
-        "summary": "Tomato recorded as Sweet 1000. The cultivar name is listed by a supplier; the growing guidance here is for tomatoes generally until the seed-packet identity is confirmed.",
         "created_at": "2026-10-02T00:18:24.940207+00:00",
         "yield_qty": null,
-        "in_row_spacing_cm": 90,
         "row_spacing_cm": 150,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 5.5,
         "soil_ph_max": 7,
-        "yield_wording": "Pick ripe fruit as it develops. Generic tomato guidance suggests about 65–90 days from transplanting to first harvest, but Sweet 1000 maturity, crop duration and yield remain unverified.",
         "yield_unit": null,
-        "management_notes": "Mulch, water evenly and allow airflow. Rotate away from other nightshade crops. Spacing, feeding, water, pH, layer and calendar are species-level guidance, not verified cultivar traits.",
-        "care_notes": "Sydney / warm-temperate guidance. General tomato guidance: provide full sun, steady soil moisture and support appropriate to the plant’s habit. Allow 90 cm between plants and 150 cm between rows as a roomy planning layout. Planning estimates: in row spacing cm, row spacing cm, soil ph min, soil ph max, feeder type, water needs, sun needs, forest layer.",
-        "uses_notes": "Use ripe tomato fruit fresh or cooked. The record is kept separate from Sweet 100 and Sweet Million; fruit size and flavour are not assumed.",
-        "sowing_notes": "Sydney / warm temperate: sow August–December using general tomato guidance from Eden’s mild-climate calendar. Start early sowings under protection and transplant after frost risk. Not a verified Sweet 1000 calendar.",
         "source_url": "https://www.hrseeds.com/pepper-and-tomato-seed-list",
         "notion_url": null,
-        "feeder_type": "heavy feeder",
-        "water_needs": "moderate",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "fruit",
-        "rotation_group_id": 6,
-        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"soil_ph_min\", \"soil_ph_max\", \"feeder_type\", \"water_needs\", \"sun_needs\", \"forest_layer\", \"planting_months\"]",
         "plant_group": "Tomato",
         "plant_category": "vegetables",
-        "variety_name": "Sweet 1000"
+        "variety_name": "Sweet 1000",
+        "id": 39,
+        "sun_needs": "full sun",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": 90,
+        "feeder_type": "heavy feeder",
+        "summary": "Tomato recorded as Sweet 1000. The cultivar name is listed by a supplier; the growing guidance here is for tomatoes generally until the seed-packet identity is confirmed.",
+        "sowing_notes": "Sydney / warm temperate: sow August–December using general tomato guidance from Eden’s mild-climate calendar. Start early sowings under protection and transplant after frost risk. Not a verified Sweet 1000 calendar.",
+        "care_notes": "Sydney / warm-temperate guidance. General tomato guidance: provide full sun, steady soil moisture and support appropriate to the plant’s habit. Allow 90 cm between plants and 150 cm between rows as a roomy planning layout. Planning estimates: in row spacing cm, row spacing cm, soil ph min, soil ph max, feeder type, water needs, sun needs, forest layer.",
+        "management_notes": "Mulch, water evenly and allow airflow. Rotate away from other nightshade crops. Spacing, feeding, water, pH, layer and calendar are species-level guidance, not verified cultivar traits.",
+        "yield_wording": "Pick ripe fruit as it develops. Generic tomato guidance suggests about 65–90 days from transplanting to first harvest, but Sweet 1000 maturity, crop duration and yield remain unverified.",
+        "uses_notes": "Use ripe tomato fruit fresh or cooked. The record is kept separate from Sweet 100 and Sweet Million; fruit size and flavour are not assumed.",
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"soil_ph_min\", \"soil_ph_max\", \"feeder_type\", \"water_needs\", \"sun_needs\", \"forest_layer\", \"planting_months\"]",
+        "rotation_group_id": 6
       },
       {
-        "id": 40,
         "slug": "vietnamese-mint",
         "common_name": "Vietnamese Mint",
         "scientific_name": "Persicaria odorata",
         "family": "Polygonaceae",
-        "summary": "Spreading perennial herb also called Vietnamese coriander or rau ram, with aromatic leaves used in cooking.",
         "created_at": "2026-10-02T00:18:24.940212+00:00",
         "yield_qty": null,
-        "in_row_spacing_cm": 45,
         "row_spacing_cm": 60,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": null,
         "soil_ph_max": null,
-        "yield_wording": "Snip fresh leaves and tender tips once established; allow regrowth between pickings. Repeat harvest depends on warmth and vigour, so a fixed weight or harvest duration is not assigned.",
         "yield_unit": null,
-        "management_notes": "Prevent drying out and keep spreading stems out of neighbouring pots. RHS lists acid, neutral and alkaline soils without a numeric range, so exact pH limits are not invented. Water/feed badges are qualitative.",
-        "care_notes": "Sydney / warm-temperate guidance. Use a warm, sheltered position with dappled shade and fertile, consistently moist soil. Keep in a container to manage spreading stems. A 45 cm plant / 60 cm row layout is a provisional space allowance. Planning estimates: in row spacing cm, row spacing cm, feeder type, water needs.",
-        "uses_notes": "Use small amounts of fresh peppery leaves in salads, rice-paper rolls and Vietnamese dishes. This is Persicaria odorata, not a Mentha mint.",
-        "sowing_notes": "Sydney / warm temperate: plant rooted cuttings September–February, translating the Australian nursery’s spring/summer propagation guidance. Protect from cold.",
         "source_url": "https://www.herbcottage.com.au/products/vietnamese-mint",
         "notion_url": null,
-        "feeder_type": "light feeder",
-        "water_needs": "high",
-        "sun_needs": "part shade",
         "forest_layer": "groundcover",
         "part_used": "leaf",
-        "rotation_group_id": 8,
-        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"feeder_type\", \"water_needs\", \"planting_months\"]",
         "plant_group": "Vietnamese Mint",
         "plant_category": "herbs",
-        "variety_name": null
+        "variety_name": null,
+        "id": 40,
+        "sun_needs": "part shade",
+        "water_needs": "high",
+        "in_row_spacing_cm": 45,
+        "feeder_type": "light feeder",
+        "summary": "Spreading perennial herb also called Vietnamese coriander or rau ram, with aromatic leaves used in cooking.",
+        "sowing_notes": "Sydney / warm temperate: plant rooted cuttings September–February, translating the Australian nursery’s spring/summer propagation guidance. Protect from cold.",
+        "care_notes": "Sydney / warm-temperate guidance. Use a warm, sheltered position with dappled shade and fertile, consistently moist soil. Keep in a container to manage spreading stems. A 45 cm plant / 60 cm row layout is a provisional space allowance. Planning estimates: in row spacing cm, row spacing cm, feeder type, water needs.",
+        "management_notes": "Prevent drying out and keep spreading stems out of neighbouring pots. RHS lists acid, neutral and alkaline soils without a numeric range, so exact pH limits are not invented. Water/feed badges are qualitative.",
+        "yield_wording": "Snip fresh leaves and tender tips once established; allow regrowth between pickings. Repeat harvest depends on warmth and vigour, so a fixed weight or harvest duration is not assigned.",
+        "uses_notes": "Use small amounts of fresh peppery leaves in salads, rice-paper rolls and Vietnamese dishes. This is Persicaria odorata, not a Mentha mint.",
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"feeder_type\", \"water_needs\", \"planting_months\"]",
+        "rotation_group_id": 8
       },
       {
-        "id": 41,
         "slug": "chocolate-mint",
         "common_name": "Chocolate Mint",
         "scientific_name": "Mentha × piperita f. citrata 'Chocolate'",
         "family": "Lamiaceae",
-        "summary": "Vigorous perennial mint grown for aromatic leaves with a chocolate-mint scent.",
         "created_at": "2026-10-02T00:18:24.940229+00:00",
         "yield_qty": null,
-        "in_row_spacing_cm": 60,
         "row_spacing_cm": 65,
         "succession_interval_days": null,
         "harvest_window_weeks": null,
         "soil_ph_min": 6,
         "soil_ph_max": 7.5,
-        "yield_wording": "Harvest established shoot tips regularly for regrowth. One contained plant can supply repeated small pickings. No measured per-plant yield or fixed harvest duration is available.",
         "yield_unit": null,
-        "management_notes": "Keep runners contained and avoid overhead watering late in the day. Check for rust and remove affected foliage. pH 6–7.5 is a general herb target, not a measured Chocolate cultivar tolerance.",
-        "care_notes": "Sydney / warm-temperate guidance. Grow in sun or light shade with moist, drained soil. Keep in a pot or root barrier. Allow 60 cm per plant and 65 cm between rows as a contained-bed planning layout; uncontained roots spread farther. Planning estimates: in row spacing cm, row spacing cm, soil ph min, soil ph max, feeder type, water needs.",
-        "uses_notes": "Use aromatic leaves in teas, desserts and drinks, fresh or dried. Pinching tips encourages a bushier plant.",
-        "sowing_notes": "Sydney / warm temperate: divide or plant September–November or March–April. These months translate spring/early-autumn propagation advice to local seasons. Use divisions or cuttings to retain the cultivar.",
         "source_url": "https://www.herbcottage.com.au/products/chocolate-mint",
         "notion_url": null,
-        "feeder_type": "light feeder",
-        "water_needs": "high",
-        "sun_needs": "full sun",
         "forest_layer": "herbaceous",
         "part_used": "leaf",
-        "rotation_group_id": 8,
-        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"soil_ph_min\", \"soil_ph_max\", \"feeder_type\", \"water_needs\", \"planting_months\"]",
         "plant_group": "Chocolate Mint",
         "plant_category": "herbs",
-        "variety_name": "Chocolate"
+        "variety_name": "Chocolate",
+        "id": 41,
+        "sun_needs": "full sun",
+        "water_needs": "high",
+        "in_row_spacing_cm": 60,
+        "feeder_type": "light feeder",
+        "summary": "Vigorous perennial mint grown for aromatic leaves with a chocolate-mint scent.",
+        "sowing_notes": "Sydney / warm temperate: divide or plant September–November or March–April. These months translate spring/early-autumn propagation advice to local seasons. Use divisions or cuttings to retain the cultivar.",
+        "care_notes": "Sydney / warm-temperate guidance. Grow in sun or light shade with moist, drained soil. Keep in a pot or root barrier. Allow 60 cm per plant and 65 cm between rows as a contained-bed planning layout; uncontained roots spread farther. Planning estimates: in row spacing cm, row spacing cm, soil ph min, soil ph max, feeder type, water needs.",
+        "management_notes": "Keep runners contained and avoid overhead watering late in the day. Check for rust and remove affected foliage. pH 6–7.5 is a general herb target, not a measured Chocolate cultivar tolerance.",
+        "yield_wording": "Harvest established shoot tips regularly for regrowth. One contained plant can supply repeated small pickings. No measured per-plant yield or fixed harvest duration is available.",
+        "uses_notes": "Use aromatic leaves in teas, desserts and drinks, fresh or dried. Pinching tips encourages a bushier plant.",
+        "estimated_fields": "[\"in_row_spacing_cm\", \"row_spacing_cm\", \"soil_ph_min\", \"soil_ph_max\", \"feeder_type\", \"water_needs\", \"planting_months\"]",
+        "rotation_group_id": 8
       }
     ],
     "planting_months": [
       {
-        "id": 1,
+        "id": 101,
         "plant_reference_id": 1,
         "month_number": 1
       },
       {
-        "id": 2,
+        "id": 109,
         "plant_reference_id": 1,
         "month_number": 9
       },
       {
-        "id": 3,
+        "id": 110,
         "plant_reference_id": 1,
         "month_number": 10
       },
       {
-        "id": 4,
+        "id": 111,
         "plant_reference_id": 1,
         "month_number": 11
       },
       {
-        "id": 5,
+        "id": 112,
         "plant_reference_id": 1,
         "month_number": 12
       },
       {
-        "id": 6,
+        "id": 201,
         "plant_reference_id": 2,
         "month_number": 1
       },
       {
-        "id": 7,
+        "id": 202,
         "plant_reference_id": 2,
         "month_number": 2
       },
       {
-        "id": 8,
+        "id": 209,
         "plant_reference_id": 2,
         "month_number": 9
       },
       {
-        "id": 9,
+        "id": 210,
         "plant_reference_id": 2,
         "month_number": 10
       },
       {
-        "id": 10,
+        "id": 211,
         "plant_reference_id": 2,
         "month_number": 11
       },
       {
-        "id": 11,
+        "id": 212,
         "plant_reference_id": 2,
         "month_number": 12
       },
       {
-        "id": 12,
+        "id": 301,
         "plant_reference_id": 3,
         "month_number": 1
       },
       {
-        "id": 13,
+        "id": 302,
         "plant_reference_id": 3,
         "month_number": 2
       },
       {
-        "id": 14,
+        "id": 303,
         "plant_reference_id": 3,
         "month_number": 3
       },
       {
-        "id": 15,
+        "id": 304,
         "plant_reference_id": 3,
         "month_number": 4
       },
       {
-        "id": 16,
+        "id": 305,
         "plant_reference_id": 3,
         "month_number": 5
       },
       {
-        "id": 17,
+        "id": 306,
         "plant_reference_id": 3,
         "month_number": 6
       },
       {
-        "id": 18,
+        "id": 307,
         "plant_reference_id": 3,
         "month_number": 7
       },
       {
-        "id": 19,
+        "id": 308,
         "plant_reference_id": 3,
         "month_number": 8
       },
       {
-        "id": 20,
+        "id": 309,
         "plant_reference_id": 3,
         "month_number": 9
       },
       {
-        "id": 21,
+        "id": 310,
         "plant_reference_id": 3,
         "month_number": 10
       },
       {
-        "id": 22,
+        "id": 311,
         "plant_reference_id": 3,
         "month_number": 11
       },
       {
-        "id": 23,
+        "id": 312,
         "plant_reference_id": 3,
         "month_number": 12
       },
       {
-        "id": 24,
-        "plant_reference_id": 4,
-        "month_number": 1
-      },
-      {
-        "id": 25,
-        "plant_reference_id": 4,
-        "month_number": 2
-      },
-      {
-        "id": 26,
-        "plant_reference_id": 4,
-        "month_number": 3
-      },
-      {
-        "id": 27,
-        "plant_reference_id": 4,
-        "month_number": 4
-      },
-      {
-        "id": 28,
-        "plant_reference_id": 4,
-        "month_number": 8
-      },
-      {
-        "id": 29,
-        "plant_reference_id": 4,
-        "month_number": 9
-      },
-      {
-        "id": 30,
-        "plant_reference_id": 4,
-        "month_number": 10
-      },
-      {
-        "id": 31,
-        "plant_reference_id": 4,
-        "month_number": 11
-      },
-      {
-        "id": 32,
-        "plant_reference_id": 4,
-        "month_number": 12
-      },
-      {
-        "id": 33,
-        "plant_reference_id": 5,
-        "month_number": 6
-      },
-      {
-        "id": 34,
-        "plant_reference_id": 5,
-        "month_number": 7
-      },
-      {
-        "id": 35,
-        "plant_reference_id": 6,
-        "month_number": 1
-      },
-      {
-        "id": 36,
-        "plant_reference_id": 6,
-        "month_number": 8
-      },
-      {
-        "id": 37,
-        "plant_reference_id": 6,
-        "month_number": 9
-      },
-      {
-        "id": 38,
-        "plant_reference_id": 6,
-        "month_number": 10
-      },
-      {
-        "id": 39,
-        "plant_reference_id": 6,
-        "month_number": 11
-      },
-      {
-        "id": 40,
-        "plant_reference_id": 6,
-        "month_number": 12
-      },
-      {
-        "id": 41,
-        "plant_reference_id": 7,
-        "month_number": 1
-      },
-      {
-        "id": 42,
-        "plant_reference_id": 7,
-        "month_number": 9
-      },
-      {
-        "id": 43,
-        "plant_reference_id": 7,
-        "month_number": 10
-      },
-      {
-        "id": 44,
-        "plant_reference_id": 7,
-        "month_number": 11
-      },
-      {
-        "id": 45,
-        "plant_reference_id": 7,
-        "month_number": 12
-      },
-      {
-        "id": 46,
-        "plant_reference_id": 8,
-        "month_number": 1
-      },
-      {
-        "id": 47,
-        "plant_reference_id": 8,
-        "month_number": 9
-      },
-      {
-        "id": 48,
-        "plant_reference_id": 8,
-        "month_number": 10
-      },
-      {
-        "id": 49,
-        "plant_reference_id": 8,
-        "month_number": 11
-      },
-      {
-        "id": 50,
-        "plant_reference_id": 8,
-        "month_number": 12
-      },
-      {
-        "id": 51,
+        "id": 3501,
         "plant_reference_id": 35,
         "month_number": 1
       },
       {
-        "id": 52,
+        "id": 3502,
         "plant_reference_id": 35,
         "month_number": 2
       },
       {
-        "id": 53,
+        "id": 3503,
         "plant_reference_id": 35,
         "month_number": 3
       },
       {
-        "id": 54,
+        "id": 3504,
         "plant_reference_id": 35,
         "month_number": 4
       },
       {
-        "id": 55,
+        "id": 3505,
         "plant_reference_id": 35,
         "month_number": 5
       },
       {
-        "id": 56,
+        "id": 3509,
         "plant_reference_id": 35,
         "month_number": 9
       },
       {
-        "id": 57,
+        "id": 3510,
         "plant_reference_id": 35,
         "month_number": 10
       },
       {
-        "id": 58,
+        "id": 3511,
         "plant_reference_id": 35,
         "month_number": 11
       },
       {
-        "id": 59,
+        "id": 3512,
         "plant_reference_id": 35,
         "month_number": 12
       },
       {
-        "id": 60,
+        "id": 3610,
         "plant_reference_id": 36,
         "month_number": 10
       },
       {
-        "id": 61,
+        "id": 3611,
         "plant_reference_id": 36,
         "month_number": 11
       },
       {
-        "id": 62,
+        "id": 3612,
         "plant_reference_id": 36,
         "month_number": 12
       },
       {
-        "id": 63,
+        "id": 3701,
         "plant_reference_id": 37,
         "month_number": 1
       },
       {
-        "id": 64,
+        "id": 3709,
         "plant_reference_id": 37,
         "month_number": 9
       },
       {
-        "id": 65,
+        "id": 3710,
         "plant_reference_id": 37,
         "month_number": 10
       },
       {
-        "id": 66,
+        "id": 3711,
         "plant_reference_id": 37,
         "month_number": 11
       },
       {
-        "id": 67,
+        "id": 3712,
         "plant_reference_id": 37,
         "month_number": 12
       },
       {
-        "id": 68,
+        "id": 3801,
         "plant_reference_id": 38,
         "month_number": 1
       },
       {
-        "id": 69,
+        "id": 3802,
         "plant_reference_id": 38,
         "month_number": 2
       },
       {
-        "id": 70,
+        "id": 3811,
         "plant_reference_id": 38,
         "month_number": 11
       },
       {
-        "id": 71,
+        "id": 3812,
         "plant_reference_id": 38,
         "month_number": 12
       },
       {
-        "id": 72,
+        "id": 3908,
         "plant_reference_id": 39,
         "month_number": 8
       },
       {
-        "id": 73,
+        "id": 3909,
         "plant_reference_id": 39,
         "month_number": 9
       },
       {
-        "id": 74,
+        "id": 3910,
         "plant_reference_id": 39,
         "month_number": 10
       },
       {
-        "id": 75,
+        "id": 3911,
         "plant_reference_id": 39,
         "month_number": 11
       },
       {
-        "id": 76,
+        "id": 3912,
         "plant_reference_id": 39,
         "month_number": 12
       },
       {
-        "id": 77,
+        "id": 4001,
         "plant_reference_id": 40,
         "month_number": 1
       },
       {
-        "id": 78,
+        "id": 4002,
         "plant_reference_id": 40,
         "month_number": 2
       },
       {
-        "id": 79,
+        "id": 4009,
         "plant_reference_id": 40,
         "month_number": 9
       },
       {
-        "id": 80,
+        "id": 401,
+        "plant_reference_id": 4,
+        "month_number": 1
+      },
+      {
+        "id": 4010,
         "plant_reference_id": 40,
         "month_number": 10
       },
       {
-        "id": 81,
+        "id": 4011,
         "plant_reference_id": 40,
         "month_number": 11
       },
       {
-        "id": 82,
+        "id": 4012,
         "plant_reference_id": 40,
         "month_number": 12
       },
       {
-        "id": 83,
+        "id": 402,
+        "plant_reference_id": 4,
+        "month_number": 2
+      },
+      {
+        "id": 403,
+        "plant_reference_id": 4,
+        "month_number": 3
+      },
+      {
+        "id": 404,
+        "plant_reference_id": 4,
+        "month_number": 4
+      },
+      {
+        "id": 408,
+        "plant_reference_id": 4,
+        "month_number": 8
+      },
+      {
+        "id": 409,
+        "plant_reference_id": 4,
+        "month_number": 9
+      },
+      {
+        "id": 410,
+        "plant_reference_id": 4,
+        "month_number": 10
+      },
+      {
+        "id": 4103,
         "plant_reference_id": 41,
         "month_number": 3
       },
       {
-        "id": 84,
+        "id": 4104,
         "plant_reference_id": 41,
         "month_number": 4
       },
       {
-        "id": 85,
+        "id": 4109,
         "plant_reference_id": 41,
         "month_number": 9
       },
       {
-        "id": 86,
+        "id": 411,
+        "plant_reference_id": 4,
+        "month_number": 11
+      },
+      {
+        "id": 4110,
         "plant_reference_id": 41,
         "month_number": 10
       },
       {
-        "id": 87,
+        "id": 4111,
         "plant_reference_id": 41,
         "month_number": 11
+      },
+      {
+        "id": 412,
+        "plant_reference_id": 4,
+        "month_number": 12
+      },
+      {
+        "id": 506,
+        "plant_reference_id": 5,
+        "month_number": 6
+      },
+      {
+        "id": 507,
+        "plant_reference_id": 5,
+        "month_number": 7
+      },
+      {
+        "id": 601,
+        "plant_reference_id": 6,
+        "month_number": 1
+      },
+      {
+        "id": 608,
+        "plant_reference_id": 6,
+        "month_number": 8
+      },
+      {
+        "id": 609,
+        "plant_reference_id": 6,
+        "month_number": 9
+      },
+      {
+        "id": 610,
+        "plant_reference_id": 6,
+        "month_number": 10
+      },
+      {
+        "id": 611,
+        "plant_reference_id": 6,
+        "month_number": 11
+      },
+      {
+        "id": 612,
+        "plant_reference_id": 6,
+        "month_number": 12
+      },
+      {
+        "id": 701,
+        "plant_reference_id": 7,
+        "month_number": 1
+      },
+      {
+        "id": 709,
+        "plant_reference_id": 7,
+        "month_number": 9
+      },
+      {
+        "id": 710,
+        "plant_reference_id": 7,
+        "month_number": 10
+      },
+      {
+        "id": 711,
+        "plant_reference_id": 7,
+        "month_number": 11
+      },
+      {
+        "id": 712,
+        "plant_reference_id": 7,
+        "month_number": 12
+      },
+      {
+        "id": 801,
+        "plant_reference_id": 8,
+        "month_number": 1
+      },
+      {
+        "id": 809,
+        "plant_reference_id": 8,
+        "month_number": 9
+      },
+      {
+        "id": 810,
+        "plant_reference_id": 8,
+        "month_number": 10
+      },
+      {
+        "id": 811,
+        "plant_reference_id": 8,
+        "month_number": 11
+      },
+      {
+        "id": 812,
+        "plant_reference_id": 8,
+        "month_number": 12
       }
     ],
     "plant_images": [
@@ -1909,6 +1909,16 @@
         "filename": "07-lebanese-cucumber.jpg"
       },
       {
+        "id": 8,
+        "plant_reference_id": 8,
+        "filename": "08-telegraph-improved-cucumber.jpg"
+      },
+      {
+        "id": 9,
+        "plant_reference_id": 9,
+        "filename": "09-alyssum.jpg"
+      },
+      {
         "id": 10,
         "plant_reference_id": 10,
         "filename": "10-basil-genovese.jpg"
@@ -1919,14 +1929,59 @@
         "filename": "11-bergamot-lemon-mint.jpg"
       },
       {
+        "id": 12,
+        "plant_reference_id": 12,
+        "filename": "12-broccoli-purple-sprouting.jpg"
+      },
+      {
+        "id": 13,
+        "plant_reference_id": 13,
+        "filename": "13-bunching-onion-winter-ishikura.jpg"
+      },
+      {
+        "id": 14,
+        "plant_reference_id": 14,
+        "filename": "14-carrot-cosmic-purple.jpg"
+      },
+      {
+        "id": 15,
+        "plant_reference_id": 15,
+        "filename": "15-carrot-nantes.jpg"
+      },
+      {
         "id": 16,
         "plant_reference_id": 16,
         "filename": "16-carrot-solar-yellow.jpg"
       },
       {
+        "id": 17,
+        "plant_reference_id": 17,
+        "filename": "17-eggplant-casper.jpg"
+      },
+      {
+        "id": 18,
+        "plant_reference_id": 18,
+        "filename": "18-eggplant-tsakoniki.jpg"
+      },
+      {
+        "id": 19,
+        "plant_reference_id": 19,
+        "filename": "19-grass-jelly.jpg"
+      },
+      {
         "id": 20,
         "plant_reference_id": 20,
         "filename": "20-horseradish.jpg"
+      },
+      {
+        "id": 21,
+        "plant_reference_id": 21,
+        "filename": "21-hyssop.jpg"
+      },
+      {
+        "id": 22,
+        "plant_reference_id": 22,
+        "filename": "22-japanese-raisin-tree.jpg"
       },
       {
         "id": 23,
@@ -1947,6 +2002,16 @@
         "id": 26,
         "plant_reference_id": 26,
         "filename": "26-pea-greenfeast.jpg"
+      },
+      {
+        "id": 27,
+        "plant_reference_id": 27,
+        "filename": "27-pea-oregon-dwarf.jpg"
+      },
+      {
+        "id": 28,
+        "plant_reference_id": 28,
+        "filename": "28-radish-french-breakfast.jpg"
       },
       {
         "id": 29,
@@ -1980,123 +2045,42 @@
       },
       {
         "id": 35,
-        "plant_reference_id": 8,
-        "filename": "08-telegraph-improved-cucumber.jpg"
-      },
-      {
-        "id": 36,
-        "plant_reference_id": 9,
-        "filename": "09-alyssum.jpg"
-      },
-      {
-        "id": 37,
-        "plant_reference_id": 12,
-        "filename": "12-broccoli-purple-sprouting.jpg"
-      },
-      {
-        "id": 38,
-        "plant_reference_id": 13,
-        "filename": "13-bunching-onion-winter-ishikura.jpg"
-      },
-      {
-        "id": 39,
-        "plant_reference_id": 14,
-        "filename": "14-carrot-cosmic-purple.jpg"
-      },
-      {
-        "id": 40,
-        "plant_reference_id": 15,
-        "filename": "15-carrot-nantes.jpg"
-      },
-      {
-        "id": 41,
-        "plant_reference_id": 17,
-        "filename": "17-eggplant-casper.jpg"
-      },
-      {
-        "id": 42,
-        "plant_reference_id": 18,
-        "filename": "18-eggplant-tsakoniki.jpg"
-      },
-      {
-        "id": 43,
-        "plant_reference_id": 19,
-        "filename": "19-grass-jelly.jpg"
-      },
-      {
-        "id": 44,
-        "plant_reference_id": 21,
-        "filename": "21-hyssop.jpg"
-      },
-      {
-        "id": 45,
-        "plant_reference_id": 22,
-        "filename": "22-japanese-raisin-tree.jpg"
-      },
-      {
-        "id": 46,
-        "plant_reference_id": 27,
-        "filename": "27-pea-oregon-dwarf.jpg"
-      },
-      {
-        "id": 47,
-        "plant_reference_id": 28,
-        "filename": "28-radish-french-breakfast.jpg"
-      },
-      {
-        "id": 48,
         "plant_reference_id": 35,
         "filename": "35-parsley.jpg"
       },
       {
-        "id": 49,
+        "id": 36,
         "plant_reference_id": 36,
         "filename": "36-okra.jpg"
       },
       {
-        "id": 50,
+        "id": 37,
         "plant_reference_id": 37,
         "filename": "37-bean-lazy-housewife.jpg"
       },
       {
-        "id": 51,
+        "id": 38,
         "plant_reference_id": 38,
         "filename": "38-bean-scarlet-runner.jpg"
       },
       {
-        "id": 52,
+        "id": 39,
         "plant_reference_id": 39,
         "filename": "39-tomato-sweet-1000.jpg"
       },
       {
-        "id": 53,
+        "id": 40,
         "plant_reference_id": 40,
         "filename": "40-vietnamese-mint.jpg"
       },
       {
-        "id": 54,
+        "id": 41,
         "plant_reference_id": 41,
         "filename": "41-chocolate-mint.jpg"
       }
     ],
     "plant_pests": [
       {
-        "plant_id": 3,
-        "tag_id": 1
-      },
-      {
-        "plant_id": 3,
-        "tag_id": 2
-      },
-      {
-        "plant_id": 9,
-        "tag_id": 1
-      },
-      {
-        "plant_id": 9,
-        "tag_id": 2
-      },
-      {
         "plant_id": 10,
         "tag_id": 1
       },
@@ -2254,6 +2238,14 @@
       },
       {
         "plant_id": 29,
+        "tag_id": 2
+      },
+      {
+        "plant_id": 3,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 3,
         "tag_id": 2
       },
       {
@@ -2311,6 +2303,14 @@
       {
         "plant_id": 38,
         "tag_id": 2
+      },
+      {
+        "plant_id": 9,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 9,
+        "tag_id": 2
       }
     ],
     "plant_diseases": [
@@ -2332,10 +2332,6 @@
       }
     ],
     "plant_function_tags": [
-      {
-        "plant_id": 9,
-        "tag_id": 3
-      },
       {
         "plant_id": 11,
         "tag_id": 3
@@ -2367,17 +2363,13 @@
       {
         "plant_id": 38,
         "tag_id": 1
-      }
-    ],
-    "plant_uses": [
-      {
-        "plant_id": 3,
-        "tag_id": 1
       },
       {
         "plant_id": 9,
-        "tag_id": 6
-      },
+        "tag_id": 3
+      }
+    ],
+    "plant_uses": [
       {
         "plant_id": 10,
         "tag_id": 1
@@ -2460,6 +2452,10 @@
       },
       {
         "plant_id": 29,
+        "tag_id": 1
+      },
+      {
+        "plant_id": 3,
         "tag_id": 1
       },
       {
@@ -2499,6 +2495,10 @@
         "tag_id": 1
       },
       {
+        "plant_id": 38,
+        "tag_id": 6
+      },
+      {
         "plant_id": 39,
         "tag_id": 1
       },
@@ -2511,7 +2511,7 @@
         "tag_id": 1
       },
       {
-        "plant_id": 38,
+        "plant_id": 9,
         "tag_id": 6
       }
     ],
@@ -2523,52 +2523,220 @@
         "notes": "Grow on the sunny side with room for both plants. Let a few basil stems flower to provide nectar for visiting insects."
       },
       {
+        "plant_id": 17,
+        "companion_id": 10,
+        "function_id": 3,
+        "notes": "Grow on the sunny side with room for both plants. Let a few basil stems flower to provide nectar for visiting insects."
+      },
+      {
+        "plant_id": 18,
+        "companion_id": 10,
+        "function_id": 3,
+        "notes": "Grow on the sunny side with room for both plants. Let a few basil stems flower to provide nectar for visiting insects."
+      },
+      {
+        "plant_id": 31,
+        "companion_id": 10,
+        "function_id": 3,
+        "notes": "Grow on the sunny side with room for both plants. Let a few basil stems flower to provide nectar for visiting insects."
+      },
+      {
+        "plant_id": 32,
+        "companion_id": 10,
+        "function_id": 3,
+        "notes": "Grow on the sunny side with room for both plants. Let a few basil stems flower to provide nectar for visiting insects."
+      },
+      {
+        "plant_id": 33,
+        "companion_id": 10,
+        "function_id": 3,
+        "notes": "Grow on the sunny side with room for both plants. Let a few basil stems flower to provide nectar for visiting insects."
+      },
+      {
+        "plant_id": 21,
+        "companion_id": 11,
+        "function_id": 3,
+        "notes": "Add flowers for bees in a sunny border. Allow airflow and keep the taller stems from shading shorter plants."
+      },
+      {
+        "plant_id": 25,
+        "companion_id": 11,
+        "function_id": 3,
+        "notes": "Add flowers for bees in a sunny border. Allow airflow and keep the taller stems from shading shorter plants."
+      },
+      {
+        "plant_id": 30,
+        "companion_id": 11,
+        "function_id": 3,
+        "notes": "Add flowers for bees in a sunny border. Allow airflow and keep the taller stems from shading shorter plants."
+      },
+      {
+        "plant_id": 34,
+        "companion_id": 11,
+        "function_id": 3,
+        "notes": "Add flowers for bees in a sunny border. Allow airflow and keep the taller stems from shading shorter plants."
+      },
+      {
+        "plant_id": 9,
+        "companion_id": 11,
+        "function_id": 3,
+        "notes": "Add flowers for bees in a sunny border. Allow airflow and keep the taller stems from shading shorter plants."
+      },
+      {
+        "plant_id": 20,
+        "companion_id": 21,
+        "function_id": 3,
+        "notes": "Use this flowering herb along a sunny border for bees. Keep its permanent woody base outside the vegetable bed so it will not compete with small crops."
+      },
+      {
+        "plant_id": 22,
+        "companion_id": 21,
+        "function_id": 3,
+        "notes": "Use this flowering herb along a sunny border for bees. Keep its permanent woody base outside the vegetable bed so it will not compete with small crops."
+      },
+      {
+        "plant_id": 29,
+        "companion_id": 21,
+        "function_id": 3,
+        "notes": "Use this flowering herb along a sunny border for bees. Keep its permanent woody base outside the vegetable bed so it will not compete with small crops."
+      },
+      {
         "plant_id": 1,
         "companion_id": 25,
         "function_id": 3,
         "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
       },
       {
-        "plant_id": 2,
-        "companion_id": 9,
+        "plant_id": 10,
+        "companion_id": 25,
         "function_id": 3,
-        "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 12,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 13,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 14,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 15,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 16,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 17,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 18,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
       },
       {
         "plant_id": 2,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 23,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 26,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 27,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 28,
         "companion_id": 25,
         "function_id": 3,
         "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
       },
       {
         "plant_id": 3,
-        "companion_id": 9,
+        "companion_id": 25,
         "function_id": 3,
-        "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
       },
       {
-        "plant_id": 3,
+        "plant_id": 31,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 32,
+        "companion_id": 25,
+        "function_id": 3,
+        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+      },
+      {
+        "plant_id": 33,
         "companion_id": 25,
         "function_id": 3,
         "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
       },
       {
         "plant_id": 4,
-        "companion_id": 9,
-        "function_id": 3,
-        "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
-      },
-      {
-        "plant_id": 4,
         "companion_id": 25,
         "function_id": 3,
         "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
       },
       {
-        "plant_id": 9,
-        "companion_id": 11,
+        "plant_id": 11,
+        "companion_id": 34,
         "function_id": 3,
-        "notes": "Add flowers for bees in a sunny border. Allow airflow and keep the taller stems from shading shorter plants."
+        "notes": "Plant on a sunny outer edge for flowers that visiting insects can use. Choose a position that will not shade the crop."
+      },
+      {
+        "plant_id": 21,
+        "companion_id": 34,
+        "function_id": 3,
+        "notes": "Plant on a sunny outer edge for flowers that visiting insects can use. Choose a position that will not shade the crop."
+      },
+      {
+        "plant_id": 25,
+        "companion_id": 34,
+        "function_id": 3,
+        "notes": "Plant on a sunny outer edge for flowers that visiting insects can use. Choose a position that will not shade the crop."
+      },
+      {
+        "plant_id": 30,
+        "companion_id": 34,
+        "function_id": 3,
+        "notes": "Plant on a sunny outer edge for flowers that visiting insects can use. Choose a position that will not shade the crop."
       },
       {
         "plant_id": 9,
@@ -2583,22 +2751,10 @@
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
-        "plant_id": 10,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
-      },
-      {
         "plant_id": 11,
         "companion_id": 9,
         "function_id": 3,
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
-      },
-      {
-        "plant_id": 11,
-        "companion_id": 34,
-        "function_id": 3,
-        "notes": "Plant on a sunny outer edge for flowers that visiting insects can use. Choose a position that will not shade the crop."
       },
       {
         "plant_id": 12,
@@ -2607,22 +2763,10 @@
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
-        "plant_id": 12,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
-      },
-      {
         "plant_id": 13,
         "companion_id": 9,
         "function_id": 3,
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
-      },
-      {
-        "plant_id": 13,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
       },
       {
         "plant_id": 14,
@@ -2631,22 +2775,10 @@
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
-        "plant_id": 14,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
-      },
-      {
         "plant_id": 15,
         "companion_id": 9,
         "function_id": 3,
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
-      },
-      {
-        "plant_id": 15,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
       },
       {
         "plant_id": 16,
@@ -2655,34 +2787,10 @@
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
-        "plant_id": 16,
-        "companion_id": 25,
+        "plant_id": 2,
+        "companion_id": 9,
         "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
-      },
-      {
-        "plant_id": 17,
-        "companion_id": 10,
-        "function_id": 3,
-        "notes": "Grow on the sunny side with room for both plants. Let a few basil stems flower to provide nectar for visiting insects."
-      },
-      {
-        "plant_id": 17,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
-      },
-      {
-        "plant_id": 18,
-        "companion_id": 10,
-        "function_id": 3,
-        "notes": "Grow on the sunny side with room for both plants. Let a few basil stems flower to provide nectar for visiting insects."
-      },
-      {
-        "plant_id": 18,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+        "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
         "plant_id": 20,
@@ -2691,28 +2799,10 @@
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
-        "plant_id": 20,
-        "companion_id": 21,
-        "function_id": 3,
-        "notes": "Use this flowering herb along a sunny border for bees. Keep its permanent woody base outside the vegetable bed so it will not compete with small crops."
-      },
-      {
         "plant_id": 21,
         "companion_id": 9,
         "function_id": 3,
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
-      },
-      {
-        "plant_id": 21,
-        "companion_id": 11,
-        "function_id": 3,
-        "notes": "Add flowers for bees in a sunny border. Allow airflow and keep the taller stems from shading shorter plants."
-      },
-      {
-        "plant_id": 21,
-        "companion_id": 34,
-        "function_id": 3,
-        "notes": "Plant on a sunny outer edge for flowers that visiting insects can use. Choose a position that will not shade the crop."
       },
       {
         "plant_id": 22,
@@ -2721,40 +2811,16 @@
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
-        "plant_id": 22,
-        "companion_id": 21,
-        "function_id": 3,
-        "notes": "Use this flowering herb along a sunny border for bees. Keep its permanent woody base outside the vegetable bed so it will not compete with small crops."
-      },
-      {
         "plant_id": 23,
         "companion_id": 9,
         "function_id": 3,
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
-        "plant_id": 23,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
-      },
-      {
         "plant_id": 25,
         "companion_id": 9,
         "function_id": 3,
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
-      },
-      {
-        "plant_id": 25,
-        "companion_id": 11,
-        "function_id": 3,
-        "notes": "Add flowers for bees in a sunny border. Allow airflow and keep the taller stems from shading shorter plants."
-      },
-      {
-        "plant_id": 25,
-        "companion_id": 34,
-        "function_id": 3,
-        "notes": "Plant on a sunny outer edge for flowers that visiting insects can use. Choose a position that will not shade the crop."
       },
       {
         "plant_id": 26,
@@ -2763,22 +2829,10 @@
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
-        "plant_id": 26,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
-      },
-      {
         "plant_id": 27,
         "companion_id": 9,
         "function_id": 3,
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
-      },
-      {
-        "plant_id": 27,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
       },
       {
         "plant_id": 28,
@@ -2787,76 +2841,22 @@
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
-        "plant_id": 28,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
-      },
-      {
         "plant_id": 29,
         "companion_id": 9,
         "function_id": 3,
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
-        "plant_id": 29,
-        "companion_id": 21,
-        "function_id": 3,
-        "notes": "Use this flowering herb along a sunny border for bees. Keep its permanent woody base outside the vegetable bed so it will not compete with small crops."
-      },
-      {
-        "plant_id": 30,
+        "plant_id": 3,
         "companion_id": 9,
         "function_id": 3,
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
         "plant_id": 30,
-        "companion_id": 11,
+        "companion_id": 9,
         "function_id": 3,
-        "notes": "Add flowers for bees in a sunny border. Allow airflow and keep the taller stems from shading shorter plants."
-      },
-      {
-        "plant_id": 30,
-        "companion_id": 34,
-        "function_id": 3,
-        "notes": "Plant on a sunny outer edge for flowers that visiting insects can use. Choose a position that will not shade the crop."
-      },
-      {
-        "plant_id": 31,
-        "companion_id": 10,
-        "function_id": 3,
-        "notes": "Grow on the sunny side with room for both plants. Let a few basil stems flower to provide nectar for visiting insects."
-      },
-      {
-        "plant_id": 31,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
-      },
-      {
-        "plant_id": 32,
-        "companion_id": 10,
-        "function_id": 3,
-        "notes": "Grow on the sunny side with room for both plants. Let a few basil stems flower to provide nectar for visiting insects."
-      },
-      {
-        "plant_id": 32,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
-      },
-      {
-        "plant_id": 33,
-        "companion_id": 10,
-        "function_id": 3,
-        "notes": "Grow on the sunny side with room for both plants. Let a few basil stems flower to provide nectar for visiting insects."
-      },
-      {
-        "plant_id": 33,
-        "companion_id": 25,
-        "function_id": 3,
-        "notes": "Add a sunny flowering border for insect habitat. Leave enough space between the flowers and the crop for light and airflow."
+        "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
         "plant_id": 34,
@@ -2865,10 +2865,10 @@
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       },
       {
-        "plant_id": 34,
-        "companion_id": 11,
+        "plant_id": 4,
+        "companion_id": 9,
         "function_id": 3,
-        "notes": "Add flowers for bees in a sunny border. Allow airflow and keep the taller stems from shading shorter plants."
+        "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
       }
     ]
   },
@@ -2883,6 +2883,6 @@
       40,
       41
     ],
-    "details": "See each sowing_notes field and localdata/plant-growing-sources.json. Earlier records retain their original calendar context."
+    "details": "Plant Markdown sowing notes are authoritative. Earlier records retain their original calendar context."
   }
 }
