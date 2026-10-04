@@ -549,6 +549,21 @@
       "plant_reference_id": 41,
       "plant": "Chocolate Mint",
       "matched_query": "Manually reviewed Commons image; see caption for cultivar limits"
+    },
+    {
+      "plant_reference_id": 42,
+      "plant": "Radish - Chinese Green Qingluobo",
+      "filename": "42-radish-chinese-green-qingluobo.jpg",
+      "matched_query": "Chinese green radish",
+      "commons_title": "File:Green radish.jpg",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Green_radish.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Green_radish.jpg",
+      "creator": "Fumikas Sagisavas",
+      "credit": "Own work",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "representative": true,
+      "notes": "Chinese green radish; exact Qingluobo cultivar not verified."
     }
   ]
 }
