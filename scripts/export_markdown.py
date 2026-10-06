@@ -73,6 +73,38 @@ def as_list(props,key):
     return value
 
 
+def compile_ailments(root):
+    """Additive public guides; legacy pest/disease tables keep their IDs."""
+    folders = {'Diseases': ('disease', 1000), 'Pests': ('pest', 2000),
+               'Water and environment': ('environment', 3000),
+               'Nutrient problems': ('nutrient', 4000), 'Symptoms': ('symptom', 5000)}
+    manifest = root / 'localdata/reference-image-sources.json'
+    images = json.loads(manifest.read_text())['images'] if manifest.exists() else []
+    result = []
+    for folder, (category, offset) in folders.items():
+        for path in sorted((root / 'References' / folder).glob('*.md')):
+            props, body = read_note(path)
+            if 'id' not in props:
+                raise ValueError(f'{path}: missing permanent ailment ID')
+            rid = props['id']
+            if type(rid) is not int or not 0 < rid < 1000:
+                raise ValueError(f'{path}: invalid ailment ID')
+            parts = sections(body)
+            photo = next((i for i in images if i.get('record_type') == category and i.get('record_id') == rid), None)
+            links = re.findall(r'\[\[References/([^]|]+)(?:\|[^]]+)?\]\]', parts.get('Possible causes', ''))
+            sources = [{'title': title, 'url': url} for title, url in re.findall(r'\[([^]\n]+)\]\((https?://[^)]+)\)', parts.get('Sources', ''))]
+            result.append({'id': offset + rid, 'name': props['name'], 'category': category,
+                'legacy_id': rid if category in ('pest', 'disease') else None,
+                'description': parts.get('Description') or 'An observed symptom with several possible causes; not a diagnosis.',
+                'signs': parts.get('Visible signs'), 'similar': parts.get('Similar-looking problems'),
+                'checks': parts.get('Checks to make'), 'actions': parts.get('First actions and prevention'),
+                'affected_plants': parts.get('Affected plants'), 'possible_causes': links, 'sources': sources,
+                'image': photo, 'source_note': str(path.relative_to(root))})
+    if len({x['id'] for x in result}) != len(result):
+        raise ValueError('Duplicate ailment ID')
+    return sorted(result, key=lambda x: x['id'])
+
+
 def compile_catalogue(root=ROOT,assign_ids=False):
     meta,_=read_note(root/'Catalogue.md')
     tables={}; lookups={}; source_paths=[root/'Catalogue.md']
@@ -162,6 +194,7 @@ def compile_catalogue(root=ROOT,assign_ids=False):
         if p.get('calendar_region')=='Sydney / warm temperate':regional.append(pid)
     for name,rows in tables.items():rows.sort(key=lambda r:tuple(str(r.get(k,'')) for k in sorted(r)))
     tables['plant_references'].sort(key=lambda r:r['id'])
+    tables['ailments'] = compile_ailments(root)
     payload={'snapshot_format':1,'exported_at':str(meta['catalogue_updated'])+'T00:00:00+00:00','schema_version':meta['schema_version'],'tables':tables,
              'regional_guidance':{'region':'Sydney / warm temperate','plant_ids':sorted(regional),'details':'Plant Markdown sowing notes are authoritative. Earlier records retain their original calendar context.'}}
     # Complete validation happens before any source note is changed.

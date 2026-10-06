@@ -31,7 +31,7 @@ Stage your Markdown, then commit normally: the pre-commit hook generates and sta
 
 The 0melette site fetches the snapshot from this repository’s main branch. Pushing a complete export updates its source data.
 
-PMS makes a local copy. With `LOAD_MY_GARDEN_SEED=true`, initial startup imports only into an empty catalogue. Existing databases can run `flask --app app import-my-garden` to add missing records and fill empty fields while preserving local values. It does **not** continually sync or overwrite existing non-empty fields. The pest/disease photo manifest still needs consumer UI/import support.
+PMS makes a local copy. With `LOAD_MY_GARDEN_SEED=true`, initial startup imports only into an empty catalogue. Existing databases can run `flask --app app import-my-garden` to add missing records and fill empty fields while preserving local values. It does **not** continually sync or overwrite existing non-empty fields. The additive `tables.ailments` export supplies all plant problem categories, structured checks/actions, symptom-to-cause links and credited photo metadata. Consumers keep legacy pest/disease tables for compatibility. PMS imports the guides without replacing existing local wording.
 
 Schema and database migrations stay in the PMS repository. This repo remains public reference data, not a copy of anyone’s private garden, accounts or chat history.
 

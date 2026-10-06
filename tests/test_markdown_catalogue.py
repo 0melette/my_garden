@@ -54,4 +54,16 @@ class MarkdownCatalogueTests(unittest.TestCase):
         out.write_text('{}')
         with self.assertRaisesRegex(ValueError,'stale'):export(self.root,out,check=True)
 
+    def test_additive_ailments_keep_categories_and_credits(self):
+        result=compile_catalogue(self.root)['tables']
+        self.assertEqual(len(result['ailments']),30)
+        self.assertEqual(len({g['id'] for g in result['ailments']}),30)
+        wilting=next(g for g in result['ailments'] if g['name']=='Wilting')
+        self.assertEqual(wilting['category'],'symptom')
+        self.assertIn('Water and environment/Underwatering',wilting['possible_causes'])
+        self.assertNotIn('Underwatering',[g['name'] for g in result['diseases']])
+        photo=next(g for g in result['ailments'] if g['name']=='Grey mould')['image']
+        self.assertTrue(photo['creator'])
+        self.assertTrue(photo['license_url'].startswith('https://'))
+
 if __name__=='__main__':unittest.main()
