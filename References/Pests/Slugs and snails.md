@@ -20,3 +20,19 @@ macrophile on Flickr · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
 ![[localdata/reference_images/slug.png]]
 
 Joseph Berger · [CC BY 3.0 us](https://creativecommons.org/licenses/by/3.0/us/deed.en) · [Source](https://commons.wikimedia.org/wiki/File:Deroceras_reticulatum.png)
+
+## Visible signs
+
+Irregular holes, rasped leaf edges and silvery trails, especially after rain.
+
+## Checks to make
+
+Inspect after dark or early morning and distinguish mollusc damage from caterpillar feeding.
+
+## First actions and prevention
+
+Protect seedlings, remove nearby hiding places and use suitable barriers or direct controls. No companion plant reliably removes slugs or snails.
+
+## Sources
+
+- [UC IPM reference](https://ipm.ucanr.edu/home-and-landscape/snails-and-slugs/)

@@ -55,9 +55,34 @@
     ],
     "pests": [
       {
+        "id": 7,
+        "name": "Scale insects",
+        "description": "Attached bumps on stems or leaves may accompany poor growth or honeydew. Check: Check whether bumps are insects and identify the scale type. First actions: Remove small infestations gently where appropriate; conserve predators and seek species-specific advice. Similar-looking problems: Plant tissue; mealybugs; other insects. These signs suggest possibilities, not a confirmed diagnosis."
+      },
+      {
+        "id": 6,
+        "name": "Caterpillars",
+        "description": "Chewed leaves, holes and droppings can accompany caterpillars. Check: Inspect both surfaces and nearby shelter; identify the caterpillar and host. First actions: Hand-pick where practical and use suitable exclusion; distinguish pest species from desirable butterflies. Similar-looking problems: Slugs; beetles; other chewing pests. These signs suggest possibilities, not a confirmed diagnosis."
+      },
+      {
+        "id": 4,
+        "name": "Spider mites",
+        "description": "Fine stippling and sometimes delicate webbing, often in warm dry conditions. Check: Use a hand lens on leaf undersides; confirm mites before treatment. First actions: Reduce plant stress and conserve predators; use suitable controls only after identification. Similar-looking problems: Thrips; nutrient problems. These signs suggest possibilities, not a confirmed diagnosis."
+      },
+      {
         "id": 2,
         "name": "Slugs and snails",
         "description": "Night-feeding molluscs that chew irregular holes in seedlings and soft foliage and may leave silvery trails."
+      },
+      {
+        "id": 5,
+        "name": "Thrips",
+        "description": "Silvery scarring or distorted growth may accompany tiny slender insects. Check: Inspect flowers and leaves with a hand lens; look for insects and dark waste spots. First actions: Monitor and remove badly affected material; conserve beneficial insects. Similar-looking problems: Spider mites; wind damage. These signs suggest possibilities, not a confirmed diagnosis."
+      },
+      {
+        "id": 3,
+        "name": "Whitefly",
+        "description": "Small pale flying insects beneath leaves; honeydew may occur. Check: Inspect undersides and gently disturb foliage to check for adults. First actions: Monitor regularly; encourage beneficial insects and use host-appropriate controls. Similar-looking problems: Aphids; scale; leaf debris. These signs suggest possibilities, not a confirmed diagnosis."
       },
       {
         "id": 1,
@@ -70,6 +95,36 @@
         "id": 1,
         "name": "Powdery mildew",
         "description": "A fungal disease recognised by white or grey powdery patches on leaves and stems; airflow and spacing help reduce it."
+      },
+      {
+        "id": 2,
+        "name": "Downy mildew",
+        "description": "Angular yellow patches and growth beneath leaves may occur; appearance varies by host. Check: Inspect both leaf surfaces and identify the host before choosing management. First actions: Reduce prolonged leaf wetness, improve spacing and remove badly affected material. Similar-looking problems: Powdery mildew; nutrient problems. These signs suggest possibilities, not a confirmed diagnosis."
+      },
+      {
+        "id": 7,
+        "name": "Tomato early blight",
+        "description": "Brown leaf spots with concentric rings can develop, often on older tomato leaves. Check: Inspect spot patterns and compare a tomato-specific reference; do not identify from yellowing alone. First actions: Remove affected debris, reduce soil splash and provide spacing and crop rotation. Similar-looking problems: Septoria leaf spot; other blights; nutrient problems. These signs suggest possibilities, not a confirmed diagnosis."
+      },
+      {
+        "id": 4,
+        "name": "Grey mould",
+        "description": "Grey fuzzy growth and decay can affect flowers, leaves and fruit. Check: Check damaged tissue and persistently damp areas; confirm the host and pattern. First actions: Remove decaying material, improve airflow and avoid prolonged wet foliage. Similar-looking problems: Other rots; ageing flowers. These signs suggest possibilities, not a confirmed diagnosis."
+      },
+      {
+        "id": 6,
+        "name": "Root rot",
+        "description": "Poor growth and wilting can accompany discoloured, decaying roots. Check: Check drainage and roots where this can be done without serious damage; symptoms alone cannot identify a pathogen. First actions: Correct drainage and watering; isolate affected pots and seek host-specific guidance. Similar-looking problems: Waterlogging without infection; underwatering. These signs suggest possibilities, not a confirmed diagnosis."
+      },
+      {
+        "id": 3,
+        "name": "Rust",
+        "description": "Raised orange, brown or yellow pustules may appear on leaves. Check: Inspect the underside and check a host-specific rust reference. First actions: Remove heavily affected leaves and improve airflow; avoid spreading infected material. Similar-looking problems: Other leaf spots; insect eggs. These signs suggest possibilities, not a confirmed diagnosis."
+      },
+      {
+        "id": 5,
+        "name": "Damping-off",
+        "description": "Seedlings fail to emerge or collapse with decay near soil level. Check: Inspect the stem base, moisture and whether tissue is rotting or chewed. First actions: Use clean containers and fresh suitable seed compost; provide drainage and avoid crowding. Similar-looking problems: Dry soil; cutworm or slug damage. These signs suggest possibilities, not a confirmed diagnosis."
       }
     ],
     "function_tags": [
@@ -2909,6 +2964,1025 @@
         "companion_id": 9,
         "function_id": 3,
         "notes": "A low flowering edge provides nectar for visiting insects. Keep it outside the crop's spacing so it does not crowd young plants."
+      }
+    ],
+    "ailments": [
+      {
+        "id": 1001,
+        "name": "Powdery mildew",
+        "category": "disease",
+        "legacy_id": 1,
+        "description": "A fungal disease recognised by white or grey powdery patches on leaves and stems; airflow and spacing help reduce it.",
+        "signs": "White or grey powdery patches; severely affected leaves may yellow or distort.",
+        "similar": null,
+        "checks": "Inspect both leaf surfaces and confirm the host-specific problem before treatment.",
+        "actions": "Improve spacing and airflow, remove badly affected material and choose resistant varieties when available. Companion planting does not cure this disease.",
+        "affected_plants": null,
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "UC IPM reference",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/powdery-mildew-on-vegetables/"
+          }
+        ],
+        "image": {
+          "filename": "powdery-mildew.jpg",
+          "caption": "Powdery mildew on a maple leaf; illustrative symptoms, not a diagnosis",
+          "commons_title": "File:Uncinula tulasnei - powdery mildew - Echter Mehltau 01.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Uncinula_tulasnei_-_powdery_mildew_-_Echter_Mehltau_01.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Uncinula_tulasnei_-_powdery_mildew_-_Echter_Mehltau_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Norbert Nagel, Mörfelden-Walldorf, Germany",
+          "credit": "Own work",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/powdery-mildew.jpg",
+          "record_type": "disease",
+          "record_id": 1
+        },
+        "source_note": "References/Diseases/Powdery mildew.md"
+      },
+      {
+        "id": 1002,
+        "name": "Downy mildew",
+        "category": "disease",
+        "legacy_id": 2,
+        "description": "Angular yellow patches and growth beneath leaves may occur; appearance varies by host. Check: Inspect both leaf surfaces and identify the host before choosing management. First actions: Reduce prolonged leaf wetness, improve spacing and remove badly affected material. Similar-looking problems: Powdery mildew; nutrient problems. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Angular yellow patches and growth beneath leaves may occur; appearance varies by host.",
+        "similar": "Powdery mildew; nutrient problems.",
+        "checks": "Inspect both leaf surfaces and identify the host before choosing management.",
+        "actions": "Reduce prolonged leaf wetness, improve spacing and remove badly affected material. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://ipm.ucanr.edu/PMG/diseases/diseases.vegies.html"
+          }
+        ],
+        "image": {
+          "filename": "downy-mildew.jpg",
+          "caption": "Downy mildew on watermelon foliage; illustrative example, not a diagnosis",
+          "commons_title": "File:Downy mildew on watermelon 2.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Downy_mildew_on_watermelon_2.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Downy_mildew_on_watermelon_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "David B. Langston, University of Georgia, United States",
+          "credit": "This image is Image Number 5077032 at IPM Images , a source for agricultural and pest management pictures operated by the Center for Invasive Species and Ecosystem Health , Colorado State University , USDA CSREES and the Southern Plant Diagnostic Network .",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/downy-mildew.jpg",
+          "record_type": "disease",
+          "record_id": 2
+        },
+        "source_note": "References/Diseases/Downy mildew.md"
+      },
+      {
+        "id": 1003,
+        "name": "Rust",
+        "category": "disease",
+        "legacy_id": 3,
+        "description": "Raised orange, brown or yellow pustules may appear on leaves. Check: Inspect the underside and check a host-specific rust reference. First actions: Remove heavily affected leaves and improve airflow; avoid spreading infected material. Similar-looking problems: Other leaf spots; insect eggs. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Raised orange, brown or yellow pustules may appear on leaves.",
+        "similar": "Other leaf spots; insect eggs.",
+        "checks": "Inspect the underside and check a host-specific rust reference.",
+        "actions": "Remove heavily affected leaves and improve airflow; avoid spreading infected material. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://ipm.ucanr.edu/PMG/diseases/diseases.vegies.html"
+          }
+        ],
+        "image": {
+          "filename": "rust.jpg",
+          "caption": "Rust damage on coffee foliage; illustrative example, not a diagnosis",
+          "commons_title": "File:Coffee-leaf-rust-defoliation.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Coffee-leaf-rust-defoliation.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Coffee-leaf-rust-defoliation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Michael.C.Wright",
+          "credit": "Own work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/rust.jpg",
+          "record_type": "disease",
+          "record_id": 3
+        },
+        "source_note": "References/Diseases/Rust.md"
+      },
+      {
+        "id": 1004,
+        "name": "Grey mould",
+        "category": "disease",
+        "legacy_id": 4,
+        "description": "Grey fuzzy growth and decay can affect flowers, leaves and fruit. Check: Check damaged tissue and persistently damp areas; confirm the host and pattern. First actions: Remove decaying material, improve airflow and avoid prolonged wet foliage. Similar-looking problems: Other rots; ageing flowers. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Grey fuzzy growth and decay can affect flowers, leaves and fruit.",
+        "similar": "Other rots; ageing flowers.",
+        "checks": "Check damaged tissue and persistently damp areas; confirm the host and pattern.",
+        "actions": "Remove decaying material, improve airflow and avoid prolonged wet foliage. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://ipm.ucanr.edu/PMG/diseases/diseases.vegies.html"
+          }
+        ],
+        "image": {
+          "filename": "grey-mould.jpg",
+          "caption": "Grey mould on a zucchini fruit; illustrative example, not a diagnosis",
+          "commons_title": "File:Zucchini mit Botrytis cinerea-1-Josef Schlaghecken.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Zucchini_mit_Botrytis_cinerea-1-Josef_Schlaghecken.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Zucchini_mit_Botrytis_cinerea-1-Josef_Schlaghecken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Schlaghecken Josef",
+          "credit": "Own work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/grey-mould.jpg",
+          "record_type": "disease",
+          "record_id": 4
+        },
+        "source_note": "References/Diseases/Grey mould.md"
+      },
+      {
+        "id": 1005,
+        "name": "Damping-off",
+        "category": "disease",
+        "legacy_id": 5,
+        "description": "Seedlings fail to emerge or collapse with decay near soil level. Check: Inspect the stem base, moisture and whether tissue is rotting or chewed. First actions: Use clean containers and fresh suitable seed compost; provide drainage and avoid crowding. Similar-looking problems: Dry soil; cutworm or slug damage. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Seedlings fail to emerge or collapse with decay near soil level.",
+        "similar": "Dry soil; cutworm or slug damage.",
+        "checks": "Inspect the stem base, moisture and whether tissue is rotting or chewed.",
+        "actions": "Use clean containers and fresh suitable seed compost; provide drainage and avoid crowding. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/damping-off-diseases-in-the-garden/"
+          }
+        ],
+        "image": {
+          "filename": "damping-off.jpg",
+          "caption": "Damping-off in a pine seedling; illustrative example, not a diagnosis",
+          "commons_title": "File:Pinus taeda seedling damping off (cropped).jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Pinus_taeda_seedling_damping_off_(cropped).jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Pinus_taeda_seedling_damping_off_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "INAKAvillage211",
+          "credit": "Own work",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/damping-off.jpg",
+          "record_type": "disease",
+          "record_id": 5
+        },
+        "source_note": "References/Diseases/Damping-off.md"
+      },
+      {
+        "id": 1006,
+        "name": "Root rot",
+        "category": "disease",
+        "legacy_id": 6,
+        "description": "Poor growth and wilting can accompany discoloured, decaying roots. Check: Check drainage and roots where this can be done without serious damage; symptoms alone cannot identify a pathogen. First actions: Correct drainage and watering; isolate affected pots and seek host-specific guidance. Similar-looking problems: Waterlogging without infection; underwatering. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Poor growth and wilting can accompany discoloured, decaying roots.",
+        "similar": "Waterlogging without infection; underwatering.",
+        "checks": "Check drainage and roots where this can be done without serious damage; symptoms alone cannot identify a pathogen.",
+        "actions": "Correct drainage and watering; isolate affected pots and seek host-specific guidance. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/houseplant-problems/"
+          }
+        ],
+        "image": {
+          "filename": "root-rot.jpg",
+          "caption": "Tomato roots showing corky root rot; other root-rot pathogens can look different",
+          "commons_title": "File:Corkyroot.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Corkyroot.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Corkyroot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Hanna Friberg (SLU)",
+          "credit": "Own work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/root-rot.jpg",
+          "record_type": "disease",
+          "record_id": 6
+        },
+        "source_note": "References/Diseases/Root rot.md"
+      },
+      {
+        "id": 1007,
+        "name": "Tomato early blight",
+        "category": "disease",
+        "legacy_id": 7,
+        "description": "Brown leaf spots with concentric rings can develop, often on older tomato leaves. Check: Inspect spot patterns and compare a tomato-specific reference; do not identify from yellowing alone. First actions: Remove affected debris, reduce soil splash and provide spacing and crop rotation. Similar-looking problems: Septoria leaf spot; other blights; nutrient problems. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Brown leaf spots with concentric rings can develop, often on older tomato leaves.",
+        "similar": "Septoria leaf spot; other blights; nutrient problems.",
+        "checks": "Inspect spot patterns and compare a tomato-specific reference; do not identify from yellowing alone.",
+        "actions": "Remove affected debris, reduce soil splash and provide spacing and crop rotation. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://ipm.ucanr.edu/PMG/diseases/diseases.vegies.html"
+          }
+        ],
+        "image": {
+          "filename": "tomato-early-blight.jpg",
+          "caption": "Early blight lesions on a tomato leaf; illustrative example, not a diagnosis",
+          "commons_title": "File:Alternaria solani - leaf lesions.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Alternaria_solani_-_leaf_lesions.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Alternaria_solani_-_leaf_lesions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Clemson University - USDA Cooperative Extension Slide Series",
+          "credit": "This image is Image Number 1233052 at Insect Images , a source for entomological images operated by The Bugwood Network at the University of Georgia and the USDA Forest Service . Check archived versions at web.archive / archive.is",
+          "license": "CC BY 3.0 us",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/tomato-early-blight.jpg",
+          "record_type": "disease",
+          "record_id": 7
+        },
+        "source_note": "References/Diseases/Tomato early blight.md"
+      },
+      {
+        "id": 2001,
+        "name": "Aphids",
+        "category": "pest",
+        "legacy_id": 1,
+        "description": "Small sap-sucking insects that gather on tender shoots and beneath leaves, sometimes causing curled growth and sticky honeydew.",
+        "signs": "Clusters of small insects on tender growth, curled leaves and sticky honeydew.",
+        "similar": null,
+        "checks": "Check fresh growth and both leaf surfaces; identify the insects before treatment.",
+        "actions": "Dislodge small colonies with a suitable water spray and encourage beneficial insects. Monitor fresh growth.",
+        "affected_plants": null,
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "UC IPM reference",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/aphids/"
+          }
+        ],
+        "image": {
+          "filename": "aphids.jpg",
+          "caption": "Aphid colony (Aphis fabae)",
+          "commons_title": "File:Aphis fabae colony on Yucca filamentosa in Dnipro by baby-bear.org.jpg 01.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Aphis_fabae_colony_on_Yucca_filamentosa_in_Dnipro_by_baby-bear.org.jpg_01.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Aphis_fabae_colony_on_Yucca_filamentosa_in_Dnipro_by_baby-bear.org.jpg_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Natalka Ukraine ( baby-bear.org )",
+          "credit": "Own work",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/aphids.jpg",
+          "record_type": "pest",
+          "record_id": 1
+        },
+        "source_note": "References/Pests/Aphids.md"
+      },
+      {
+        "id": 2002,
+        "name": "Slugs and snails",
+        "category": "pest",
+        "legacy_id": 2,
+        "description": "Night-feeding molluscs that chew irregular holes in seedlings and soft foliage and may leave silvery trails.",
+        "signs": "Irregular holes, rasped leaf edges and silvery trails, especially after rain.",
+        "similar": null,
+        "checks": "Inspect after dark or early morning and distinguish mollusc damage from caterpillar feeding.",
+        "actions": "Protect seedlings, remove nearby hiding places and use suitable barriers or direct controls. No companion plant reliably removes slugs or snails.",
+        "affected_plants": null,
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "UC IPM reference",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/snails-and-slugs/"
+          }
+        ],
+        "image": {
+          "filename": "snail.jpg",
+          "caption": "Garden snail (Cornu aspersum)",
+          "commons_title": "File:Common snail.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Common_snail.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Common_snail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "macrophile on Flickr",
+          "credit": "Flickr . Originally described as \" proud snail after hopping the fence \"",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/snail.jpg",
+          "record_type": "pest",
+          "record_id": 2
+        },
+        "source_note": "References/Pests/Slugs and snails.md"
+      },
+      {
+        "id": 2003,
+        "name": "Whitefly",
+        "category": "pest",
+        "legacy_id": 3,
+        "description": "Small pale flying insects beneath leaves; honeydew may occur. Check: Inspect undersides and gently disturb foliage to check for adults. First actions: Monitor regularly; encourage beneficial insects and use host-appropriate controls. Similar-looking problems: Aphids; scale; leaf debris. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Small pale flying insects beneath leaves; honeydew may occur.",
+        "similar": "Aphids; scale; leaf debris.",
+        "checks": "Inspect undersides and gently disturb foliage to check for adults.",
+        "actions": "Monitor regularly; encourage beneficial insects and use host-appropriate controls. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/whiteflies/"
+          }
+        ],
+        "image": {
+          "filename": "whitefly.jpg",
+          "caption": "Adult silverleaf whitefly; illustrative example, not a diagnosis",
+          "commons_title": "File:Silverleaf Whitefly (Bemisia tabaci) adult.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Silverleaf_Whitefly_(Bemisia_tabaci)_adult.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Silverleaf_Whitefly_%28Bemisia_tabaci%29_adult.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Chirag85",
+          "credit": "Own work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/whitefly.jpg",
+          "record_type": "pest",
+          "record_id": 3
+        },
+        "source_note": "References/Pests/Whitefly.md"
+      },
+      {
+        "id": 2004,
+        "name": "Spider mites",
+        "category": "pest",
+        "legacy_id": 4,
+        "description": "Fine stippling and sometimes delicate webbing, often in warm dry conditions. Check: Use a hand lens on leaf undersides; confirm mites before treatment. First actions: Reduce plant stress and conserve predators; use suitable controls only after identification. Similar-looking problems: Thrips; nutrient problems. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Fine stippling and sometimes delicate webbing, often in warm dry conditions.",
+        "similar": "Thrips; nutrient problems.",
+        "checks": "Use a hand lens on leaf undersides; confirm mites before treatment.",
+        "actions": "Reduce plant stress and conserve predators; use suitable controls only after identification. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/"
+          }
+        ],
+        "image": {
+          "filename": "spider-mites.jpg",
+          "caption": "Spider mite with silk threads; illustrative example, not a diagnosis",
+          "commons_title": "File:Tetranychus urticae with silk threads.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Tetranychus_urticae_with_silk_threads.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Tetranychus_urticae_with_silk_threads.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Gilles San Martin",
+          "credit": "originally posted to Flickr as Tetranychus urticae with silk threads",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/spider-mites.jpg",
+          "record_type": "pest",
+          "record_id": 4
+        },
+        "source_note": "References/Pests/Spider mites.md"
+      },
+      {
+        "id": 2005,
+        "name": "Thrips",
+        "category": "pest",
+        "legacy_id": 5,
+        "description": "Silvery scarring or distorted growth may accompany tiny slender insects. Check: Inspect flowers and leaves with a hand lens; look for insects and dark waste spots. First actions: Monitor and remove badly affected material; conserve beneficial insects. Similar-looking problems: Spider mites; wind damage. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Silvery scarring or distorted growth may accompany tiny slender insects.",
+        "similar": "Spider mites; wind damage.",
+        "checks": "Inspect flowers and leaves with a hand lens; look for insects and dark waste spots.",
+        "actions": "Monitor and remove badly affected material; conserve beneficial insects. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/thrips/"
+          }
+        ],
+        "image": {
+          "filename": "thrips.jpg",
+          "caption": "Thrips on a pepper flower; illustrative example, not a diagnosis",
+          "commons_title": "File:Thrips on pepper flower.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Thrips_on_pepper_flower.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Thrips_on_pepper_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Metin GÜLEŞCİ",
+          "credit": "Own work",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/thrips.jpg",
+          "record_type": "pest",
+          "record_id": 5
+        },
+        "source_note": "References/Pests/Thrips.md"
+      },
+      {
+        "id": 2006,
+        "name": "Caterpillars",
+        "category": "pest",
+        "legacy_id": 6,
+        "description": "Chewed leaves, holes and droppings can accompany caterpillars. Check: Inspect both surfaces and nearby shelter; identify the caterpillar and host. First actions: Hand-pick where practical and use suitable exclusion; distinguish pest species from desirable butterflies. Similar-looking problems: Slugs; beetles; other chewing pests. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Chewed leaves, holes and droppings can accompany caterpillars.",
+        "similar": "Slugs; beetles; other chewing pests.",
+        "checks": "Inspect both surfaces and nearby shelter; identify the caterpillar and host.",
+        "actions": "Hand-pick where practical and use suitable exclusion; distinguish pest species from desirable butterflies. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/"
+          }
+        ],
+        "image": {
+          "filename": "caterpillars.jpg",
+          "caption": "Cabbage-white caterpillar, leaf damage and droppings; illustrative example, not a diagnosis",
+          "commons_title": "File:Pieris rapae caterpillar and excreta.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Pieris_rapae_caterpillar_and_excreta.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Pieris_rapae_caterpillar_and_excreta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Downtowngal",
+          "credit": "Own work",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/caterpillars.jpg",
+          "record_type": "pest",
+          "record_id": 6
+        },
+        "source_note": "References/Pests/Caterpillars.md"
+      },
+      {
+        "id": 2007,
+        "name": "Scale insects",
+        "category": "pest",
+        "legacy_id": 7,
+        "description": "Attached bumps on stems or leaves may accompany poor growth or honeydew. Check: Check whether bumps are insects and identify the scale type. First actions: Remove small infestations gently where appropriate; conserve predators and seek species-specific advice. Similar-looking problems: Plant tissue; mealybugs; other insects. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Attached bumps on stems or leaves may accompany poor growth or honeydew.",
+        "similar": "Plant tissue; mealybugs; other insects.",
+        "checks": "Check whether bumps are insects and identify the scale type.",
+        "actions": "Remove small infestations gently where appropriate; conserve predators and seek species-specific advice. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/scales/"
+          }
+        ],
+        "image": {
+          "filename": "scale-insects.jpg",
+          "caption": "Black scale insects on dracaena; illustrative example, not a diagnosis",
+          "commons_title": "File:Black scale on draceana.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Black_scale_on_draceana.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Black_scale_on_draceana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Secretlondon",
+          "credit": "Own work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/scale-insects.jpg",
+          "record_type": "pest",
+          "record_id": 7
+        },
+        "source_note": "References/Pests/Scale insects.md"
+      },
+      {
+        "id": 3001,
+        "name": "Underwatering",
+        "category": "environment",
+        "legacy_id": null,
+        "description": "Wilting, dry growing medium and crisp leaf edges can occur. Check: Check moisture below the surface and the root ball, including whether water runs around dry compost. First actions: Water the root zone thoroughly when needed, allow drainage and reassess moisture before repeating. Similar-looking problems: Overwatering; heat stress; root damage. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Wilting, dry growing medium and crisp leaf edges can occur.",
+        "similar": "Overwatering; heat stress; root damage.",
+        "checks": "Check moisture below the surface and the root ball, including whether water runs around dry compost.",
+        "actions": "Water the root zone thoroughly when needed, allow drainage and reassess moisture before repeating. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://www.rhs.org.uk/plants/types/houseplants/how-to-help-a-poorly-houseplant"
+          }
+        ],
+        "image": {
+          "filename": "underwatering.png",
+          "caption": "User-selected example for underwatering; appearance alone does not confirm the cause",
+          "creator": "Source not supplied",
+          "credit": "Image supplied by user",
+          "license": "Not specified",
+          "license_url": "",
+          "description_url": "",
+          "original_url": "",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/underwatering.png",
+          "record_type": "environment",
+          "record_id": 1
+        },
+        "source_note": "References/Water and environment/Underwatering.md"
+      },
+      {
+        "id": 3002,
+        "name": "Overwatering and waterlogging",
+        "category": "environment",
+        "legacy_id": null,
+        "description": "Wilting, yellow leaves and persistently wet soil can accompany roots deprived of air. Check: Check soil moisture, drainage holes and standing water before adding more water. First actions: Allow appropriate drying, empty standing water and improve drainage; follow the plant’s moisture needs. Similar-looking problems: Underwatering; root rot; nutrient problems. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Wilting, yellow leaves and persistently wet soil can accompany roots deprived of air.",
+        "similar": "Underwatering; root rot; nutrient problems.",
+        "checks": "Check soil moisture, drainage holes and standing water before adding more water.",
+        "actions": "Allow appropriate drying, empty standing water and improve drainage; follow the plant’s moisture needs. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://www.rhs.org.uk/soil-composts-mulches/waterlogging-flooding"
+          }
+        ],
+        "image": {
+          "filename": "overwatering.png",
+          "caption": "User-selected example for overwatering and waterlogging; appearance alone does not confirm the cause",
+          "creator": "Source not supplied",
+          "credit": "Image supplied by user",
+          "license": "Not specified",
+          "license_url": "",
+          "description_url": "",
+          "original_url": "",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/overwatering.png",
+          "record_type": "environment",
+          "record_id": 2
+        },
+        "source_note": "References/Water and environment/Overwatering and waterlogging.md"
+      },
+      {
+        "id": 3003,
+        "name": "Heat stress",
+        "category": "environment",
+        "legacy_id": null,
+        "description": "Temporary wilting or scorch may coincide with hot, drying weather. Check: Check temperature, soil moisture and whether the plant recovers in cooler conditions. First actions: Provide suitable temporary shade and shelter and maintain appropriate soil moisture. Similar-looking problems: Underwatering; sunburn; root damage. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Temporary wilting or scorch may coincide with hot, drying weather.",
+        "similar": "Underwatering; sunburn; root damage.",
+        "checks": "Check temperature, soil moisture and whether the plant recovers in cooler conditions.",
+        "actions": "Provide suitable temporary shade and shelter and maintain appropriate soil moisture. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+          }
+        ],
+        "image": {
+          "filename": "heat-stress.jpg",
+          "caption": "Rudbeckia flowers faded during summer heat; heat responses vary by species",
+          "commons_title": "File:Rudbeckia fulgida during the Summer heat.JPG",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Rudbeckia_fulgida_during_the_Summer_heat.JPG",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Rudbeckia_fulgida_during_the_Summer_heat.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "High Contrast",
+          "credit": "Own work",
+          "license": "CC BY 3.0 de",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/heat-stress.jpg",
+          "record_type": "environment",
+          "record_id": 3
+        },
+        "source_note": "References/Water and environment/Heat stress.md"
+      },
+      {
+        "id": 3004,
+        "name": "Sunburn",
+        "category": "environment",
+        "legacy_id": null,
+        "description": "Bleached or scorched patches may appear after sudden exposure to stronger sun. Check: Check whether damage is concentrated on exposed surfaces after a light change. First actions: Acclimatise plants gradually to stronger light; protect sensitive plants during extreme exposure. Similar-looking problems: Disease spots; fertiliser damage. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Bleached or scorched patches may appear after sudden exposure to stronger sun.",
+        "similar": "Disease spots; fertiliser damage.",
+        "checks": "Check whether damage is concentrated on exposed surfaces after a light change.",
+        "actions": "Acclimatise plants gradually to stronger light; protect sensitive plants during extreme exposure. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+          }
+        ],
+        "image": {
+          "filename": "sunburn.jpg",
+          "caption": "Sunburn on a citrus leaf after sudden sunlight exposure; illustrative example, not a diagnosis",
+          "commons_title": "File:Citrus microcarpa - sunburnt leaf.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Citrus_microcarpa_-_sunburnt_leaf.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Citrus_microcarpa_-_sunburnt_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Eiku en exil",
+          "credit": "Own work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/sunburn.jpg",
+          "record_type": "environment",
+          "record_id": 4
+        },
+        "source_note": "References/Water and environment/Sunburn.md"
+      },
+      {
+        "id": 3005,
+        "name": "Frost damage",
+        "category": "environment",
+        "legacy_id": null,
+        "description": "Darkened, collapsed or damaged soft growth can follow cold weather. Check: Check recent temperatures and which exposed tissues were affected. First actions: Protect vulnerable plants and avoid immediate heavy pruning until damage and new growth are clear. Similar-looking problems: Root problems; infectious rot. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Darkened, collapsed or damaged soft growth can follow cold weather.",
+        "similar": "Root problems; infectious rot.",
+        "checks": "Check recent temperatures and which exposed tissues were affected.",
+        "actions": "Protect vulnerable plants and avoid immediate heavy pruning until damage and new growth are clear. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+          }
+        ],
+        "image": {
+          "filename": "frost-damage.jpg",
+          "caption": "Frost-damaged lemon verbena after minus eight degrees Celsius; illustrative example, not a diagnosis",
+          "commons_title": "File:Zitronenverbene nach minus 8°C-Josef Schlaghecken.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Zitronenverbene_nach_minus_8%C2%B0C-Josef_Schlaghecken.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Zitronenverbene_nach_minus_8%C2%B0C-Josef_Schlaghecken.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Schlaghecken Josef",
+          "credit": "Own work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/frost-damage.jpg",
+          "record_type": "environment",
+          "record_id": 5
+        },
+        "source_note": "References/Water and environment/Frost damage.md"
+      },
+      {
+        "id": 4001,
+        "name": "Nitrogen deficiency",
+        "category": "nutrient",
+        "legacy_id": null,
+        "description": "General pale growth, often beginning in older leaves, can suggest low nitrogen. Check: Check leaf age, growth, feeding history and root conditions; consider a soil or growing-medium test. First actions: Correct the cause and use an appropriate balanced feed if deficiency is supported. Similar-looking problems: Root stress; low light; natural ageing. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "General pale growth, often beginning in older leaves, can suggest low nitrogen.",
+        "similar": "Root stress; low light; natural ageing.",
+        "checks": "Check leaf age, growth, feeding history and root conditions; consider a soil or growing-medium test.",
+        "actions": "Correct the cause and use an appropriate balanced feed if deficiency is supported. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+          }
+        ],
+        "image": {
+          "filename": "nitrogen-deficiency.jpg",
+          "caption": "Nitrogen-deficiency example in a bean plant; illustrative example, not a diagnosis",
+          "commons_title": "File:Phaseolus vulgaris nitrogen deficiency.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Phaseolus_vulgaris_nitrogen_deficiency.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Phaseolus_vulgaris_nitrogen_deficiency.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Rasbak",
+          "credit": "Own work",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/nitrogen-deficiency.jpg",
+          "record_type": "nutrient",
+          "record_id": 1
+        },
+        "source_note": "References/Nutrient problems/Nitrogen deficiency.md"
+      },
+      {
+        "id": 4002,
+        "name": "Iron deficiency",
+        "category": "nutrient",
+        "legacy_id": null,
+        "description": "Young leaves may yellow between veins while veins remain greener. Check: Check the youngest leaves, growing-medium pH and whether the plant needs acidic conditions. First actions: Address unsuitable pH or root conditions before adding iron; use plant-appropriate products. Similar-looking problems: Other micronutrient problems; damaged roots. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Young leaves may yellow between veins while veins remain greener.",
+        "similar": "Other micronutrient problems; damaged roots.",
+        "checks": "Check the youngest leaves, growing-medium pH and whether the plant needs acidic conditions.",
+        "actions": "Address unsuitable pH or root conditions before adding iron; use plant-appropriate products. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+          }
+        ],
+        "image": {
+          "filename": "iron-deficiency.jpg",
+          "caption": "Interveinal chlorosis on blackberry; several nutrient or root problems can cause this appearance; illustrative example, not a diagnosis",
+          "commons_title": "File:Chlorose rubus ulmifolius.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Chlorose_rubus_ulmifolius.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Chlorose_rubus_ulmifolius.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Moinats",
+          "credit": "Own work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/iron-deficiency.jpg",
+          "record_type": "nutrient",
+          "record_id": 2
+        },
+        "source_note": "References/Nutrient problems/Iron deficiency.md"
+      },
+      {
+        "id": 4003,
+        "name": "Magnesium deficiency",
+        "category": "nutrient",
+        "legacy_id": null,
+        "description": "Older leaves may yellow between veins. Check: Compare older and younger leaves and check excessive potassium feeding. First actions: Confirm the cause before adding magnesium; avoid routine Epsom-salt treatment. Similar-looking problems: Iron deficiency; root stress; other deficiencies. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Older leaves may yellow between veins.",
+        "similar": "Iron deficiency; root stress; other deficiencies.",
+        "checks": "Compare older and younger leaves and check excessive potassium feeding.",
+        "actions": "Confirm the cause before adding magnesium; avoid routine Epsom-salt treatment. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+          }
+        ],
+        "image": {
+          "filename": "magnesium-deficiency.jpg",
+          "caption": "Magnesium-deficiency symptoms on maize leaves; illustrative example, not a diagnosis",
+          "commons_title": "File:Mg deficiency Vulindlela 1995-3-30 2018 01 23 2235.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Mg_deficiency_Vulindlela_1995-3-30_2018_01_23_2235.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Mg_deficiency_Vulindlela_1995-3-30_2018_01_23_2235.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Alandmanson",
+          "credit": "Own work",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/magnesium-deficiency.jpg",
+          "record_type": "nutrient",
+          "record_id": 3
+        },
+        "source_note": "References/Nutrient problems/Magnesium deficiency.md"
+      },
+      {
+        "id": 4004,
+        "name": "Potassium deficiency",
+        "category": "nutrient",
+        "legacy_id": null,
+        "description": "Older leaf margins may yellow or scorch, with poor growth. Check: Check moisture, fertiliser history and soil test results before assuming potassium shortage. First actions: Use an appropriate feed when supported by evidence; avoid excessive potassium. Similar-looking problems: Drought; salt damage; other deficiencies. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Older leaf margins may yellow or scorch, with poor growth.",
+        "similar": "Drought; salt damage; other deficiencies.",
+        "checks": "Check moisture, fertiliser history and soil test results before assuming potassium shortage.",
+        "actions": "Use an appropriate feed when supported by evidence; avoid excessive potassium. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+          }
+        ],
+        "image": {
+          "filename": "potassium-deficiency.jpg",
+          "caption": "Potassium-deficiency symptoms on a bean leaf; illustrative example, not a diagnosis",
+          "commons_title": "File:K-deficient dry bean 2 2012 02 16 Cedara 037.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:K-deficient_dry_bean_2_2012_02_16_Cedara_037.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/K-deficient_dry_bean_2_2012_02_16_Cedara_037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Alandmanson",
+          "credit": "Own work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/potassium-deficiency.jpg",
+          "record_type": "nutrient",
+          "record_id": 4
+        },
+        "source_note": "References/Nutrient problems/Potassium deficiency.md"
+      },
+      {
+        "id": 4005,
+        "name": "Excess fertiliser",
+        "category": "nutrient",
+        "legacy_id": null,
+        "description": "Leaf-tip or edge scorch and impaired growth may follow heavy feeding. Check: Review feed concentration, frequency, drainage and any salt crust. First actions: Pause excess feeding and follow product and plant guidance; correct drainage before any leaching. Similar-looking problems: Drought; nutrient shortage; sunburn. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "Leaf-tip or edge scorch and impaired growth may follow heavy feeding.",
+        "similar": "Drought; nutrient shortage; sunburn.",
+        "checks": "Review feed concentration, frequency, drainage and any salt crust.",
+        "actions": "Pause excess feeding and follow product and plant guidance; correct drainage before any leaching. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://www.rhs.org.uk/prevention-protection/leaf-damage-on-houseplants"
+          }
+        ],
+        "image": {
+          "filename": "excess-fertiliser.jpg",
+          "caption": "Fertiliser-burn damage on a Cannabis sativa leaf; an example of excess feeding damage",
+          "commons_title": "File:Fertilizer-Burn.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Fertilizer-Burn.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Fertilizer-Burn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Fenrisulfir",
+          "credit": "Own work",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/excess-fertiliser.jpg",
+          "record_type": "nutrient",
+          "record_id": 5
+        },
+        "source_note": "References/Nutrient problems/Excess fertiliser.md"
+      },
+      {
+        "id": 4007,
+        "name": "Blossom-end rot",
+        "category": "nutrient",
+        "legacy_id": null,
+        "description": "A dark, sunken patch develops at the blossom end of susceptible fruit. Check: Inspect the location and review fluctuating soil moisture; this is a physiological disorder. First actions: Maintain even appropriate moisture; adding calcium alone may not solve impaired calcium transport. Similar-looking problems: Infectious fruit rots; sunscald. These signs suggest possibilities, not a confirmed diagnosis.",
+        "signs": "A dark, sunken patch develops at the blossom end of susceptible fruit.",
+        "similar": "Infectious fruit rots; sunscald.",
+        "checks": "Inspect the location and review fluctuating soil moisture; this is a physiological disorder.",
+        "actions": "Maintain even appropriate moisture; adding calcium alone may not solve impaired calcium transport. Monitor new growth and record changes rather than expecting damaged leaves to recover.",
+        "affected_plants": "Host susceptibility varies. Confirm guidance for the plant species; this note does not assign every catalogue plant to this problem.",
+        "possible_causes": [],
+        "sources": [
+          {
+            "title": "Reference guidance",
+            "url": "https://www.rhs.org.uk/problems/blossom-end-rot"
+          }
+        ],
+        "image": {
+          "filename": "blossom-end-rot.jpg",
+          "caption": "Blossom-end rot in a tomato fruit; illustrative example, not a diagnosis",
+          "commons_title": "File:Blossomrotcloseup.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Blossomrotcloseup.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Blossomrotcloseup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Siltloam",
+          "credit": "Own work",
+          "license": "Public domain",
+          "license_url": "",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/blossom-end-rot.jpg",
+          "record_type": "nutrient",
+          "record_id": 7
+        },
+        "source_note": "References/Nutrient problems/Blossom-end rot.md"
+      },
+      {
+        "id": 5001,
+        "name": "Brown leaf edges",
+        "category": "symptom",
+        "legacy_id": null,
+        "description": "An observed symptom with several possible causes; not a diagnosis.",
+        "signs": null,
+        "similar": null,
+        "checks": "Record the plant, affected leaf age, distribution of damage, soil moisture, recent weather and feeding. Inspect both leaf surfaces and compare the linked guides before acting.",
+        "actions": null,
+        "affected_plants": null,
+        "possible_causes": [
+          "Water and environment/Underwatering",
+          "Nutrient problems/Excess fertiliser",
+          "Nutrient problems/Potassium deficiency",
+          "Water and environment/Sunburn"
+        ],
+        "sources": [],
+        "image": {
+          "filename": "potassium-deficiency.jpg",
+          "caption": "Possible-cause example: Potassium-deficiency symptoms on a bean leaf; illustrative example, not a diagnosis",
+          "commons_title": "File:K-deficient dry bean 2 2012 02 16 Cedara 037.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:K-deficient_dry_bean_2_2012_02_16_Cedara_037.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/K-deficient_dry_bean_2_2012_02_16_Cedara_037.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Alandmanson",
+          "credit": "Own work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/potassium-deficiency.jpg",
+          "record_type": "symptom",
+          "record_id": 1
+        },
+        "source_note": "References/Symptoms/Brown leaf edges.md"
+      },
+      {
+        "id": 5002,
+        "name": "Curled leaves",
+        "category": "symptom",
+        "legacy_id": null,
+        "description": "An observed symptom with several possible causes; not a diagnosis.",
+        "signs": null,
+        "similar": null,
+        "checks": "Record the plant, affected leaf age, distribution of damage, soil moisture, recent weather and feeding. Inspect both leaf surfaces and compare the linked guides before acting.",
+        "actions": null,
+        "affected_plants": null,
+        "possible_causes": [
+          "Pests/Aphids",
+          "Pests/Thrips",
+          "Water and environment/Heat stress",
+          "Water and environment/Underwatering"
+        ],
+        "sources": [],
+        "image": {
+          "filename": "curled-leaves.jpg",
+          "caption": "Curled raspberry leaves; the image shows the symptom and does not establish its cause",
+          "commons_title": "File:Leaf curl of raspberry kędzierzawka maliny (1).jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Leaf_curl_of_raspberry_k%C4%99dzierzawka_maliny_(1).jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Leaf_curl_of_raspberry_k%C4%99dzierzawka_maliny_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Jerzy Opioła",
+          "credit": "Own work",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/curled-leaves.jpg",
+          "record_type": "symptom",
+          "record_id": 2
+        },
+        "source_note": "References/Symptoms/Curled leaves.md"
+      },
+      {
+        "id": 5003,
+        "name": "Leaf spots",
+        "category": "symptom",
+        "legacy_id": null,
+        "description": "An observed symptom with several possible causes; not a diagnosis.",
+        "signs": null,
+        "similar": null,
+        "checks": "Record the plant, affected leaf age, distribution of damage, soil moisture, recent weather and feeding. Inspect both leaf surfaces and compare the linked guides before acting.",
+        "actions": null,
+        "affected_plants": null,
+        "possible_causes": [
+          "Diseases/Tomato early blight",
+          "Diseases/Rust",
+          "Diseases/Downy mildew",
+          "Water and environment/Sunburn"
+        ],
+        "sources": [],
+        "image": {
+          "filename": "tomato-early-blight.jpg",
+          "caption": "Possible-cause example: Early blight lesions on a tomato leaf; illustrative example, not a diagnosis",
+          "commons_title": "File:Alternaria solani - leaf lesions.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Alternaria_solani_-_leaf_lesions.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Alternaria_solani_-_leaf_lesions.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Clemson University - USDA Cooperative Extension Slide Series",
+          "credit": "This image is Image Number 1233052 at Insect Images , a source for entomological images operated by The Bugwood Network at the University of Georgia and the USDA Forest Service . Check archived versions at web.archive / archive.is",
+          "license": "CC BY 3.0 us",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/tomato-early-blight.jpg",
+          "record_type": "symptom",
+          "record_id": 3
+        },
+        "source_note": "References/Symptoms/Leaf spots.md"
+      },
+      {
+        "id": 5004,
+        "name": "Stunted growth",
+        "category": "symptom",
+        "legacy_id": null,
+        "description": "An observed symptom with several possible causes; not a diagnosis.",
+        "signs": null,
+        "similar": null,
+        "checks": "Record the plant, affected leaf age, distribution of damage, soil moisture, recent weather and feeding. Inspect both leaf surfaces and compare the linked guides before acting.",
+        "actions": null,
+        "affected_plants": null,
+        "possible_causes": [
+          "Nutrient problems/Nitrogen deficiency",
+          "Diseases/Root rot",
+          "Water and environment/Overwatering and waterlogging"
+        ],
+        "sources": [],
+        "image": {
+          "filename": "nitrogen-deficiency.jpg",
+          "caption": "Possible-cause example: Nitrogen-deficiency example in a bean plant; illustrative example, not a diagnosis",
+          "commons_title": "File:Phaseolus vulgaris nitrogen deficiency.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Phaseolus_vulgaris_nitrogen_deficiency.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Phaseolus_vulgaris_nitrogen_deficiency.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Rasbak",
+          "credit": "Own work",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/nitrogen-deficiency.jpg",
+          "record_type": "symptom",
+          "record_id": 4
+        },
+        "source_note": "References/Symptoms/Stunted growth.md"
+      },
+      {
+        "id": 5005,
+        "name": "Wilting",
+        "category": "symptom",
+        "legacy_id": null,
+        "description": "An observed symptom with several possible causes; not a diagnosis.",
+        "signs": null,
+        "similar": null,
+        "checks": "Record the plant, affected leaf age, distribution of damage, soil moisture, recent weather and feeding. Inspect both leaf surfaces and compare the linked guides before acting.",
+        "actions": null,
+        "affected_plants": null,
+        "possible_causes": [
+          "Water and environment/Underwatering",
+          "Water and environment/Overwatering and waterlogging",
+          "Water and environment/Heat stress",
+          "Diseases/Root rot"
+        ],
+        "sources": [],
+        "image": {
+          "filename": "wilting.jpg",
+          "caption": "Seasonally wilting nettles; wilting has multiple causes and this photo does not establish a watering problem",
+          "commons_title": "File:Wilting nettles - geograph.org.uk - 1062490.jpg",
+          "description_url": "https://commons.wikimedia.org/wiki/File:Wilting_nettles_-_geograph.org.uk_-_1062490.jpg",
+          "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Wilting_nettles_-_geograph.org.uk_-_1062490.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "creator": "Evelyn Simak",
+          "credit": "From geograph.org.uk",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "image_url": "https://raw.githubusercontent.com/0melette/my_garden/main/localdata/reference_images/wilting.jpg",
+          "record_type": "symptom",
+          "record_id": 5
+        },
+        "source_note": "References/Symptoms/Wilting.md"
       }
     ]
   },
