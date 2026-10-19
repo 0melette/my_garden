@@ -7,36 +7,36 @@ common_name: Radish - Chinese Green Qingluobo
 scientific_name: Raphanus sativus
 family: Brassicaceae
 category:
-- Vegetables
-sun: null
-water: null
+  - Vegetables
+sun:
+water:
 planting_months: []
 calendar_region: Sydney / warm temperate
-spacing_cm: 10.0
-row_spacing_cm: null
-soil_ph_min: null
-soil_ph_max: null
-feeder: null
-yield_qty: null
-yield_unit: null
-succession_interval_days: null
-harvest_window_weeks: null
-forest_layer: null
+spacing_cm: 10
+row_spacing_cm:
+soil_ph_min:
+soil_ph_max:
+feeder:
+yield_qty:
+yield_unit:
+succession_interval_days:
+harvest_window_weeks:
+forest_layer:
 part_used: root
-rotation_group: null
-photo: '[[localdata/plant_images/42-radish-chinese-green-qingluobo.jpg]]'
+rotation_group:
+photo: "[[localdata/plant_images/42-radish-chinese-green-qingluobo.jpg]]"
 source_url: https://www.gardeningknowhow.com/tbt/chinese-green-radish-history
 estimated_fields: []
 pests: []
 diseases: []
 functions: []
 uses:
-- culinary
+  - culinary
 companions: []
 cssclasses:
-- garden-plant
+  - garden-plant
 tags:
-- plant
+  - plant
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
