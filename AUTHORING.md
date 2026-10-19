@@ -68,3 +68,11 @@ Manual export still works: `.venv/bin/python scripts/export_catalogue.py --assig
 The 0melette site reads the generated JSON from main, so it receives changes after the commit is pushed. PMS reads that same format on an explicit import. **Its current importer adds missing records/fills blanks and preserves existing local values. It does not automatically overwrite previously imported fields.** This authoring change does not modify PMS code or its running database.
 
 The former `Documents/My Garden Vault` folder is a preserved backup of the earlier snapshot. Edit this repository vault going forward.
+
+## Care evidence for MCP and RAG
+
+Use the topic labels in Templates/Plant inside the existing Care heading. Keep scope, conditions and source links beside the advice: these travel into care_notes in the JSON and Almanac evidence. A separate Sources & photo section is not exported as care evidence.
+
+Distinguish species advice from verified cultivar traits. Water categories are not watering schedules; heavy-feeder categories are not fertiliser doses. Record unknowns instead of filling gaps with estimates. Keep seasonal calendars tied to their region. Use Management for checks, prevention and problem references.
+
+Run `.venv/bin/python scripts/audit_care.py` to review published records missing care topics. This measures completeness, not horticultural correctness. Research flagged records before adding facts. After publication, existing PMS records need a reviewed refresh because its additive importer preserves populated fields; then re-index Almanac RAG. Verify the resulting evidence before claiming improved live answers.

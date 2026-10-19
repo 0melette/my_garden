@@ -51,7 +51,15 @@ tags:
 
 ## Care
 
-<!-- Add care guidance here; leave blank if unknown. -->
+<!-- Fill each topic only from a checked source. Keep labels inside this Care section so existing exporters retain them. -->
+
+<!-- Scope: species/cultivar, region, bed/container and date checked. -->
+<!-- Sunlight: exposure and any seasonal qualification. -->
+<!-- Watering: moisture target, how to check, method and weather/container adjustments. -->
+<!-- Fertiliser: growth stage, soil context, product/dose source; heavy feeder alone is insufficient. -->
+<!-- Support: whether needed and method. -->
+<!-- Pruning: growth habit, trigger and method; state when pruning is unnecessary. -->
+<!-- Unknowns: explicitly identify unanswered care questions. Add source URLs beside supported claims. -->
 
 ## Management
 
