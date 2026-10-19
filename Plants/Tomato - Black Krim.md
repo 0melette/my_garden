@@ -1,5 +1,7 @@
 ---
 kind: plant
+care_scope: species_guidance
+cultivar_verification: not_assessed
 status: published
 catalogue_id: 33
 slug: tomato-black-krim

@@ -162,6 +162,17 @@ def compile_catalogue(root=ROOT,assign_ids=False):
             if field not in OPTIONAL or field in p:row[field]=p.get(field)
         for key,field in ALIASES.items():row[field]=p.get(key) if p.get(key) not in ('','Not recorded') else None
         for title,field in SECTIONS.items():row[field]=sec.get(title)
+        scope=p.get('care_scope')
+        verification=p.get('cultivar_verification')
+        if scope not in (None, 'species_guidance', 'cultivar_specific'):
+            raise ValueError(f'{path.name}: invalid care_scope')
+        if verification not in (None, 'not_applicable', 'not_assessed', 'unverified', 'verified'):
+            raise ValueError(f'{path.name}: invalid cultivar_verification')
+        evidence_labels=[]
+        if scope:evidence_labels.append(f"Care scope: {scope}.")
+        if verification:evidence_labels.append(f"Cultivar verification: {verification}.")
+        if evidence_labels:
+            row['care_notes']='\n'.join(evidence_labels)+('\n\n'+row['care_notes'] if row['care_notes'] else '')
         estimates=as_list(p,'estimated_fields');row['estimated_fields']=json.dumps(estimates) if estimates else None
         rotation=p.get('rotation_group');row['rotation_group_id']=lookups['rotation_groups'].get(target(rotation)) if rotation else None
         if rotation and row['rotation_group_id'] is None:raise ValueError(f'{path.name}: unknown rotation group {rotation}')

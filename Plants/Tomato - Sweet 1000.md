@@ -1,5 +1,7 @@
 ---
 kind: plant
+care_scope: species_guidance
+cultivar_verification: unverified
 status: published
 catalogue_id: 39
 slug: tomato-sweet-1000

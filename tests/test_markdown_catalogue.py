@@ -66,4 +66,21 @@ class MarkdownCatalogueTests(unittest.TestCase):
         self.assertTrue(photo['creator'])
         self.assertTrue(photo['license_url'].startswith('https://'))
 
+    def test_tomato_scope_survives_export_without_schema_changes(self):
+        plants=compile_catalogue(self.root)['tables']['plant_references']
+        by_slug={p['slug']:p for p in plants}
+        for slug,status in [('tomato','not_applicable'),('tomato-black-krim','not_assessed'),('tomato-sweet-1000','unverified')]:
+            row=by_slug[slug]
+            self.assertIn('Care scope: species_guidance.',row['care_notes'])
+            self.assertIn(f'Cultivar verification: {status}.',row['care_notes'])
+            self.assertNotIn('care_scope',row)
+            self.assertNotIn('cultivar_verification',row)
+        self.assertIsNone(by_slug['tomato']['water_needs'])
+
+    def test_invalid_care_scope_rejected(self):
+        path=self.root/'Plants/Tomato.md';p,b=read_note(path)
+        p['care_scope']='made_up';write_note(path,p,b)
+        with self.assertRaisesRegex(ValueError,'invalid care_scope'):
+            compile_catalogue(self.root)
+
 if __name__=='__main__':unittest.main()

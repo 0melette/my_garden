@@ -1,5 +1,7 @@
 ---
 kind: plant
+care_scope: species_guidance
+cultivar_verification: not_applicable
 status: published
 catalogue_id: 1
 slug: tomato
