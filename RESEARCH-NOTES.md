@@ -46,3 +46,10 @@ The README now counts **1474/1518 populated cells (97%), 40 explicitly inapplica
 - Kept four missing photos empty: bamboo, grape, jujube and musk mallow. Images and their attribution cannot be supplied by a numeric guess.
 
 Each guess has method `ai_planning_estimate`, a generation date, an explicit assumption/basis, an empty sources list and `needs_review`. Populated guesses also appear in estimated_fields; N/A decisions appear in not_applicable_fields. The exported care_notes contains a clear UNVERIFIED AI PLANNING GUESSES label. These assumptions do not convert existing research gaps into sourced facts or change cultivar verification.
+
+
+## Photo completion — 23 October 2026
+
+Added real, reusable Wikimedia Commons photographs for bamboo, jujube, grape and musk mallow. All 46 published records now have attributed local photos: 1478/1518 populated cells, 40 explicitly inapplicable, zero unresolved cells in the tracked completion report. The original files were retained without image edits. Per-image author, source URL, licence, date, checksum and representative caption are in localdata/plant-image-sources.json. These photos are not AI-generated; web selection was AI-assisted. Grape and jujube are species representatives, not verified cultivar photos. This does not change cultivar verification or make planning guesses factual.
+
+Not-applicable reasons remain structured under not_applicable_fields in Markdown/JSON, with N/A counts in the README. The existing website has no dedicated N/A badge or reason panel; it currently renders general estimate text. This photo pass does not change website UI code or deploy main.

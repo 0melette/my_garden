@@ -28,7 +28,7 @@ harvest_window_weeks: 6
 forest_layer: canopy
 part_used: fruit
 rotation_group: Perennials
-photo: null
+photo: '[[localdata/plant_images/44-jujube-si-hong.jpg]]'
 source_url: https://www.daleysfruit.com.au/sku5607-Jujube-Si-Hong-Ziziphus-jujuba.htm
 estimated_fields:
 - calendar_region
@@ -236,6 +236,8 @@ not_applicable_fields:
 
 # Jujube - Si Hong
 
+![[localdata/plant_images/44-jujube-si-hong.jpg]]
+
 ## Summary
 
 Si Hong is a jujube listed by Daleys for large sweet fruit used fresh or dried. Supplier spelling: Si Hong; also commonly written Sihong.
@@ -270,7 +272,11 @@ Fresh or dried fruit.
 
 ## Sources & photo
 
-[Daleys: Jujube - Si Hong](https://www.daleysfruit.com.au/sku5607-Jujube-Si-Hong-Ziziphus-jujuba.htm), checked 20 October 2026. No photo added.
+[Daleys: Jujube - Si Hong](https://www.daleysfruit.com.au/sku5607-Jujube-Si-Hong-Ziziphus-jujuba.htm), checked 20 October 2026.
+
+
+Photo added 23 October 2026: Andymur777, [File:Jujube branch.jpg](https://commons.wikimedia.org/wiki/File:Jujube_branch.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Representative Ziziphus jujuba fruiting branch; Si Hong cultivar not verified. Real photograph, not AI-generated. Original file retained without image edits.
+
 
 ## Research provenance
 

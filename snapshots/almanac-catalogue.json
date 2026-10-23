@@ -8307,6 +8307,26 @@
         "id": 42,
         "plant_reference_id": 42,
         "filename": "42-radish-chinese-green-qingluobo.jpg"
+      },
+      {
+        "id": 43,
+        "plant_reference_id": 43,
+        "filename": "43-bamboo-oldhamii.jpg"
+      },
+      {
+        "id": 44,
+        "plant_reference_id": 44,
+        "filename": "44-jujube-si-hong.jpg"
+      },
+      {
+        "id": 45,
+        "plant_reference_id": 45,
+        "filename": "45-grape-centennial-seedless.jpg"
+      },
+      {
+        "id": 46,
+        "plant_reference_id": 46,
+        "filename": "46-musk-mallow.jpg"
       }
     ],
     "plant_pests": [

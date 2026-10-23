@@ -29,7 +29,7 @@ harvest_window_weeks: null
 forest_layer: canopy
 part_used: culm
 rotation_group: Perennials
-photo: null
+photo: '[[localdata/plant_images/43-bamboo-oldhamii.jpg]]'
 source_url: https://www.daleysfruit.com.au/Bamboo-oldhamii.htm
 estimated_fields:
 - calendar_region
@@ -227,6 +227,8 @@ not_applicable_fields:
 
 # Bamboo - Oldhamii
 
+![[localdata/plant_images/43-bamboo-oldhamii.jpg]]
+
 ## Summary
 
 Upright clumping bamboo with tall, strong culms. Daleys lists this species for screening, timber and shoots.
@@ -257,7 +259,11 @@ Screening and timber. Daleys also lists shoots; this record is not a preparation
 
 ## Sources & photo
 
-[Daleys: Bamboo - Oldhamii](https://www.daleysfruit.com.au/Bamboo-oldhamii.htm), checked 20 October 2026. No photo added.
+[Daleys: Bamboo - Oldhamii](https://www.daleysfruit.com.au/Bamboo-oldhamii.htm), checked 20 October 2026.
+
+
+Photo added 23 October 2026: Forest and Kim Starr, [File:Starr-110330-3981-Bambusa oldhamii-habit-Garden of Eden Keanae-Maui (24987725271).jpg](https://commons.wikimedia.org/wiki/File:Starr-110330-3981-Bambusa_oldhamii-habit-Garden_of_Eden_Keanae-Maui_(24987725271).jpg), [CC BY 3.0 us](https://creativecommons.org/licenses/by/3.0/us/deed.en). Bambusa oldhamii culms; source-labelled species photograph. Real photograph, not AI-generated. Original file retained without image edits.
+
 
 ## Research provenance
 

@@ -28,7 +28,7 @@ harvest_window_weeks: 4
 forest_layer: vine
 part_used: fruit
 rotation_group: Perennials
-photo: null
+photo: '[[localdata/plant_images/45-grape-centennial-seedless.jpg]]'
 source_url: https://www.daleysfruit.com.au/sku5792-buy/centennial-seedless-grape-vines-vitis-vinifera.htm
 estimated_fields:
 - calendar_region
@@ -227,6 +227,8 @@ not_applicable_fields:
 
 # Grape - Centennial Seedless
 
+![[localdata/plant_images/45-grape-centennial-seedless.jpg]]
+
 ## Summary
 
 Supplier-listed seedless grape with pale green elongated berries, firm texture and a mild muscat flavour. Daleys lists grafting onto Sultana H5.
@@ -261,7 +263,11 @@ Fresh fruit.
 
 ## Sources & photo
 
-[Daleys: Centennial Seedless](https://www.daleysfruit.com.au/sku5792-buy/centennial-seedless-grape-vines-vitis-vinifera.htm), checked 20 October 2026. No photo added.
+[Daleys: Centennial Seedless](https://www.daleysfruit.com.au/sku5792-buy/centennial-seedless-grape-vines-vitis-vinifera.htm), checked 20 October 2026.
+
+
+Photo added 23 October 2026: Ivanace1, [File:Grapes on a vine.jpg](https://commons.wikimedia.org/wiki/File:Grapes_on_a_vine.jpg), [Public domain](https://creativecommons.org/publicdomain/mark/1.0/). Representative grapevine and green grapes; Centennial Seedless cultivar not verified. Real photograph, not AI-generated. Original file retained without image edits.
+
 
 ## Research provenance
 

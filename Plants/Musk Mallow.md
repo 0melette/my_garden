@@ -27,7 +27,7 @@ harvest_window_weeks: null
 forest_layer: herbaceous
 part_used: flower (ornamental only)
 rotation_group: Perennials
-photo: null
+photo: '[[localdata/plant_images/46-musk-mallow.jpg]]'
 source_url: https://www.daleysfruit.com.au/Abelmoschus-moschatus-tuberosus.htm
 estimated_fields:
 - calendar_region
@@ -260,6 +260,8 @@ not_applicable_fields:
 
 # Musk Mallow
 
+![[localdata/plant_images/46-musk-mallow.jpg]]
+
 ## Summary
 
 Daleys lists this Musk Mallow as Abelmoschus moschatus tuberosus, also called Native Rosella. It has red flowers and musk-scented seeds. This record is not Malva moschata, another plant called musk mallow.
@@ -296,7 +298,11 @@ Flowering garden plant. Food uses require separate checked guidance.
 
 ## Sources & photo
 
-[Daleys: Musk Mallow](https://www.daleysfruit.com.au/Abelmoschus-moschatus-tuberosus.htm), checked 20 October 2026. Scientific name follows the supplier label. No photo added.
+[Daleys: Musk Mallow](https://www.daleysfruit.com.au/Abelmoschus-moschatus-tuberosus.htm), checked 20 October 2026. Scientific name follows the supplier label.
+
+
+Photo added 23 October 2026: Nativeplants garden, [File:Abelmoschus moschatus subsp. tuberosus.jpg](https://commons.wikimedia.org/wiki/File:Abelmoschus_moschatus_subsp._tuberosus.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Representative flower labelled Abelmoschus moschatus subsp. tuberosus by the photo source; not an identification of an individual garden plant. Real photograph, not AI-generated. Original file retained without image edits.
+
 
 ## Research provenance
 
