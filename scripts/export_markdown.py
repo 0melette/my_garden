@@ -9,6 +9,7 @@ from pathlib import Path
 import re
 import sys
 import yaml
+from datetime import date
 
 ROOT = Path(__file__).resolve().parents[1]
 SECTIONS = {'Summary':'summary','Sowing':'sowing_notes','Care':'care_notes','Management':'management_notes','Harvest':'yield_wording','Uses':'uses_notes'}
@@ -151,6 +152,44 @@ def compile_catalogue(root=ROOT,assign_ids=False):
         if p.get('sun') not in (None,'','Not recorded','full sun','part shade','full shade'):raise ValueError(f'{path.name}: unsupported sunlight value')
         if p.get('water') not in (None,'','Not recorded','low','moderate','high'):raise ValueError(f'{path.name}: unsupported water value')
         sec=sections(b)
+        inapplicable = p.get('not_applicable_fields') or {}
+        if not isinstance(inapplicable, dict):
+            raise ValueError(f'{path.name}: not_applicable_fields must be a reason mapping')
+        applicability_fields = NUMBERS | {'yield_unit', 'rotation_group', 'part_used', 'photo', 'pests', 'diseases', 'functions', 'uses', 'companions'}
+        for field, reason in inapplicable.items():
+            if field not in applicability_fields or not isinstance(reason, str) or not reason.strip() or p.get(field) not in (None, '', []):
+                raise ValueError(f'{path.name}: invalid or populated not-applicable field {field}')
+        generated = as_list(p, 'generated_fields')
+        if not set(inapplicable).issubset(set(generated)):
+            raise ValueError(f'{path.name}: not-applicable decisions need generated_fields and provenance')
+        provenance = p.get('field_provenance') or {}
+        if not isinstance(provenance, dict):
+            raise ValueError(f'{path.name}: field_provenance must be a mapping')
+        for field in generated:
+            allowed = set(FIELDS) | set(ALIASES) | set(SECTIONS) | set(RELATIONS) | {'category', 'planting_months', 'calendar_region', 'photo', 'rotation_group', 'care_scope', 'cultivar_verification', 'companions'}
+            value = sec.get(field) if isinstance(field, str) and field in SECTIONS else p.get(field) if isinstance(field, str) else None
+            if not isinstance(field, str) or field not in allowed or ((value is None or value == '' or value == []) and field not in inapplicable):
+                raise ValueError(f'{path.name}: generated field {field} is unknown or empty')
+            evidence = provenance.get(field)
+            if not isinstance(evidence, dict) or evidence.get('method') not in {'ai_assisted_research', 'ai_planning_estimate'}:
+                raise ValueError(f'{path.name}: generated field {field} needs AI provenance')
+            if evidence.get('review_status') not in {'needs_review', 'human_reviewed'} or evidence.get('scope') not in {'species', 'cultivar'}:
+                raise ValueError(f'{path.name}: invalid provenance review status/scope for {field}')
+            try:
+                date.fromisoformat(str(evidence.get('generated_at') if evidence['method'] == 'ai_planning_estimate' else evidence.get('checked_at')))
+            except ValueError:
+                raise ValueError(f'{path.name}: invalid provenance date for {field}')
+            sources = evidence.get('sources')
+            if evidence['method'] == 'ai_planning_estimate':
+                if sources != [] or not isinstance(evidence.get('basis'), str) or not evidence['basis'].strip():
+                    raise ValueError(f'{path.name}: planning estimate {field} needs an explicit basis and no claimed sources')
+                estimate_key = ALIASES.get(field, SECTIONS.get(field, field))
+                if field not in inapplicable and estimate_key not in as_list(p, 'estimated_fields'):
+                    raise ValueError(f'{path.name}: planning estimate {field} must be listed in estimated_fields')
+            elif not isinstance(sources, list) or not sources or any(not isinstance(url, str) or not url.startswith('https://') for url in sources):
+                raise ValueError(f'{path.name}: generated field {field} needs HTTPS sources')
+        if set(provenance) != set(generated):
+            raise ValueError(f'{path.name}: provenance keys must match generated_fields')
         if changed:updates.append((path,p,b))
         published.append((path,p,b,sec));source_paths.append(path)
     plant_lookup={path.stem:p['catalogue_id'] for path,p,_,_ in published}
@@ -171,6 +210,15 @@ def compile_catalogue(root=ROOT,assign_ids=False):
         evidence_labels=[]
         if scope:evidence_labels.append(f"Care scope: {scope}.")
         if verification:evidence_labels.append(f"Cultivar verification: {verification}.")
+        if p.get('generated_fields'):
+            row['generated_fields'] = p['generated_fields']
+            row['field_provenance'] = p['field_provenance']
+            evidence_labels.append('AI-assisted additions (see field_provenance for sources and review status): ' + ', '.join(p['generated_fields']) + '.')
+        guesses = [field for field, evidence in (p.get('field_provenance') or {}).items() if evidence['method'] == 'ai_planning_estimate']
+        if guesses:
+            evidence_labels.append('UNVERIFIED AI PLANNING GUESSES: ' + ', '.join(guesses) + '. Rough Sydney planning assumptions requested by the user; not sourced facts, measured yields, diagnoses or guaranteed companion benefits. See field_provenance for assumptions and not_applicable_fields for exclusions.')
+        if p.get('not_applicable_fields'):
+            row['not_applicable_fields'] = p['not_applicable_fields']
         if evidence_labels:
             row['care_notes']='\n'.join(evidence_labels)+('\n\n'+row['care_notes'] if row['care_notes'] else '')
         estimates=as_list(p,'estimated_fields');row['estimated_fields']=json.dumps(estimates) if estimates else None
@@ -207,7 +255,7 @@ def compile_catalogue(root=ROOT,assign_ids=False):
     tables['plant_references'].sort(key=lambda r:r['id'])
     tables['ailments'] = compile_ailments(root)
     payload={'snapshot_format':1,'exported_at':str(meta['catalogue_updated'])+'T00:00:00+00:00','schema_version':meta['schema_version'],'tables':tables,
-             'regional_guidance':{'region':'Sydney / warm temperate','plant_ids':sorted(regional),'details':'Plant Markdown sowing notes are authoritative. Earlier records retain their original calendar context.'}}
+             'regional_guidance':{'region':'Sydney / warm temperate','plant_ids':sorted(regional),'details':'Plant Markdown sowing notes and field_provenance describe calendar scope. AI planning calendars/region assignments are explicitly unverified guesses; estimated_fields labels them, including retained legacy month lists provisionally assigned to Sydney.'}}
     # Complete validation happens before any source note is changed.
     for path,p,b in updates:write_note(path,p,b)
     return payload
@@ -220,6 +268,8 @@ def export(root,output,check=False,assign_ids=False):
         if not output.is_file() or output.read_text()!=content:raise ValueError('Generated JSON is stale. Run python scripts/export_catalogue.py.')
     else:
         output.parent.mkdir(parents=True,exist_ok=True);tmp=output.with_suffix('.json.tmp');tmp.write_text(content,encoding='utf-8');tmp.replace(output)
+    from completion_report import update
+    update(root, check=check)
     return payload
 
 

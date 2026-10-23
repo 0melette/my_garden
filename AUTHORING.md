@@ -73,8 +73,43 @@ The former `Documents/My Garden Vault` folder is a preserved backup of the earli
 
 Use the topic labels in Templates/Plant inside the existing Care heading. Keep scope, conditions and source links beside the advice: these travel into care_notes in the JSON and Almanac evidence. A separate Sources & photo section is not exported as care evidence.
 
-Distinguish species advice from verified cultivar traits. Water categories are not watering schedules; heavy-feeder categories are not fertiliser doses. Record unknowns instead of filling gaps with estimates. Keep seasonal calendars tied to their region. Use Management for checks, prevention and problem references.
+Distinguish species advice from verified cultivar traits. Water categories are not watering schedules; heavy-feeder categories are not fertiliser doses. For factual care evidence, record unknowns rather than inventing facts. User-requested planning guesses use the separate estimate format below. Keep seasonal calendars tied to their region. Use Management for checks, prevention and problem references.
 
 Run `.venv/bin/python scripts/audit_care.py` to review published records missing care topics. This measures completeness, not horticultural correctness. Research flagged records before adding facts. After publication, existing PMS records need a reviewed refresh because its additive importer preserves populated fields; then re-index Almanac RAG. Verify the resulting evidence before claiming improved live answers.
 
 For explicit care provenance, use `care_scope: species_guidance` or `cultivar_specific` and `cultivar_verification: not_applicable`, `not_assessed`, `unverified` or `verified`. These are exported as labelled lines in care_notes so existing consumers retain them. `not_assessed` does not mean verified or disproven. Use verified only with supporting evidence; retain source links and conditions beside each care topic.
+
+## Completion report and AI provenance
+
+The README tracks 27 public content properties and the six exported prose sections for each published plant. IDs, timestamps, personal links, grouping labels and provenance metadata are not completion targets. Empty lists and unknown regional labels count as gaps. Presence does not establish accuracy, applicability or a complete care answer.
+
+Run `.venv/bin/python scripts/export_catalogue.py` to refresh both JSON and README; `--check` verifies both. The commit hook builds both from the staged notes. Fully stage or save README edits before committing so it can safely update the generated table.
+
+For a researched AI addition, list the **Markdown property name or exact section heading** in `generated_fields`, and add matching `field_provenance`:
+
+```yaml
+generated_fields: [family]
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+      - https://plants.ces.ncsu.edu/plants/ziziphus-jujuba/
+```
+
+Use `scope: cultivar` only for cultivar-specific evidence. Use `human_reviewed` only after a person reviews the actual value and source; AI research alone does not qualify. Keep inline source links and scope beside generated prose. When only part of a section is added, retain its existing text and visibly label the new passage. Do not retroactively label untouched material as generated or human verified. Keep provenance when editing a generated value, updating sources/date as appropriate.
+
+The exporter validates matching flags, populated values, dates, source links, scope and review status. JSON retains the metadata and adds a short label to care_notes for existing consumers. A website badge would require a consumer UI change; this repo change supplies the data flag. Numeric planning estimates still belong in estimated_fields, independently of whether AI assisted their entry. Unsupported factual claims remain unknown; user-requested planning guesses may fill practical values using the separate method below. Photos require real assets and attribution.
+
+
+### User-requested rough planning estimates
+
+The user explicitly requested guesses on 23 October 2026. These are stored as `method: ai_planning_estimate`, `generated_at: '2026-10-23'`, `review_status: needs_review`, `scope: species`, `sources: []` and an explicit `basis`. Do not invent citations or describe a generation date as a source check. Each populated guess is also listed in estimated_fields (using the exported alias, e.g. water_needs for water). The exporter rejects guessed values that lack these labels.
+
+The defaults assume Sydney lowland outdoor growing with irrigation, ordinary home-garden care and mature established perennials. A yield is total per established plant per crop/season, not each picking. Calendar months mean sowing/transplanting annuals or planting nursery stock/divisions for perennials. Existing month lists lacking a region were retained and explicitly labelled as guesses when provisionally assigned to Sydney. Cultivar identity remains unverified.
+
+`not_applicable_fields` maps an empty property to a reason, e.g. `yield_qty: No numeric food yield target for ornamental planning`. Such decisions also carry generation provenance; they do not become zeros or fake values. The README counts these separately from populated cells and unresolved gaps. Guessed pest/disease associations are watch-list targets, and companion/function links are speculative layout suggestions. They are not diagnoses or proven benefits.
+
+`scripts/fill_planning_estimates.py` records the defaults used for this pass. It fills blanks, preserves existing sourced values/provenance, and is idempotent. Run deliberately, review the diff, then regenerate the export. Existing factual paragraphs may still say that a parameter is unknown: the estimate does not resolve that evidence gap. Exported care_notes visibly labels the new guesses for existing consumers. No website badge is implemented here.

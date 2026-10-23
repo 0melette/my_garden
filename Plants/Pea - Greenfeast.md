@@ -7,7 +7,7 @@ common_name: Pea - Greenfeast
 category:
 - Vegetables
 scientific_name: Pisum sativum
-family: ''
+family: Fabaceae
 created_at: '2026-09-12 03:44:52.530164'
 yield_qty: 0.25
 row_spacing_cm: 50.0
@@ -16,7 +16,7 @@ harvest_window_weeks: 4.0
 soil_ph_min: 6.0
 soil_ph_max: 7.0
 yield_unit: kg
-source_url: null
+source_url: https://auth1.dpr.ncparks.gov/flora/plant_list.php?name_sn=Pisum+sativum
 notion_url: https://app.notion.com/3bea295fe2fa81dd81d6d3d573bd5e85
 forest_layer: vine
 part_used: fruit
@@ -24,8 +24,14 @@ sun: full sun
 water: moderate
 spacing_cm: 10.0
 feeder: nitrogen fixer
-planting_months: []
-calendar_region: Original region not recorded
+planting_months:
+- Mar
+- Apr
+- May
+- Jun
+- Jul
+- Aug
+calendar_region: Sydney / warm temperate
 rotation_group: Legumes
 photo: '[[localdata/plant_images/26-pea-greenfeast.jpg]]'
 estimated_fields:
@@ -47,6 +53,8 @@ estimated_fields:
 - pests
 - diseases
 - function_tags
+- calendar_region
+- planting_months
 pests:
 - Aphids
 - Slugs and snails
@@ -67,6 +75,41 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- source_url
+- calendar_region
+- planting_months
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://auth1.dpr.ncparks.gov/flora/plant_list.php?name_sn=Pisum+sativum
+  source_url:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://auth1.dpr.ncparks.gov/flora/plant_list.php?name_sn=Pisum+sativum
+  calendar_region:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: 'Assume Sydney for planning; former region label: Original region not recorded. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.'
+  planting_months:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: Representative species planning value chosen by AI; no cultivar-specific evidence. Months mean outdoor sowing/transplanting for annuals or planting nursery stock/divisions for perennials. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+not_applicable_fields: {}
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -105,3 +148,14 @@ Fresh or cooked in soups, risotto and side dishes.
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `pea-greenfeast`
 - Photo: Renee Comet (photographer) AV Number: AV-9400-4164 · [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) · [Original image](https://commons.wikimedia.org/wiki/File:NCI_peas_in_pod.jpg)
+
+## Research provenance
+
+AI-assisted additions: family, source_url. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.
+
+
+## Planning estimates
+
+UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+
+Fields/sections guessed in this pass: calendar_region, planting_months. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
