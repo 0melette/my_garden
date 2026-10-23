@@ -7,7 +7,7 @@ common_name: Eggplant - Tsakoniki
 category:
 - Vegetables
 scientific_name: Solanum melongena
-family: ''
+family: Solanaceae
 created_at: '2026-09-12 03:44:52.526275'
 yield_qty: 8.0
 row_spacing_cm: 80.0
@@ -61,6 +61,16 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-melongena/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -99,3 +109,7 @@ Good for stews, sauces, baking, frying, stuffing and grilling.
 - [Growing reference 1](https://www.theseedcollection.com.au/Eggplant-Tsakoniki)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `eggplant-tsakoniki`
 - Photo: Forest and Kim Starr · [CC BY 3.0 us](https://creativecommons.org/licenses/by/3.0/us/deed.en) · [Original image](https://commons.wikimedia.org/wiki/File:Starr-130312-2414-Solanum_melongena-fruit_black_globe_and_striped_mauve_and_white-Pali_o_Waipio_Huelo-Maui_(25207292225).jpg)
+
+## Research provenance
+
+AI-assisted additions: family. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

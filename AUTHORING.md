@@ -78,3 +78,27 @@ Distinguish species advice from verified cultivar traits. Water categories are n
 Run `.venv/bin/python scripts/audit_care.py` to review published records missing care topics. This measures completeness, not horticultural correctness. Research flagged records before adding facts. After publication, existing PMS records need a reviewed refresh because its additive importer preserves populated fields; then re-index Almanac RAG. Verify the resulting evidence before claiming improved live answers.
 
 For explicit care provenance, use `care_scope: species_guidance` or `cultivar_specific` and `cultivar_verification: not_applicable`, `not_assessed`, `unverified` or `verified`. These are exported as labelled lines in care_notes so existing consumers retain them. `not_assessed` does not mean verified or disproven. Use verified only with supporting evidence; retain source links and conditions beside each care topic.
+
+## Completion report and AI provenance
+
+The README tracks 27 public content properties and the six exported prose sections for each published plant. IDs, timestamps, personal links, grouping labels and provenance metadata are not completion targets. Empty lists and unknown regional labels count as gaps. Presence does not establish accuracy, applicability or a complete care answer.
+
+Run `.venv/bin/python scripts/export_catalogue.py` to refresh both JSON and README; `--check` verifies both. The commit hook builds both from the staged notes. Fully stage or save README edits before committing so it can safely update the generated table.
+
+For a researched AI addition, list the **Markdown property name or exact section heading** in `generated_fields`, and add matching `field_provenance`:
+
+```yaml
+generated_fields: [family]
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+      - https://plants.ces.ncsu.edu/plants/ziziphus-jujuba/
+```
+
+Use `scope: cultivar` only for cultivar-specific evidence. Use `human_reviewed` only after a person reviews the actual value and source; AI research alone does not qualify. Keep inline source links and scope beside generated prose. When only part of a section is added, retain its existing text and visibly label the new passage. Do not retroactively label untouched material as generated or human verified. Keep provenance when editing a generated value, updating sources/date as appropriate.
+
+The exporter validates matching flags, populated values, dates, source links, scope and review status. JSON retains the metadata and adds a short label to care_notes for existing consumers. A website badge would require a consumer UI change; this repo change supplies the data flag. Numeric planning estimates still belong in estimated_fields, independently of whether AI assisted their entry. Unsupported yields, calendar dates, relationships and photos remain empty.

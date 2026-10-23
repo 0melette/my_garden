@@ -14,9 +14,12 @@ def git(root,*args,**kwargs):
 def prepare(root):
     root=Path(root)
     output='snapshots/almanac-catalogue.json'
+    report='README.md'
     # A generated file may be replaced, but never silently discard manual edits.
     if git(root,'diff','--name-only','--',output).strip():
         raise ValueError('JSON has unstaged edits. Stage or save those edits before committing.')
+    if git(root,'diff','--name-only','--',report).strip():
+        raise ValueError('README has unstaged edits. Stage or save those edits before regenerating completion.')
     with tempfile.TemporaryDirectory(prefix='garden-commit-') as folder:
         snapshot=Path(folder)
         git(root,'checkout-index','--all',f'--prefix={snapshot}{os.sep}')
@@ -28,6 +31,8 @@ def prepare(root):
             if not (root/path).is_file() or (root/path).read_bytes()!=before[path]:
                 raise ValueError(f'{path}: new ID needed, but the note has unstaged edits. Fully stage this note first.')
         updates={**assigned,Path(output):(snapshot/output).read_bytes()}
+        if (snapshot/report).exists():
+            updates[Path(report)] = (snapshot/report).read_bytes()
         for path,body in updates.items():
             destination=root/path;destination.parent.mkdir(parents=True,exist_ok=True)
             destination.write_bytes(body)

@@ -7,7 +7,7 @@ common_name: Pea - Oregon Dwarf
 category:
 - Vegetables
 scientific_name: Pisum sativum
-family: ''
+family: Fabaceae
 created_at: '2026-09-12 03:44:52.530647'
 yield_qty: 0.25
 row_spacing_cm: 50.0
@@ -66,6 +66,24 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- Uses
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://auth1.dpr.ncparks.gov/flora/plant_list.php?name_sn=Pisum+sativum
+  Uses:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/lathyrus-oleraceus/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -96,10 +114,14 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Uses
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Peas are grown for seeds or edible pods, depending on cultivar. This species source alone does not establish whether this cultivar’s mature pods are suitable for eating. [Source](https://plants.ces.ncsu.edu/plants/lathyrus-oleraceus/).
 
 ## Sources & photo
 
 - [Growing reference 1](https://www.edenseeds.com.au/Product-Info-Seeds?product=pea-snowpea-oregon)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `pea-oregon-dwarf`
 - Photo: Forest & Kim Starr · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) · [Original image](https://commons.wikimedia.org/wiki/File:Starr_081009-0039_Pisum_sativum_var._macrocarpum.jpg)
+
+## Research provenance
+
+AI-assisted additions: family, Uses. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.

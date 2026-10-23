@@ -7,7 +7,7 @@ common_name: Pea - Greenfeast
 category:
 - Vegetables
 scientific_name: Pisum sativum
-family: ''
+family: Fabaceae
 created_at: '2026-09-12 03:44:52.530164'
 yield_qty: 0.25
 row_spacing_cm: 50.0
@@ -16,7 +16,7 @@ harvest_window_weeks: 4.0
 soil_ph_min: 6.0
 soil_ph_max: 7.0
 yield_unit: kg
-source_url: null
+source_url: https://auth1.dpr.ncparks.gov/flora/plant_list.php?name_sn=Pisum+sativum
 notion_url: https://app.notion.com/3bea295fe2fa81dd81d6d3d573bd5e85
 forest_layer: vine
 part_used: fruit
@@ -67,6 +67,24 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- source_url
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://auth1.dpr.ncparks.gov/flora/plant_list.php?name_sn=Pisum+sativum
+  source_url:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://auth1.dpr.ncparks.gov/flora/plant_list.php?name_sn=Pisum+sativum
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -105,3 +123,7 @@ Fresh or cooked in soups, risotto and side dishes.
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `pea-greenfeast`
 - Photo: Renee Comet (photographer) AV Number: AV-9400-4164 · [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) · [Original image](https://commons.wikimedia.org/wiki/File:NCI_peas_in_pod.jpg)
+
+## Research provenance
+
+AI-assisted additions: family, source_url. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

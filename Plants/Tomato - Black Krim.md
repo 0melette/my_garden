@@ -9,7 +9,7 @@ common_name: Tomato - Black Krim
 category:
 - Vegetables
 scientific_name: Solanum lycopersicum
-family: ''
+family: Solanaceae
 created_at: '2026-09-12 03:44:52.532856'
 yield_qty: 3.0
 row_spacing_cm: 80.0
@@ -64,6 +64,16 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -120,3 +130,7 @@ Fresh in salads, roasted, or cooked into sauces and relishes.
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `tomato-black-krim`
 - Photo: Johnh · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) · [Original image](https://commons.wikimedia.org/wiki/File:Black_krim_tomato.jpg)
+
+## Research provenance
+
+AI-assisted additions: family. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

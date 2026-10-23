@@ -7,7 +7,7 @@ common_name: Alyssum
 category:
 - Flowers
 scientific_name: Lobularia maritima
-family: ''
+family: Brassicaceae
 created_at: '2026-09-12 03:44:52.521301'
 yield_qty: null
 row_spacing_cm: 25.0
@@ -60,6 +60,16 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/lobularia-maritima/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -97,3 +107,7 @@ Low flowering edge or groundcover plant that can support pollinators.
 - [Growing reference 1](https://www.theseedcollection.com.au/growguide/alyssum-seeds)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `alyssum`
 - Photo: Alvesgaspar · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · [Original image](https://commons.wikimedia.org/wiki/File:Lobularia_maritima_Porto_Covo_2022-1.jpg)
+
+## Research provenance
+
+AI-assisted additions: family. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

@@ -16,11 +16,11 @@ harvest_window_weeks: null
 soil_ph_min: null
 soil_ph_max: null
 yield_unit: null
-source_url: null
+source_url: https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/
 notion_url: null
 forest_layer: null
-part_used: null
-sun: null
+part_used: fruit
+sun: full sun
 water: null
 spacing_cm: null
 feeder: null
@@ -34,12 +34,79 @@ estimated_fields: []
 pests: []
 diseases: []
 functions: []
-uses: []
+uses:
+- culinary
 companions: []
 cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- sun
+- part_used
+- source_url
+- uses
+- Care
+- Management
+- Harvest
+- Uses
+field_provenance:
+  sun:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/
+  part_used:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/
+  source_url:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/
+  uses:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/
+  Care:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/
+  Management:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/
+  Harvest:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/
+  Uses:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -58,22 +125,26 @@ A compact perennial fruit for pots, baskets, and beds.
 
 ## Care
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Sunlight: Full sun to partial shade. Watering: Maintain moist, well-drained soil. Pruning: Remove runners if prioritising fruit production. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
 
 ## Management
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Check fruit for rot and plants for pests; symptoms require diagnosis. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
 
 ## Harvest
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Harvest ripe fruit; harvest season depends on cultivar and region. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
 
 ## Uses
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Fruit is eaten raw or cooked. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
 
 ## Sources & photo
 
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `strawberry`
 - Photo: Unknown · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) · [Original image](https://commons.wikimedia.org/wiki/File:Strawberries.JPG)
+
+## Research provenance
+
+AI-assisted additions: sun, part_used, source_url, uses, Care, Management, Harvest, Uses. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

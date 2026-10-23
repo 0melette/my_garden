@@ -26,6 +26,8 @@ rotation_group: null
 photo: null
 source_url: null
 estimated_fields: []
+generated_fields: []
+field_provenance: {}
 pests: []
 diseases: []
 functions: []

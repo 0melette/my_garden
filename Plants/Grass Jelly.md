@@ -7,7 +7,7 @@ common_name: Grass Jelly
 category:
 - Herbs
 scientific_name: Cyclea barbata
-family: ''
+family: Menispermaceae
 created_at: '2026-09-12 03:44:52.527026'
 yield_qty: null
 row_spacing_cm: 150.0
@@ -44,12 +44,47 @@ pests:
 - Slugs and snails
 diseases: []
 functions: []
-uses: []
+uses:
+- culinary
 companions: []
 cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- uses
+- Sowing
+- Harvest
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://www.nparks.gov.sg/florafaunaweb/flora/5/5/5585
+  uses:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://www.nparks.gov.sg/florafaunaweb/flora/5/5/5585
+  Sowing:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://www.nparks.gov.sg/florafaunaweb/flora/5/5/5585
+  Harvest:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://www.nparks.gov.sg/florafaunaweb/flora/5/5/5585
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -64,7 +99,7 @@ Tropical climbing plant traditionally used to make green grass jelly in Indonesi
 
 ## Sowing
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Propagate from seed or underground storage organs; a Sydney sowing calendar is not established here. [Source](https://www.nparks.gov.sg/florafaunaweb/flora/5/5/5585).
 
 ## Care
 
@@ -76,7 +111,7 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Harvest
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): The leaves are used in green grass jelly. This source gives no harvest interval or yield. [Source](https://www.nparks.gov.sg/florafaunaweb/flora/5/5/5585).
 
 ## Uses
 
@@ -88,3 +123,7 @@ Traditional grass jelly preparation; confirm species identity and food safety be
 - [Growing reference 1](https://plantuse.plantnet.org/en/Cyclea_%28PROSEA%29)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `grass-jelly`
 - Photo: CYL · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) · [Original image](https://commons.wikimedia.org/wiki/File:Cyclea_barbata_393265361.jpg)
+
+## Research provenance
+
+AI-assisted additions: family, uses, Sowing, Harvest. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.

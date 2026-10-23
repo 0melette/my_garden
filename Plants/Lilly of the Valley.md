@@ -7,7 +7,7 @@ common_name: Lilly of the Valley
 category:
 - Flowers
 scientific_name: Convallaria majalis
-family: ''
+family: Asparagaceae
 created_at: '2026-09-12 03:44:52.529534'
 yield_qty: null
 row_spacing_cm: 30.0
@@ -16,7 +16,7 @@ harvest_window_weeks: null
 soil_ph_min: 6.0
 soil_ph_max: 7.0
 yield_unit: null
-source_url: null
+source_url: https://plants.ces.ncsu.edu/plants/convallaria-majalis/
 notion_url: https://app.notion.com/3bfa295fe2fa800392a4f43bbd50d721
 forest_layer: groundcover
 part_used: flower
@@ -56,6 +56,48 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- source_url
+- Summary
+- Sowing
+- Care
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/convallaria-majalis/
+  source_url:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/convallaria-majalis/
+  Summary:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/convallaria-majalis/
+  Sowing:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/convallaria-majalis/
+  Care:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/convallaria-majalis/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -66,15 +108,15 @@ tags:
 
 ## Summary
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): A spreading rhizomatous perennial with fragrant bell-shaped flowers. Ornamental; poisonous if eaten. [Source](https://plants.ces.ncsu.edu/plants/convallaria-majalis/).
 
 ## Sowing
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Propagate by division or seed; use local seasonal guidance rather than copying Northern Hemisphere calendar months. [Source](https://plants.ces.ncsu.edu/plants/convallaria-majalis/).
 
 ## Care
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Sunlight: Partial to full shade. Watering: Moist, organically rich soil is preferred. Management: Rhizomes can spread into surrounding planting. [Source](https://plants.ces.ncsu.edu/plants/convallaria-majalis/).
 
 ## Management
 
@@ -93,3 +135,7 @@ Lily of the valley (Convallaria majalis). Ornamental only; poisonous if eaten. C
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `lilly-of-the-valley`
 - Photo: Lazaregagnidze · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) · [Original image](https://commons.wikimedia.org/wiki/File:Convallaria_majalis_Lily-of-the-Valley_%E1%83%A8%E1%83%A0%E1%83%9D%E1%83%A8%E1%83%90%E1%83%9C%E1%83%90.JPG)
+
+## Research provenance
+
+AI-assisted additions: family, source_url, Summary, Sowing, Care. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.

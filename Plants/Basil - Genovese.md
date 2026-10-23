@@ -7,7 +7,7 @@ common_name: Basil - Genovese
 category:
 - Herbs
 scientific_name: Ocimum basilicum
-family: ''
+family: Lamiaceae
 created_at: '2026-09-12 03:44:52.521754'
 yield_qty: 0.2
 row_spacing_cm: 30.0
@@ -16,7 +16,7 @@ harvest_window_weeks: 8.0
 soil_ph_min: 6.0
 soil_ph_max: 7.0
 yield_unit: kg
-source_url: null
+source_url: https://plants.ces.ncsu.edu/plants/ocimum-basilicum/
 notion_url: https://app.notion.com/3bea295fe2fa81068000c5bb13d3c686
 forest_layer: herbaceous
 part_used: leaf
@@ -63,6 +63,24 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- source_url
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/ocimum-basilicum/
+  source_url:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/ocimum-basilicum/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -101,3 +119,7 @@ Fresh leaves for pesto, pasta, salads and sauces.
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `basil-genovese`
 - Photo: Paul Goyette · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) · [Original image](https://commons.wikimedia.org/wiki/File:Basil_leaves.jpg)
+
+## Research provenance
+
+AI-assisted additions: family, source_url. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

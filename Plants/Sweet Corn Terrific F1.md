@@ -7,7 +7,7 @@ common_name: Sweet Corn Terrific F1
 category:
 - Vegetables
 scientific_name: Zea mays
-family: ''
+family: Poaceae
 created_at: '2026-09-12 03:44:52.532233'
 yield_qty: 1.0
 row_spacing_cm: 50.0
@@ -62,6 +62,16 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/zea-mays/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -100,3 +110,7 @@ Harvest fresh when silks have browned and kernels release a milky liquid when pi
 - [Growing reference 1](https://www.mrfothergills.com.au/products/sweet-corn-terrific-f1-value-pack)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `sweet-corn-terrific-f1`
 - Photo: Forest and Kim Starr · [CC BY 3.0 us](https://creativecommons.org/licenses/by/3.0/us/deed.en) · [Original image](https://commons.wikimedia.org/wiki/File:Starr-090807-4107-Zea_mays-UH_Yellow_and_Silver_sweet-Olinda-Maui_(24853941572).jpg)
+
+## Research provenance
+
+AI-assisted additions: family. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

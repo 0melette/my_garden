@@ -7,7 +7,7 @@ common_name: Bunching Onion - Winter Ishikura
 category:
 - Vegetables
 scientific_name: Allium fistulosum
-family: ''
+family: Amaryllidaceae
 created_at: '2026-09-12 03:44:52.523505'
 yield_qty: 1.0
 row_spacing_cm: 30.0
@@ -62,6 +62,16 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://www.nparks.gov.sg/florafaunaweb/flora/4/9/4944
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -100,3 +110,7 @@ Good raw or cooked wherever spring onions are used.
 - [Growing reference 1](https://www.theseedcollection.com.au/Bunching-Onion-Winter-Ishikura)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `bunching-onion-winter-ishikura`
 - Photo: Forest and Kim Starr · [CC BY 3.0 us](https://creativecommons.org/licenses/by/3.0/us/deed.en) · [Original image](https://commons.wikimedia.org/wiki/File:Starr-090519-8038-Allium_fistulosum-crop-Kula-Maui_(24328807153).jpg)
+
+## Research provenance
+
+AI-assisted additions: family. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

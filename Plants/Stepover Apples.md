@@ -7,7 +7,7 @@ common_name: Stepover Apples
 category:
 - Fruit
 scientific_name: Malus domestica
-family: ''
+family: Rosaceae
 created_at: '2026-09-12 03:44:52.531599'
 yield_qty: null
 row_spacing_cm: 150.0
@@ -16,7 +16,7 @@ harvest_window_weeks: null
 soil_ph_min: 6.0
 soil_ph_max: 7.0
 yield_unit: null
-source_url: null
+source_url: https://plants.ces.ncsu.edu/plants/malus-domestica/
 notion_url: https://app.notion.com/3c3a295fe2fa8031a8e2d35ca71ccd79
 forest_layer: shrub
 part_used: fruit
@@ -61,6 +61,56 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- source_url
+- Summary
+- Sowing
+- Care
+- Uses
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/malus-domestica/
+  source_url:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/malus-domestica/
+  Summary:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/malus-domestica/
+  Sowing:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/malus-domestica/
+  Care:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/malus-domestica/
+  Uses:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/malus-domestica/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -71,15 +121,15 @@ tags:
 
 ## Summary
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Apple trees produce edible fruit; stepover describes a trained form, not an identified cultivar. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
 
 ## Sowing
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Grafting is a propagation method for apples. A species entry does not identify this plant’s rootstock or a suitable local planting calendar. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
 
 ## Care
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Sunlight: Full sun. Species size and spacing cannot be applied directly to a stepover; training and rootstock determine space needs. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
 
 ## Management
 
@@ -91,10 +141,14 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Uses
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Fruit may be eaten fresh or cooked; suitability varies with cultivar. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
 
 ## Sources & photo
 
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `stepover-apples`
 - Photo: Emőke Dénes · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · [Original image](https://commons.wikimedia.org/wiki/File:Rosales_-_Malus_domestica_-_15.jpg)
+
+## Research provenance
+
+AI-assisted additions: family, source_url, Summary, Sowing, Care, Uses. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.

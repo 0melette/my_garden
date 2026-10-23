@@ -7,7 +7,7 @@ common_name: Lettuce - Buttercrunch
 category:
 - Vegetables
 scientific_name: Lactuca sativa
-family: ''
+family: Asteraceae
 created_at: '2026-09-12 03:44:52.529036'
 yield_qty: 1.0
 row_spacing_cm: 30.0
@@ -16,7 +16,7 @@ harvest_window_weeks: 1.0
 soil_ph_min: 6.0
 soil_ph_max: 7.0
 yield_unit: head
-source_url: null
+source_url: https://plants.ces.ncsu.edu/plants/lactuca-sativa/
 notion_url: https://app.notion.com/3bea295fe2fa81cfa29ac444bf52704b
 forest_layer: herbaceous
 part_used: leaf
@@ -63,6 +63,24 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- source_url
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/lactuca-sativa/
+  source_url:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/lactuca-sativa/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -101,3 +119,7 @@ Fresh leaves for salads, sandwiches and wraps.
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `lettuce-buttercrunch`
 - Photo: Geo Lightspeed7 · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · [Original image](https://commons.wikimedia.org/wiki/File:Buttercrunch_butterhead_lettuce.jpg)
+
+## Research provenance
+
+AI-assisted additions: family, source_url. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

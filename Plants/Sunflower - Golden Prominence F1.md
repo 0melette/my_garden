@@ -7,7 +7,7 @@ common_name: Sunflower - Golden Prominence F1
 category:
 - Flowers
 scientific_name: Helianthus annuus
-family: ''
+family: Asteraceae
 created_at: '2026-09-12 03:44:52.531915'
 yield_qty: 1.0
 row_spacing_cm: 45.0
@@ -66,6 +66,16 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/helianthus-annuus/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -103,3 +113,7 @@ Tall cut flower and visual feature; this cultivar is recorded as pollen-free.
 - [Growing reference 1](https://www.theseedcollection.com.au/sunflower-golden-prominence)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `sunflower-golden-prominence-f1`
 - Photo: böhringer friedrich · [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5) · [Original image](https://commons.wikimedia.org/wiki/File:Sonnenblume_Helianthus_1.JPG)
+
+## Research provenance
+
+AI-assisted additions: family. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

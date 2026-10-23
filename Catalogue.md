@@ -1,6 +1,6 @@
 ---
 schema_version: '003'
-catalogue_updated: '2026-10-20'
+catalogue_updated: '2026-10-23'
 ---
 
 # Catalogue metadata

@@ -8,7 +8,7 @@ category:
 - Herbs
 - Flowers
 scientific_name: Hyssopus officinalis
-family: ''
+family: Lamiaceae
 created_at: '2026-09-12 03:44:52.527739'
 yield_qty: null
 row_spacing_cm: 60.0
@@ -66,6 +66,16 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/hyssopus-officinalis/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -104,3 +114,7 @@ Strong bitter-minty flavour; used in soups, stews, salads, meat and egg dishes.
 - [Growing reference 1](https://www.theseedcollection.com.au/Hyssop)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `hyssop`
 - Photo: Sten Porse · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) · [Original image](https://commons.wikimedia.org/wiki/File:Hyssopus-officinalis-flowers.jpg)
+
+## Research provenance
+
+AI-assisted additions: family. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

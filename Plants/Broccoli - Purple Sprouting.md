@@ -7,7 +7,7 @@ common_name: Broccoli - Purple Sprouting
 category:
 - Vegetables
 scientific_name: Brassica oleracea
-family: ''
+family: Brassicaceae
 created_at: '2026-09-12 03:44:52.522991'
 yield_qty: 0.6
 row_spacing_cm: 60.0
@@ -62,6 +62,16 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/brassica-oleracea/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -100,3 +110,7 @@ Good for stir-frying or steaming; purple colour reduces when cooked.
 - [Growing reference 1](https://www.theseedcollection.com.au/Broccoli-Purple-Sprouting)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `broccoli-purple-sprouting`
 - Photo: Andy / Andrew Fogg from near Cambridge, UK · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) · [Original image](https://commons.wikimedia.org/wiki/File:Purple_(133472799).jpg)
+
+## Research provenance
+
+AI-assisted additions: family. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

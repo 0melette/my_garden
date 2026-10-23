@@ -7,7 +7,7 @@ common_name: Carrot - Nantes
 category:
 - Vegetables
 scientific_name: Daucus carota
-family: ''
+family: Apiaceae
 created_at: '2026-09-12 03:44:52.524498'
 yield_qty: 1.0
 row_spacing_cm: 25.0
@@ -16,7 +16,7 @@ harvest_window_weeks: 1.0
 soil_ph_min: 6.0
 soil_ph_max: 7.0
 yield_unit: root
-source_url: null
+source_url: https://plants.ces.ncsu.edu/plants/daucus-carota/
 notion_url: https://app.notion.com/3bea295fe2fa81b298c1de801783eccd
 forest_layer: rhizosphere
 part_used: root
@@ -63,6 +63,24 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- source_url
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/daucus-carota/
+  source_url:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/daucus-carota/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -101,3 +119,7 @@ Raw, roasted, steamed, in soups or in baking.
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `carrot-nantes`
 - Photo: congerdesign · [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en) · [Original image](https://commons.wikimedia.org/wiki/File:Fresh_orange_carrots.jpg)
+
+## Research provenance
+
+AI-assisted additions: family, source_url. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

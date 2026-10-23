@@ -5,7 +5,7 @@ catalogue_id: 44
 slug: jujube-si-hong
 common_name: Jujube - Si Hong
 scientific_name: Ziziphus jujuba
-family: null
+family: Rhamnaceae
 category:
 - Fruit
 sun: full sun
@@ -22,7 +22,7 @@ yield_unit: null
 succession_interval_days: null
 harvest_window_weeks: null
 forest_layer: null
-part_used: null
+part_used: fruit
 rotation_group: null
 photo: null
 source_url: https://www.daleysfruit.com.au/sku5607-Jujube-Si-Hong-Ziziphus-jujuba.htm
@@ -30,7 +30,8 @@ estimated_fields: []
 pests: []
 diseases: []
 functions: []
-uses: []
+uses:
+- culinary
 companions: []
 cssclasses:
 - garden-plant
@@ -41,6 +42,40 @@ cultivar_verification: not_assessed
 plant_group: Jujube
 plant_category: fruit
 variety_name: Si Hong
+generated_fields:
+- family
+- part_used
+- uses
+- Care
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/ziziphus-jujuba/
+  part_used:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/ziziphus-jujuba/
+  uses:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/ziziphus-jujuba/
+  Care:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/ziziphus-jujuba/
 ---
 
 # Jujube - Si Hong
@@ -63,6 +98,8 @@ Pollination: Daleys lists self-pollination but recommends cross-pollination for 
 
 Containers: Supplier lists suitability for pots and repotting every second year while deciduous. Pruning technique is not recorded here.
 
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Watering: Species guidance favours moist, well-drained soil despite established drought tolerance. Drought tolerance is not a recommendation to withhold establishment watering. [Source](https://plants.ces.ncsu.edu/plants/ziziphus-jujuba/).
+
 ## Management
 
 Daleys warns about rootstock suckering and advises avoiding disturbance around the roots. Pest and disease associations are not recorded.
@@ -78,3 +115,7 @@ Fresh or dried fruit.
 ## Sources & photo
 
 [Daleys: Jujube - Si Hong](https://www.daleysfruit.com.au/sku5607-Jujube-Si-Hong-Ziziphus-jujuba.htm), checked 20 October 2026. No photo added.
+
+## Research provenance
+
+AI-assisted additions: family, part_used, uses, Care. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

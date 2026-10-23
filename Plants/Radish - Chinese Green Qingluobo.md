@@ -7,36 +7,54 @@ common_name: Radish - Chinese Green Qingluobo
 scientific_name: Raphanus sativus
 family: Brassicaceae
 category:
-  - Vegetables
-sun:
-water:
+- Vegetables
+sun: full sun
+water: null
 planting_months: []
 calendar_region: Sydney / warm temperate
 spacing_cm: 10
-row_spacing_cm:
-soil_ph_min:
-soil_ph_max:
-feeder:
-yield_qty:
-yield_unit:
-succession_interval_days:
-harvest_window_weeks:
-forest_layer:
+row_spacing_cm: null
+soil_ph_min: null
+soil_ph_max: null
+feeder: null
+yield_qty: null
+yield_unit: null
+succession_interval_days: null
+harvest_window_weeks: null
+forest_layer: null
 part_used: root
-rotation_group:
-photo: "[[localdata/plant_images/42-radish-chinese-green-qingluobo.jpg]]"
+rotation_group: null
+photo: '[[localdata/plant_images/42-radish-chinese-green-qingluobo.jpg]]'
 source_url: https://www.gardeningknowhow.com/tbt/chinese-green-radish-history
 estimated_fields: []
 pests: []
 diseases: []
 functions: []
 uses:
-  - culinary
+- culinary
 companions: []
 cssclasses:
-  - garden-plant
+- garden-plant
 tags:
-  - plant
+- plant
+generated_fields:
+- sun
+- Care
+field_provenance:
+  sun:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/raphanus-raphanistrum-subsp-sativus/
+  Care:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/raphanus-raphanistrum-subsp-sativus/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -56,6 +74,8 @@ Direct sow for a cool-season crop. Grand Prismatic Seed recommends early spring 
 ## Care
 
 Leave enough room for the long roots to develop. The spacing property follows Grand Prismatic Seed's 4-inch thinning recommendation, rounded to 10 cm. Other numeric growing requirements remain unverified.
+
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Sunlight: Full sun is preferred; partial shade slows root development. Watering: Consistent moisture supports root quality; sandy soil dries faster. General radish guidance does not establish Qingluobo maturity dates or a Sydney calendar. [Source](https://plants.ces.ncsu.edu/plants/raphanus-raphanistrum-subsp-sativus/).
 
 ## Management
 
@@ -77,3 +97,7 @@ Slice or grate raw for salads, pickle, or cook. The green flesh adds colour to r
 - [Grand Prismatic Seed — Chinese Green Radish](https://www.grandprismaticseed.com/veggies/chinese-green-radish): scientific name, direct sowing and thinning distance. Northern Hemisphere sowing dates have not been copied into the Sydney calendar.
 - Sources checked 3 October 2026.
 - Photo added 4 October 2026: Fumikas Sagisavas, [Green radish](https://commons.wikimedia.org/wiki/File:Green_radish.jpg), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Representative Chinese green radish photo; exact Qingluobo cultivar not verified.
+
+## Research provenance
+
+AI-assisted additions: sun, Care. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

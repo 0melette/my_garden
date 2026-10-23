@@ -7,7 +7,7 @@ common_name: Japanese Raisin Tree
 category:
 - Fruit
 scientific_name: Hovenia dulcis
-family: ''
+family: Rhamnaceae
 created_at: '2026-09-12 03:44:52.528069'
 yield_qty: null
 row_spacing_cm: null
@@ -19,7 +19,7 @@ yield_unit: null
 source_url: https://ucanr.edu/blog/under-solano-sun/article/fruit-tree-edible-stalks
 notion_url: https://app.notion.com/3bfa295fe2fa8025827ae7cbbb5df6f5
 forest_layer: canopy
-part_used: null
+part_used: swollen fruit stalk
 sun: full sun
 water: moderate
 spacing_cm: null
@@ -57,6 +57,32 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- part_used
+- Harvest
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/hovenia-dulcis/
+  part_used:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/hovenia-dulcis/
+  Harvest:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/hovenia-dulcis/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -83,7 +109,7 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Harvest
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): The sweet edible portion is the swollen stalk/receptacle rather than the small seed capsule. Ripening and local harvest dates need confirmation. [Source](https://plants.ces.ncsu.edu/plants/hovenia-dulcis/).
 
 ## Uses
 
@@ -95,3 +121,7 @@ Ripe swollen peduncles can be eaten fresh or dried.
 - [Growing reference 1](https://ucanr.edu/blog/under-solano-sun/article/fruit-tree-edible-stalks)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `japanese-raisin-tree`
 - Photo: Lazaregagnidze · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · [Original image](https://commons.wikimedia.org/wiki/File:Hovenia_dulcis_Japanese_Raisin_Tree_%E1%83%A7%E1%83%A3%E1%83%9C%E1%83%AC%E1%83%A8%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%90.JPG)
+
+## Research provenance
+
+AI-assisted additions: family, part_used, Harvest. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.

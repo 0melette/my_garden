@@ -7,7 +7,7 @@ common_name: Eggplant - Casper
 category:
 - Vegetables
 scientific_name: Solanum melongena
-family: ''
+family: Solanaceae
 created_at: '2026-09-12 03:44:52.525454'
 yield_qty: 8.0
 row_spacing_cm: 80.0
@@ -16,7 +16,7 @@ harvest_window_weeks: 10.0
 soil_ph_min: 6.0
 soil_ph_max: 7.0
 yield_unit: fruit
-source_url: null
+source_url: https://plants.ces.ncsu.edu/plants/solanum-melongena/
 notion_url: https://app.notion.com/3c6a295fe2fa80d985e0c3827d634d4a
 forest_layer: herbaceous
 part_used: fruit
@@ -64,6 +64,48 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- source_url
+- Summary
+- Care
+- Uses
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-melongena/
+  source_url:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-melongena/
+  Summary:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-melongena/
+  Care:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-melongena/
+  Uses:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-melongena/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -74,7 +116,7 @@ tags:
 
 ## Summary
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Eggplant is a cold-sensitive crop grown for edible fruit; this source does not establish Casper-specific traits. [Source](https://plants.ces.ncsu.edu/plants/solanum-melongena/).
 
 ## Sowing
 
@@ -82,7 +124,7 @@ tags:
 
 ## Care
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Temperature: Growth is fastest around 21–29°C. Protect this cold-sensitive crop from cold conditions. [Source](https://plants.ces.ncsu.edu/plants/solanum-melongena/).
 
 ## Management
 
@@ -94,10 +136,14 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Uses
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Edible fruit; this species entry does not establish cultivar-specific cooking qualities. [Source](https://plants.ces.ncsu.edu/plants/solanum-melongena/).
 
 ## Sources & photo
 
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `eggplant-casper`
 - Photo: Forest and Kim Starr · [CC BY 3.0 us](https://creativecommons.org/licenses/by/3.0/us/deed.en) · [Original image](https://commons.wikimedia.org/wiki/File:Starr-090713-2635-Solanum_melongena-white_fruit-Lahaina-Maui_(24876145261).jpg)
+
+## Research provenance
+
+AI-assisted additions: family, source_url, Summary, Care, Uses. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.

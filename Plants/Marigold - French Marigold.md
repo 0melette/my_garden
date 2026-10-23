@@ -7,7 +7,7 @@ common_name: Marigold - French Marigold
 category:
 - Flowers
 scientific_name: Tagetes patula
-family: ''
+family: Asteraceae
 created_at: '2026-09-12 03:44:52.529852'
 yield_qty: null
 row_spacing_cm: 30.0
@@ -16,7 +16,7 @@ harvest_window_weeks: null
 soil_ph_min: 6.0
 soil_ph_max: 7.0
 yield_unit: null
-source_url: null
+source_url: https://plants.ces.ncsu.edu/plants/tagetes-patula/
 notion_url: https://app.notion.com/3bea295fe2fa81daab2ccc82f2e90970
 forest_layer: herbaceous
 part_used: flower
@@ -63,6 +63,24 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- source_url
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/tagetes-patula/
+  source_url:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/tagetes-patula/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -101,3 +119,7 @@ Primarily ornamental; do not eat unless the packet confirms an edible cultivar.
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `marigold-french-marigold`
 - Photo: George Chernilevsky · [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) · [Original image](https://commons.wikimedia.org/wiki/File:French_marigold_garden_2009_G1.jpg)
+
+## Research provenance
+
+AI-assisted additions: family, source_url. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

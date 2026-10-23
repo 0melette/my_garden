@@ -8,7 +8,7 @@ category:
 - Herbs
 - Vegetables
 scientific_name: Armoracia rusticana
-family: ''
+family: Brassicaceae
 created_at: '2026-09-12 03:44:52.527404'
 yield_qty: 0.3
 row_spacing_cm: 60.0
@@ -63,6 +63,16 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/armoracia-rusticana/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -101,3 +111,7 @@ Freshly grated horseradish with vinegar and a pinch of salt makes a classic sauc
 - [Growing reference 1](https://www.abc.net.au/gardening/how-to/plant-profile-horseradish/105355418)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `horseradish`
 - Photo: Pethan · [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) · [Original image](https://commons.wikimedia.org/wiki/File:Armoracia_rusticana.jpg)
+
+## Research provenance
+
+AI-assisted additions: family. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

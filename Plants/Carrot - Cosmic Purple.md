@@ -7,7 +7,7 @@ common_name: Carrot - Cosmic Purple
 category:
 - Vegetables
 scientific_name: Daucus carota
-family: ''
+family: Apiaceae
 created_at: '2026-09-12 03:44:52.524012'
 yield_qty: 1.0
 row_spacing_cm: 25.0
@@ -62,6 +62,16 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/daucus-carota/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -100,3 +110,7 @@ Sweet and crunchy; retains colour well when cooked.
 - [Growing reference 1](https://www.theseedcollection.com.au/Carrot-Cosmic-Purple)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `carrot-cosmic-purple`
 - Photo: Tiia Monto · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · [Original image](https://commons.wikimedia.org/wiki/File:Dark_carrot.jpg)
+
+## Research provenance
+
+AI-assisted additions: family. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

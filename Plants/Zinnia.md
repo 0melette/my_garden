@@ -7,7 +7,7 @@ common_name: Zinnia
 category:
 - Flowers
 scientific_name: Zinnia elegans
-family: ''
+family: Asteraceae
 created_at: '2026-09-12 03:44:52.533330'
 yield_qty: 8.0
 row_spacing_cm: 20.0
@@ -66,6 +66,24 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- Uses
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/zinnia-elegans/
+  Uses:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/zinnia-elegans/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -96,10 +114,14 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Uses
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Ornamental bedding and cut flowers. [Source](https://plants.ces.ncsu.edu/plants/zinnia-elegans/).
 
 ## Sources & photo
 
 - [Growing reference 1](https://www.theseedcollection.com.au/growguide/zinnia-seeds)
 - [Public catalogue](https://github.com/0melette/my_garden) · record `zinnia`
 - Photo: Simon Koopmann · [CC BY-SA 2.0 de](https://creativecommons.org/licenses/by-sa/2.0/de/deed.en) · [Original image](https://commons.wikimedia.org/wiki/File:Zinnia_elegans_with_Bombus_01.JPG)
+
+## Research provenance
+
+AI-assisted additions: family, Uses. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.

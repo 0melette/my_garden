@@ -15,13 +15,13 @@ yield_qty: null
 row_spacing_cm: null
 succession_interval_days: null
 harvest_window_weeks: null
-soil_ph_min: null
-soil_ph_max: null
+soil_ph_min: 5.8
+soil_ph_max: 6.8
 yield_unit: null
 source_url: https://www.rhs.org.uk/vegetables/tomatoes/grow-your-own
 notion_url: null
 forest_layer: null
-part_used: null
+part_used: fruit
 sun: full sun
 water: null
 spacing_cm: null
@@ -39,7 +39,8 @@ estimated_fields: []
 pests: []
 diseases: []
 functions: []
-uses: []
+uses:
+- culinary
 companions:
 - plant: '[[Plants/Basil - Genovese]]'
   function: pollinator attractor
@@ -51,6 +52,64 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- soil_ph_min
+- soil_ph_max
+- part_used
+- uses
+- Sowing
+- Harvest
+- Uses
+field_provenance:
+  soil_ph_min:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/
+  soil_ph_max:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/
+  part_used:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/
+  uses:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/
+  Sowing:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/
+  Harvest:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/
+  Uses:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -65,7 +124,7 @@ A productive warm-season crop for garden beds and containers.
 
 ## Sowing
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Start seed indoors or use transplants; plant outdoors after frost risk has passed. [Source](https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/).
 
 ## Care
 
@@ -93,11 +152,11 @@ Related reference: [[References/Diseases/Tomato early blight]]. Treatment and cu
 
 ## Harvest
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Ripe fruit can be picked when it detaches easily. Fruit can continue ripening after picking. [Source](https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/).
 
 ## Uses
 
-<!-- Not recorded. Add verified guidance here. -->
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Edible fruit, raw or cooked; other plant parts are not food. [Source](https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/).
 
 ## Sources & photo
 
@@ -106,3 +165,7 @@ Related reference: [[References/Diseases/Tomato early blight]]. Treatment and cu
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `tomato`
 - Photo: Softeis · [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) · [Original image](https://commons.wikimedia.org/wiki/File:Tomato_je.jpg)
+
+## Research provenance
+
+AI-assisted additions: soil_ph_min, soil_ph_max, part_used, uses, Sowing, Harvest, Uses. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.

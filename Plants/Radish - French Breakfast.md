@@ -7,7 +7,7 @@ common_name: Radish - French Breakfast
 category:
 - Vegetables
 scientific_name: Raphanus sativus
-family: ''
+family: Brassicaceae
 created_at: '2026-09-12 03:44:52.531124'
 yield_qty: 1.0
 row_spacing_cm: 20.0
@@ -16,7 +16,7 @@ harvest_window_weeks: 1.0
 soil_ph_min: 6.0
 soil_ph_max: 7.0
 yield_unit: root
-source_url: null
+source_url: https://plants.ces.ncsu.edu/plants/raphanus-raphanistrum-subsp-sativus/
 notion_url: https://app.notion.com/3bea295fe2fa814f92caf190146c2050
 forest_layer: rhizosphere
 part_used: root
@@ -63,6 +63,24 @@ cssclasses:
 - garden-plant
 tags:
 - plant
+generated_fields:
+- family
+- source_url
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/raphanus-raphanistrum-subsp-sativus/
+  source_url:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://plants.ces.ncsu.edu/plants/raphanus-raphanistrum-subsp-sativus/
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -101,3 +119,7 @@ Raw in salads, pickled, or roasted.
 - Imported from the my_garden catalogue; growing source not recorded.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `radish-french-breakfast`
 - Photo: Self, en:User:Jengod · [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) · [Original image](https://commons.wikimedia.org/wiki/File:Radish_3371103037_4ab07db0bf_o.jpg)
+
+## Research provenance
+
+AI-assisted additions: family, source_url. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

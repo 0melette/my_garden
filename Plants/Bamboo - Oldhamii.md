@@ -5,7 +5,7 @@ catalogue_id: 43
 slug: bamboo-oldhamii
 common_name: Bamboo - Oldhamii
 scientific_name: Bambusa oldhamii
-family: null
+family: Poaceae
 category:
 - Vegetables
 sun: full sun
@@ -38,6 +38,16 @@ tags:
 - plant
 care_scope: species_guidance
 cultivar_verification: not_applicable
+generated_fields:
+- family
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A392445-1
 ---
 
 # Bamboo - Oldhamii
@@ -73,3 +83,7 @@ Screening and timber. Daleys also lists shoots; this record is not a preparation
 ## Sources & photo
 
 [Daleys: Bamboo - Oldhamii](https://www.daleysfruit.com.au/Bamboo-oldhamii.htm), checked 20 October 2026. No photo added.
+
+## Research provenance
+
+AI-assisted additions: family. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.

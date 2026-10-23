@@ -5,7 +5,7 @@ catalogue_id: 46
 slug: musk-mallow
 common_name: Musk Mallow
 scientific_name: Abelmoschus moschatus tuberosus
-family: null
+family: Malvaceae
 category:
 - Flowers
 sun: full sun
@@ -38,6 +38,32 @@ tags:
 - plant
 care_scope: species_guidance
 cultivar_verification: not_applicable
+generated_fields:
+- family
+- Care
+- Sowing
+field_provenance:
+  family:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://anpsa.org.au/plant_profiles/abelmoschus-moschatus-subsp-tuberosus/
+  Care:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://anpsa.org.au/plant_profiles/abelmoschus-moschatus-subsp-tuberosus/
+  Sowing:
+    method: ai_assisted_research
+    checked_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources:
+    - https://anpsa.org.au/plant_profiles/abelmoschus-moschatus-subsp-tuberosus/
 ---
 
 # Musk Mallow
@@ -50,6 +76,8 @@ Daleys lists this Musk Mallow as Abelmoschus moschatus tuberosus, also called Na
 
 Daleys supplies seedling-grown plants. Local sowing months are not recorded.
 
+AI-assisted research, 23 October 2026 (species guidance; needs human review): ANPSA lists seed, small tubers or stem cuttings for propagation; establishment may be difficult. The profile identifies the taxon as Abelmoschus moschatus subsp. tuberosus. [Source](https://anpsa.org.au/plant_profiles/abelmoschus-moschatus-subsp-tuberosus/).
+
 ## Care
 
 Scope: Supplier species listing, checked 20 October 2026.
@@ -59,6 +87,8 @@ Sunlight: Full sun. Daleys lists drought tolerance and only occasional frost tol
 Size: The description says about 2 m, while the specifications say 0–1 m. The supplier's conflicting height information needs confirmation before spacing decisions.
 
 Fertiliser dose, pruning and transplant calendar are not recorded.
+
+AI-assisted research, 23 October 2026 (species guidance; needs human review): Watering: ANPSA describes seasonal dieback to a tuber and advises drying out after foliage dies back in the dry season. This is a dormancy condition, not a year-round watering schedule. [Source](https://anpsa.org.au/plant_profiles/abelmoschus-moschatus-subsp-tuberosus/).
 
 ## Management
 
@@ -75,3 +105,7 @@ Flowering garden plant. Food uses require separate checked guidance.
 ## Sources & photo
 
 [Daleys: Musk Mallow](https://www.daleysfruit.com.au/Abelmoschus-moschatus-tuberosus.htm), checked 20 October 2026. Scientific name follows the supplier label. No photo added.
+
+## Research provenance
+
+AI-assisted additions: family, Care, Sowing. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.
