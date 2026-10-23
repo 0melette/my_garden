@@ -23,7 +23,7 @@ class MarkdownCatalogueTests(unittest.TestCase):
         write_note(path,p,b)
         row=next(r for r in compile_catalogue(self.root)['tables']['plant_references'] if r['slug']=='parsley')
         self.assertEqual(row['water_needs'],'high');self.assertEqual(row['in_row_spacing_cm'],42)
-        self.assertEqual(row['care_notes'],'Unique updated care text.')
+        self.assertTrue(row['care_notes'].endswith('Unique updated care text.'))
     def test_draft_template_then_stable_publish_id(self):
         baseline=len(compile_catalogue(self.root)['tables']['plant_references'])
         next_id=max(read_note(p)[0].get('catalogue_id') or 0 for p in (self.root/'Plants').glob('*.md'))+1
@@ -75,7 +75,9 @@ class MarkdownCatalogueTests(unittest.TestCase):
             self.assertIn(f'Cultivar verification: {status}.',row['care_notes'])
             self.assertNotIn('care_scope',row)
             self.assertNotIn('cultivar_verification',row)
-        self.assertIsNone(by_slug['tomato']['water_needs'])
+        self.assertEqual(by_slug['tomato']['water_needs'],'moderate')
+        self.assertEqual(by_slug['tomato']['field_provenance']['water']['method'],'ai_planning_estimate')
+        self.assertIn('UNVERIFIED AI PLANNING GUESSES',by_slug['tomato']['care_notes'])
 
     def test_invalid_care_scope_rejected(self):
         path=self.root/'Plants/Tomato.md';p,b=read_note(path)

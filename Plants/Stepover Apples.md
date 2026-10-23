@@ -9,13 +9,13 @@ category:
 scientific_name: Malus domestica
 family: Rosaceae
 created_at: '2026-09-12 03:44:52.531599'
-yield_qty: null
+yield_qty: 5
 row_spacing_cm: 150.0
 succession_interval_days: null
-harvest_window_weeks: null
+harvest_window_weeks: 4
 soil_ph_min: 6.0
 soil_ph_max: 7.0
-yield_unit: null
+yield_unit: kg
 source_url: https://plants.ces.ncsu.edu/plants/malus-domestica/
 notion_url: https://app.notion.com/3c3a295fe2fa8031a8e2d35ca71ccd79
 forest_layer: shrub
@@ -24,8 +24,11 @@ sun: full sun
 water: moderate
 spacing_cm: 150.0
 feeder: light feeder
-planting_months: []
-calendar_region: Original region not recorded
+planting_months:
+- Jun
+- Jul
+- Aug
+calendar_region: Sydney / warm temperate
 rotation_group: Perennials
 photo: '[[localdata/plant_images/29-stepover-apples.jpg]]'
 estimated_fields:
@@ -43,11 +46,21 @@ estimated_fields:
 - scientific_name
 - in_row_spacing_cm
 - rotation_group
+- calendar_region
+- planting_months
+- yield_qty
+- yield_unit
+- harvest_window_weeks
+- diseases
+- functions
+- yield_wording
 pests:
 - Aphids
 - Slugs and snails
-diseases: []
-functions: []
+diseases:
+- Powdery mildew
+functions:
+- pollinator attractor
 uses:
 - culinary
 companions:
@@ -68,6 +81,15 @@ generated_fields:
 - Sowing
 - Care
 - Uses
+- calendar_region
+- planting_months
+- yield_qty
+- yield_unit
+- harvest_window_weeks
+- succession_interval_days
+- diseases
+- functions
+- Harvest
 field_provenance:
   family:
     method: ai_assisted_research
@@ -111,6 +133,71 @@ field_provenance:
     review_status: needs_review
     sources:
     - https://plants.ces.ncsu.edu/plants/malus-domestica/
+  calendar_region:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: 'Assume Sydney for planning; former region label: Original region not recorded. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.'
+  planting_months:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: Representative species planning value chosen by AI; no cultivar-specific evidence. Months mean outdoor sowing/transplanting for annuals or planting nursery stock/divisions for perennials. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+  yield_qty:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: Representative species planning value chosen by AI; no cultivar-specific evidence.  User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+  yield_unit:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: Representative species planning value chosen by AI; no cultivar-specific evidence.  User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+  harvest_window_weeks:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: Representative species planning value chosen by AI; no cultivar-specific evidence.  User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+  succession_interval_days:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: No routine repeated sowing assumed for this established perennial or single long-season planting. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+  diseases:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: Speculative monitoring target or garden layout/use category. Pollinator value assumes the plant is allowed to flower; do not infer medicinal or food safety advice. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+  functions:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: Speculative monitoring target or garden layout/use category. Pollinator value assumes the plant is allowed to flower; do not infer medicinal or food safety advice. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+  Harvest:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: Unverified planning text requested by the user. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+not_applicable_fields:
+  succession_interval_days: No routine repeated sowing assumed for this established perennial or single long-season planting.
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -137,7 +224,7 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Harvest
 
-<!-- Not recorded. Add verified guidance here. -->
+UNVERIFIED AI PLANNING GUESS: Use harvest_window_weeks as a rough picking/lifting period; yield_qty is a total per established plant per crop/season, not per picking. Harvest at suitable maturity and adjust after observing your plants.
 
 ## Uses
 
@@ -152,3 +239,10 @@ AI-assisted research, 23 October 2026 (species guidance; needs human review): Fr
 ## Research provenance
 
 AI-assisted additions: family, source_url, Summary, Sowing, Care, Uses. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.
+
+
+## Planning estimates
+
+UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+
+Fields/sections guessed in this pass: calendar_region, planting_months, yield_qty, yield_unit, harvest_window_weeks, succession_interval_days, diseases, functions, Harvest. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.

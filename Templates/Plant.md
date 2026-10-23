@@ -28,6 +28,7 @@ source_url: null
 estimated_fields: []
 generated_fields: []
 field_provenance: {}
+not_applicable_fields: {}
 pests: []
 diseases: []
 functions: []

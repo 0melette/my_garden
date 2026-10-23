@@ -24,9 +24,14 @@ sun: full sun
 water: moderate
 spacing_cm: 20.0
 feeder: light feeder
-planting_months: []
-calendar_region: Original region not recorded
-rotation_group: null
+planting_months:
+- Sep
+- Oct
+- Nov
+- Dec
+- Jan
+calendar_region: Sydney / warm temperate
+rotation_group: Anywhere
 photo: '[[localdata/plant_images/34-zinnia.jpg]]'
 estimated_fields:
 - yield_qty
@@ -46,6 +51,9 @@ estimated_fields:
 - pests
 - diseases
 - function_tags
+- calendar_region
+- planting_months
+- rotation_group
 pests:
 - Aphids
 - Slugs and snails
@@ -69,6 +77,9 @@ tags:
 generated_fields:
 - family
 - Uses
+- calendar_region
+- planting_months
+- rotation_group
 field_provenance:
   family:
     method: ai_assisted_research
@@ -84,6 +95,28 @@ field_provenance:
     review_status: needs_review
     sources:
     - https://plants.ces.ncsu.edu/plants/zinnia-elegans/
+  calendar_region:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: 'Assume Sydney for planning; former region label: Original region not recorded. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.'
+  planting_months:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: Representative species planning value chosen by AI; no cultivar-specific evidence. Months mean outdoor sowing/transplanting for annuals or planting nursery stock/divisions for perennials. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+  rotation_group:
+    method: ai_planning_estimate
+    generated_at: '2026-10-23'
+    scope: species
+    review_status: needs_review
+    sources: []
+    basis: Representative species planning value chosen by AI; no cultivar-specific evidence.  User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+not_applicable_fields: {}
 ---
 
 [[My Garden|← My Garden]] · [[AUTHORING|Editing guide]]
@@ -125,3 +158,10 @@ AI-assisted research, 23 October 2026 (species guidance; needs human review): Or
 ## Research provenance
 
 AI-assisted additions: family, Uses. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.
+
+
+## Planning estimates
+
+UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
+
+Fields/sections guessed in this pass: calendar_region, planting_months, rotation_group. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.

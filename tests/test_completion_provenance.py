@@ -51,8 +51,38 @@ class CompletionProvenanceTests(unittest.TestCase):
         self.assertNotIn('New plant', render(self.root))
         path = self.root / 'Plants/Parsley.md'
         props, body = read_note(path)
-        props['yield_qty'] = 2
+        props['photo'] = None
         write_note(path, props, body)
         with self.assertRaisesRegex(ValueError, 'stale'): update(self.root, check=True)
         self.assertFalse(present('Original region not recorded'))
         self.assertTrue(present('Pruning is not recorded; watering guidance follows.'))
+
+    def test_planning_guesses_cannot_claim_sources_and_keep_applicability(self):
+        rows = compile_catalogue(self.root)['tables']['plant_references']
+        tomato = next(row for row in rows if row['slug'] == 'tomato')
+        self.assertEqual(tomato['field_provenance']['water']['sources'], [])
+        self.assertEqual(tomato['field_provenance']['water']['review_status'], 'needs_review')
+        self.assertIn('water_needs', tomato['estimated_fields'])
+        bamboo = next(row for row in rows if row['slug'] == 'bamboo-oldhamii')
+        self.assertIsNone(bamboo['yield_qty'])
+        self.assertIn('yield_qty', bamboo['not_applicable_fields'])
+        path = self.root / 'Plants/Tomato.md'
+        props, body = read_note(path)
+        props['field_provenance']['water']['sources'] = ['https://example.com/pretend-source']
+        write_note(path, props, body)
+        with self.assertRaisesRegex(ValueError, 'no claimed sources'):
+            compile_catalogue(self.root)
+
+    def test_applicability_cannot_hide_a_populated_value(self):
+        path = self.root / 'Plants/Bamboo - Oldhamii.md'
+        props, body = read_note(path)
+        props['yield_qty'] = 5
+        write_note(path, props, body)
+        with self.assertRaisesRegex(ValueError, 'not-applicable'):
+            compile_catalogue(self.root)
+
+    def test_estimate_filler_is_idempotent_and_preserves_research(self):
+        from fill_planning_estimates import fill
+        before = {path: path.read_bytes() for path in (self.root / 'Plants').glob('*.md')}
+        self.assertEqual(fill(self.root), 0)
+        self.assertEqual(before, {path: path.read_bytes() for path in before})

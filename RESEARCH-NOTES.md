@@ -18,9 +18,9 @@ Principal sources include [NC State Extension Plant Toolbox](https://plants.ces.
 
 Some NC State entries redirect to newer taxonomic names (radish and pea). Existing catalogue scientific names were preserved; the synonym relationship is explicit on those sources. ANPSA calls musk mallow Abelmoschus moschatus subsp. tuberosus; the existing supplier-style name is retained with that distinction in the prose.
 
-## Why some fields remain blank
+## Initial research gaps (before the requested guesses)
 
-The README's expandable per-plant table is the remaining-work inventory. A gap can mean unknown, unresearched, or inapplicable; an empty relationship list does not assert absence.
+The initial research pass left the following evidence gaps. These are now filled with separately labelled guesses where practical; the evidence itself has not improved.
 
 - **Planting months and calendar region:** original calendars often lack a region. Northern Hemisphere dates cannot establish Sydney planting months. Local cultivar/propagation guidance is still needed; existing months were not reinterpreted.
 - **Yield and harvest window:** need plant age, cultivar, growing system, climate and a stated unit/basis. A supplier's seasonal harvest listing does not establish how many weeks an individual plant will bear fruit. No arbitrary yields or durations were added.
@@ -31,3 +31,18 @@ The README's expandable per-plant table is the remaining-work inventory. A gap c
 - **Flowers and woody perennials:** succession sowing, vegetable rotation, numeric harvest windows or food-harvest instructions may be inapplicable. Missing fields were not populated with zero, invented values or generic filler.
 
 All new contributions await human review. Existing material is not retroactively classified as human-written, researched or verified. These local changes do not update the website UI or refresh an existing PMS database/RAG index.
+
+
+## User-requested planning guesses — 23 October 2026
+
+After reviewing the missing fields, the user explicitly requested rough guesses. This subsequent pass added **410 unverified field/section estimates or applicability decisions across all 46 published plants**. No new sources were claimed. Original researched values and their provenance were preserved.
+
+The README now counts **1474/1518 populated cells (97%), 40 explicitly inapplicable cells, and four unresolved photos**. Of the 410 estimates, eight mark retained legacy month lists as guessed Sydney calendars; this is an assumption, not a regional validation. The remaining 402 entries address original gaps (362 populated, 40 inapplicable). Coverage is still only field presence.
+
+- Filled practical calendars, water categories, spacing, pH, feeding categories, yields and harvest windows with illustrative species-level values.
+- Added possible pest/disease watch lists, flowering/pollinator roles and companion layout ideas. These are speculative, not observed diagnoses or proven relationships.
+- Yields assume one established plant per crop/season; woody perennials assume maturity. Actual production may differ substantially. Spacing and row clearances depend on training and available space.
+- Used explicit not-applicable reasons for absent numerical food-yield targets in ornamental/timber records and for routine succession sowing where it was not part of the plan.
+- Kept four missing photos empty: bamboo, grape, jujube and musk mallow. Images and their attribution cannot be supplied by a numeric guess.
+
+Each guess has method `ai_planning_estimate`, a generation date, an explicit assumption/basis, an empty sources list and `needs_review`. Populated guesses also appear in estimated_fields; N/A decisions appear in not_applicable_fields. The exported care_notes contains a clear UNVERIFIED AI PLANNING GUESSES label. These assumptions do not convert existing research gaps into sourced facts or change cultivar verification.
