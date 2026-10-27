@@ -8,6 +8,8 @@ category:
 - Vegetables
 scientific_name: Raphanus sativus
 family: Brassicaceae
+plant_group: Radish
+variety_name: French Breakfast
 created_at: '2026-09-12 03:44:52.531124'
 yield_qty: 1.0
 row_spacing_cm: 20.0
