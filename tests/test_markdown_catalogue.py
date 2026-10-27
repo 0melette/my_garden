@@ -71,13 +71,13 @@ class MarkdownCatalogueTests(unittest.TestCase):
         by_slug={p['slug']:p for p in plants}
         for slug,status in [('tomato','not_applicable'),('tomato-black-krim','not_assessed'),('tomato-sweet-1000','unverified')]:
             row=by_slug[slug]
-            self.assertIn('Care scope: species_guidance.',row['care_notes'])
-            self.assertIn(f'Cultivar verification: {status}.',row['care_notes'])
+            self.assertNotIn('Care scope:',row['care_notes'])
+            self.assertNotIn('Cultivar verification:',row['care_notes'])
             self.assertNotIn('care_scope',row)
             self.assertNotIn('cultivar_verification',row)
         self.assertEqual(by_slug['tomato']['water_needs'],'moderate')
         self.assertEqual(by_slug['tomato']['field_provenance']['water']['method'],'ai_planning_estimate')
-        self.assertIn('UNVERIFIED AI PLANNING GUESSES',by_slug['tomato']['care_notes'])
+        self.assertNotIn('UNVERIFIED AI PLANNING GUESSES',by_slug['tomato']['care_notes'])
 
     def test_invalid_care_scope_rejected(self):
         path=self.root/'Plants/Tomato.md';p,b=read_note(path)

@@ -203,7 +203,7 @@ Deciduous tree whose small dry fruit is inedible but whose swollen fruit stalks,
 
 ## Sowing
 
-UNVERIFIED AI PLANNING GUESS: Try the months in planting_months as a rough Sydney starting point; use seed/transplants for annual crops and nursery plants or divisions for perennials. Adjust to weather and establishment.
+Try the months in planting_months as a rough Sydney starting point; use seed/transplants for annual crops and nursery plants or divisions for perennials. Adjust to weather and establishment.
 
 ## Care
 
@@ -215,7 +215,7 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Harvest
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): The sweet edible portion is the swollen stalk/receptacle rather than the small seed capsule. Ripening and local harvest dates need confirmation. [Source](https://plants.ces.ncsu.edu/plants/hovenia-dulcis/).
+The sweet edible portion is the swollen stalk/receptacle rather than the small seed capsule. Ripening and local harvest dates need confirmation. [Source](https://plants.ces.ncsu.edu/plants/hovenia-dulcis/).
 
 ## Uses
 
@@ -228,13 +228,11 @@ Ripe swollen peduncles can be eaten fresh or dried.
 - [Public catalogue](https://github.com/0melette/my_garden) · record `japanese-raisin-tree`
 - Photo: Lazaregagnidze · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · [Original image](https://commons.wikimedia.org/wiki/File:Hovenia_dulcis_Japanese_Raisin_Tree_%E1%83%A7%E1%83%A3%E1%83%9C%E1%83%AC%E1%83%A8%E1%83%90%E1%83%A5%E1%83%90%E1%83%A0%E1%83%90.JPG)
 
-## Research provenance
-
+<!-- Internal Research provenance
 AI-assisted additions: family, part_used, Harvest. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.
-
-
-## Planning estimates
-
+-->
+<!-- Internal Planning estimates
 UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
 
 Fields/sections guessed in this pass: calendar_region, planting_months, spacing_cm, row_spacing_cm, yield_qty, yield_unit, harvest_window_weeks, succession_interval_days, diseases, functions, Sowing. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
+-->

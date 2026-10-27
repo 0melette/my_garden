@@ -3,7 +3,7 @@ kind: plant
 status: draft
 catalogue_id: null
 slug: null
-common_name: 'New plant'
+common_name: New plant
 scientific_name: null
 family: null
 category: []

@@ -35,7 +35,7 @@ def render(root):
     flagged = sum(bool(p.get('generated_fields')) for _, p, _, _ in records)
     excluded = sum(len(set(p.get('not_applicable_fields') or {}) & set(FIELDS)) for _, p, _, _ in records)
     guessed = sum(sum(e['method'] == 'ai_planning_estimate' for e in (p.get('field_provenance') or {}).values()) for _, p, _, _ in records)
-    lines = [START, f'**{total} published plants · {drafts} drafts excluded · '
+    lines = [START, '<details>', '<summary>Maintainer catalogue audit</summary>', '', f'**{total} published plants · {drafts} drafts excluded · '
              f'{cells}/{total * denominator} fields/sections populated '
              f'({cells / (total * denominator):.0%}) · {excluded} explicitly inapplicable · '
              f'{total * denominator-cells-excluded} unresolved · {flagged} plants with flagged AI additions.**', '',
@@ -61,7 +61,7 @@ def render(root):
         lines.append(f'| [{label}]({quote(path.relative_to(root).as_posix())}) | '
                      f'{len(filled)}/{denominator} | {len(na)} | {len(p.get("generated_fields") or [])} | '
                      f'{", ".join(missing) or "—"} |')
-    lines += ['', '</details>', '', END]
+    lines += ['', '</details>', '', '</details>', '', END]
     return '\n'.join(lines)
 
 

@@ -256,7 +256,7 @@ Pollination: Daleys lists self-pollination but recommends cross-pollination for 
 
 Containers: Supplier lists suitability for pots and repotting every second year while deciduous. Pruning technique is not recorded here.
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Watering: Species guidance favours moist, well-drained soil despite established drought tolerance. Drought tolerance is not a recommendation to withhold establishment watering. [Source](https://plants.ces.ncsu.edu/plants/ziziphus-jujuba/).
+Watering: Species guidance favours moist, well-drained soil despite established drought tolerance. Drought tolerance is not a recommendation to withhold establishment watering. [Source](https://plants.ces.ncsu.edu/plants/ziziphus-jujuba/).
 
 ## Management
 
@@ -278,13 +278,11 @@ Fresh or dried fruit.
 Photo added 23 October 2026: Andymur777, [File:Jujube branch.jpg](https://commons.wikimedia.org/wiki/File:Jujube_branch.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0). Representative Ziziphus jujuba fruiting branch; Si Hong cultivar not verified. Real photograph, not AI-generated. Original file retained without image edits.
 
 
-## Research provenance
-
+<!-- Internal Research provenance
 AI-assisted additions: family, part_used, uses, Care. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.
-
-
-## Planning estimates
-
+-->
+<!-- Internal Planning estimates
 UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
 
 Fields/sections guessed in this pass: calendar_region, planting_months, spacing_cm, row_spacing_cm, water, feeder, yield_qty, yield_unit, harvest_window_weeks, succession_interval_days, forest_layer, rotation_group, pests, diseases, functions, companions. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
+-->

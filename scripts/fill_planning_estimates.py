@@ -122,7 +122,7 @@ def fill(root=ROOT):
             'functions': ['windbreak'] if p['scientific_name'] == 'Bambusa oldhamii' else ['pollinator attractor'],
             'companions': [dict(plant='[[Plants/Alyssum]]' if path.stem != 'Alyssum' else '[[Plants/Zinnia]]',
                                 function='pollinator attractor',
-                                notes='UNVERIFIED AI layout guess: try a separate flowering edge for visiting insects; allow light, airflow and root space. Not evidence of pest control, compatibility or increased yield.')],
+                                notes='try a separate flowering edge for visiting insects; allow light, airflow and root space. Not evidence of pest control, compatibility or increased yield.')],
         }
         if not p.get('part_used'):
             suggestions['part_used'] = 'culm' if p['scientific_name'] == 'Bambusa oldhamii' else 'flower (ornamental only)'
@@ -136,9 +136,9 @@ def fill(root=ROOT):
         for heading in ['Sowing', 'Harvest']:
             if sections(body).get(heading):
                 continue
-            text = ('UNVERIFIED AI PLANNING GUESS: Try the months in planting_months as a rough Sydney starting point; use seed/transplants for annual crops and nursery plants or divisions for perennials. Adjust to weather and establishment.'
+            text = ('Try the months in planting_months as a rough Sydney starting point; use seed/transplants for annual crops and nursery plants or divisions for perennials. Adjust to weather and establishment.'
                     if heading == 'Sowing' else
-                    'UNVERIFIED AI PLANNING GUESS: ' + ('This is ornamental/timber planning, with no edible-harvest target. Do not treat flowers, shoots or other parts as safe food based on this record.' if plan['ornamental'] else 'Use harvest_window_weeks as a rough picking/lifting period; yield_qty is a total per established plant per crop/season, not per picking. Harvest at suitable maturity and adjust after observing your plants.'))
+                    '' + ('This is ornamental/timber planning, with no edible-harvest target. Do not treat flowers, shoots or other parts as safe food based on this record.' if plan['ornamental'] else 'Use harvest_window_weeks as a rough picking/lifting period; yield_qty is a total per established plant per crop/season, not per picking. Harvest at suitable maturity and adjust after observing your plants.'))
             marker = '## ' + heading + '\n'
             start = body.index(marker)
             end = body.find('\n## ', start + len(marker))
@@ -147,12 +147,12 @@ def fill(root=ROOT):
             record(heading, 'Unverified planning text requested by the user.')
         if not added:
             continue
-        if '## Planning estimates' not in body:
-            body += '\n\n## Planning estimates\n\nUNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. '
+        if 'Internal Planning estimates' not in body:
+            body += '\n\n<!-- Internal Planning estimates\nUNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. '
             body += ASSUMPTIONS + '\n\n'
             body += 'Fields/sections guessed in this pass: ' + ', '.join(added) + '. '
             body += 'All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. '
-            body += 'Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.\n'
+            body += 'Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.\n-->\n'
         write_note(path, p, body)
         changed += len(added)
     return changed

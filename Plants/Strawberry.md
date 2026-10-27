@@ -300,23 +300,23 @@ A compact perennial fruit for pots, baskets, and beds.
 
 ## Sowing
 
-UNVERIFIED AI PLANNING GUESS: Try the months in planting_months as a rough Sydney starting point; use seed/transplants for annual crops and nursery plants or divisions for perennials. Adjust to weather and establishment.
+Try the months in planting_months as a rough Sydney starting point; use seed/transplants for annual crops and nursery plants or divisions for perennials. Adjust to weather and establishment.
 
 ## Care
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Sunlight: Full sun to partial shade. Watering: Maintain moist, well-drained soil. Pruning: Remove runners if prioritising fruit production. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
+Sunlight: Full sun to partial shade. Watering: Maintain moist, well-drained soil. Pruning: Remove runners if prioritising fruit production. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
 
 ## Management
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Check fruit for rot and plants for pests; symptoms require diagnosis. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
+Check fruit for rot and plants for pests; symptoms require diagnosis. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
 
 ## Harvest
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Harvest ripe fruit; harvest season depends on cultivar and region. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
+Harvest ripe fruit; harvest season depends on cultivar and region. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
 
 ## Uses
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Fruit is eaten raw or cooked. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
+Fruit is eaten raw or cooked. [Source](https://plants.ces.ncsu.edu/plants/fragaria-x-ananassa/).
 
 ## Sources & photo
 
@@ -324,13 +324,11 @@ AI-assisted research, 23 October 2026 (species guidance; needs human review): Fr
 - [Public catalogue](https://github.com/0melette/my_garden) · record `strawberry`
 - Photo: Unknown · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) · [Original image](https://commons.wikimedia.org/wiki/File:Strawberries.JPG)
 
-## Research provenance
-
+<!-- Internal Research provenance
 AI-assisted additions: sun, part_used, source_url, uses, Care, Management, Harvest, Uses. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.
-
-
-## Planning estimates
-
+-->
+<!-- Internal Planning estimates
 UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
 
 Fields/sections guessed in this pass: calendar_region, planting_months, spacing_cm, row_spacing_cm, soil_ph_min, soil_ph_max, water, feeder, yield_qty, yield_unit, harvest_window_weeks, succession_interval_days, forest_layer, rotation_group, pests, diseases, functions, companions, Sowing. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
+-->
