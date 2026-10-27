@@ -208,15 +208,15 @@ not_applicable_fields:
 
 ## Summary
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Apple trees produce edible fruit; stepover describes a trained form, not an identified cultivar. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
+Apple trees produce edible fruit; stepover describes a trained form, not an identified cultivar. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
 
 ## Sowing
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Grafting is a propagation method for apples. A species entry does not identify this plant’s rootstock or a suitable local planting calendar. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
+Grafting is a propagation method for apples. A species entry does not identify this plant’s rootstock or a suitable local planting calendar. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
 
 ## Care
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Sunlight: Full sun. Species size and spacing cannot be applied directly to a stepover; training and rootstock determine space needs. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
+Sunlight: Full sun. Species size and spacing cannot be applied directly to a stepover; training and rootstock determine space needs. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
 
 ## Management
 
@@ -224,11 +224,11 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Harvest
 
-UNVERIFIED AI PLANNING GUESS: Use harvest_window_weeks as a rough picking/lifting period; yield_qty is a total per established plant per crop/season, not per picking. Harvest at suitable maturity and adjust after observing your plants.
+Use harvest_window_weeks as a rough picking/lifting period; yield_qty is a total per established plant per crop/season, not per picking. Harvest at suitable maturity and adjust after observing your plants.
 
 ## Uses
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Fruit may be eaten fresh or cooked; suitability varies with cultivar. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
+Fruit may be eaten fresh or cooked; suitability varies with cultivar. [Source](https://plants.ces.ncsu.edu/plants/malus-domestica/).
 
 ## Sources & photo
 
@@ -236,13 +236,11 @@ AI-assisted research, 23 October 2026 (species guidance; needs human review): Fr
 - [Public catalogue](https://github.com/0melette/my_garden) · record `stepover-apples`
 - Photo: Emőke Dénes · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) · [Original image](https://commons.wikimedia.org/wiki/File:Rosales_-_Malus_domestica_-_15.jpg)
 
-## Research provenance
-
+<!-- Internal Research provenance
 AI-assisted additions: family, source_url, Summary, Sowing, Care, Uses. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.
-
-
-## Planning estimates
-
+-->
+<!-- Internal Planning estimates
 UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
 
 Fields/sections guessed in this pass: calendar_region, planting_months, yield_qty, yield_unit, harvest_window_weeks, succession_interval_days, diseases, functions, Harvest. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
+-->

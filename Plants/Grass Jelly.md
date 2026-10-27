@@ -190,7 +190,7 @@ Tropical climbing plant traditionally used to make green grass jelly in Indonesi
 
 ## Sowing
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Propagate from seed or underground storage organs; a Sydney sowing calendar is not established here. [Source](https://www.nparks.gov.sg/florafaunaweb/flora/5/5/5585).
+Propagate from seed or underground storage organs; a Sydney sowing calendar is not established here. [Source](https://www.nparks.gov.sg/florafaunaweb/flora/5/5/5585).
 
 ## Care
 
@@ -202,7 +202,7 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Harvest
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): The leaves are used in green grass jelly. This source gives no harvest interval or yield. [Source](https://www.nparks.gov.sg/florafaunaweb/flora/5/5/5585).
+The leaves are used in green grass jelly. This source gives no harvest interval or yield. [Source](https://www.nparks.gov.sg/florafaunaweb/flora/5/5/5585).
 
 ## Uses
 
@@ -215,13 +215,11 @@ Traditional grass jelly preparation; confirm species identity and food safety be
 - [Public catalogue](https://github.com/0melette/my_garden) · record `grass-jelly`
 - Photo: CYL · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) · [Original image](https://commons.wikimedia.org/wiki/File:Cyclea_barbata_393265361.jpg)
 
-## Research provenance
-
+<!-- Internal Research provenance
 AI-assisted additions: family, uses, Sowing, Harvest. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.
-
-
-## Planning estimates
-
+-->
+<!-- Internal Planning estimates
 UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
 
 Fields/sections guessed in this pass: calendar_region, planting_months, yield_qty, yield_unit, harvest_window_weeks, succession_interval_days, diseases, functions, companions. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
+-->

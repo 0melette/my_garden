@@ -207,20 +207,12 @@ def compile_catalogue(root=ROOT,assign_ids=False):
             raise ValueError(f'{path.name}: invalid care_scope')
         if verification not in (None, 'not_applicable', 'not_assessed', 'unverified', 'verified'):
             raise ValueError(f'{path.name}: invalid cultivar_verification')
-        evidence_labels=[]
-        if scope:evidence_labels.append(f"Care scope: {scope}.")
-        if verification:evidence_labels.append(f"Cultivar verification: {verification}.")
+        # Provenance is structured metadata, never part of public care guidance.
         if p.get('generated_fields'):
             row['generated_fields'] = p['generated_fields']
             row['field_provenance'] = p['field_provenance']
-            evidence_labels.append('AI-assisted additions (see field_provenance for sources and review status): ' + ', '.join(p['generated_fields']) + '.')
-        guesses = [field for field, evidence in (p.get('field_provenance') or {}).items() if evidence['method'] == 'ai_planning_estimate']
-        if guesses:
-            evidence_labels.append('UNVERIFIED AI PLANNING GUESSES: ' + ', '.join(guesses) + '. Rough Sydney planning assumptions requested by the user; not sourced facts, measured yields, diagnoses or guaranteed companion benefits. See field_provenance for assumptions and not_applicable_fields for exclusions.')
         if p.get('not_applicable_fields'):
             row['not_applicable_fields'] = p['not_applicable_fields']
-        if evidence_labels:
-            row['care_notes']='\n'.join(evidence_labels)+('\n\n'+row['care_notes'] if row['care_notes'] else '')
         estimates=as_list(p,'estimated_fields');row['estimated_fields']=json.dumps(estimates) if estimates else None
         rotation=p.get('rotation_group');row['rotation_group_id']=lookups['rotation_groups'].get(target(rotation)) if rotation else None
         if rotation and row['rotation_group_id'] is None:raise ValueError(f'{path.name}: unknown rotation group {rotation}')

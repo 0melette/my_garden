@@ -297,23 +297,23 @@ A tender aromatic herb suited to warm-season growing.
 
 ## Sowing
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Sow or transplant after frost risk has passed; local planting months need regional confirmation. [Source](https://plants.ces.ncsu.edu/plants/ocimum-basilicum/).
+Sow or transplant after frost risk has passed; local planting months need regional confirmation. [Source](https://plants.ces.ncsu.edu/plants/ocimum-basilicum/).
 
 ## Care
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Sunlight: Full sun. Watering: Keep soil moist with good drainage. Pruning: Pinch shoot tips and flower buds to encourage branching. [Source](https://plants.ces.ncsu.edu/plants/ocimum-basilicum/).
+Sunlight: Full sun. Watering: Keep soil moist with good drainage. Pruning: Pinch shoot tips and flower buds to encourage branching. [Source](https://plants.ces.ncsu.edu/plants/ocimum-basilicum/).
 
 ## Management
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Check for aphids and symptoms of downy mildew or Fusarium wilt. [Source](https://plants.ces.ncsu.edu/plants/ocimum-basilicum/).
+Check for aphids and symptoms of downy mildew or Fusarium wilt. [Source](https://plants.ces.ncsu.edu/plants/ocimum-basilicum/).
 
 ## Harvest
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Harvest edible leaves. [Source](https://plants.ces.ncsu.edu/plants/ocimum-basilicum/).
+Harvest edible leaves. [Source](https://plants.ces.ncsu.edu/plants/ocimum-basilicum/).
 
 ## Uses
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Leaves flavour food. [Source](https://plants.ces.ncsu.edu/plants/ocimum-basilicum/).
+Leaves flavour food. [Source](https://plants.ces.ncsu.edu/plants/ocimum-basilicum/).
 
 ## Sources & photo
 
@@ -321,13 +321,11 @@ AI-assisted research, 23 October 2026 (species guidance; needs human review): Le
 - [Public catalogue](https://github.com/0melette/my_garden) · record `basil`
 - Photo: Andrey Butko · [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) · [Original image](https://commons.wikimedia.org/wiki/File:Ocimum_basilicum_flowers_in_Crimea.jpg)
 
-## Research provenance
-
+<!-- Internal Research provenance
 AI-assisted additions: sun, part_used, source_url, uses, Sowing, Care, Management, Harvest, Uses. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.
-
-
-## Planning estimates
-
+-->
+<!-- Internal Planning estimates
 UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
 
 Fields/sections guessed in this pass: calendar_region, planting_months, spacing_cm, row_spacing_cm, soil_ph_min, soil_ph_max, water, feeder, yield_qty, yield_unit, harvest_window_weeks, succession_interval_days, forest_layer, rotation_group, pests, diseases, functions. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
+-->

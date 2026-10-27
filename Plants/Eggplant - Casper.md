@@ -177,15 +177,15 @@ not_applicable_fields:
 
 ## Summary
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Eggplant is a cold-sensitive crop grown for edible fruit; this source does not establish Casper-specific traits. [Source](https://plants.ces.ncsu.edu/plants/solanum-melongena/).
+Eggplant is a cold-sensitive crop grown for edible fruit; this source does not establish Casper-specific traits. [Source](https://plants.ces.ncsu.edu/plants/solanum-melongena/).
 
 ## Sowing
 
-UNVERIFIED AI PLANNING GUESS: Try the months in planting_months as a rough Sydney starting point; use seed/transplants for annual crops and nursery plants or divisions for perennials. Adjust to weather and establishment.
+Try the months in planting_months as a rough Sydney starting point; use seed/transplants for annual crops and nursery plants or divisions for perennials. Adjust to weather and establishment.
 
 ## Care
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Temperature: Growth is fastest around 21–29°C. Protect this cold-sensitive crop from cold conditions. [Source](https://plants.ces.ncsu.edu/plants/solanum-melongena/).
+Temperature: Growth is fastest around 21–29°C. Protect this cold-sensitive crop from cold conditions. [Source](https://plants.ces.ncsu.edu/plants/solanum-melongena/).
 
 ## Management
 
@@ -197,7 +197,7 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Uses
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Edible fruit; this species entry does not establish cultivar-specific cooking qualities. [Source](https://plants.ces.ncsu.edu/plants/solanum-melongena/).
+Edible fruit; this species entry does not establish cultivar-specific cooking qualities. [Source](https://plants.ces.ncsu.edu/plants/solanum-melongena/).
 
 ## Sources & photo
 
@@ -205,13 +205,11 @@ AI-assisted research, 23 October 2026 (species guidance; needs human review): Ed
 - [Public catalogue](https://github.com/0melette/my_garden) · record `eggplant-casper`
 - Photo: Forest and Kim Starr · [CC BY 3.0 us](https://creativecommons.org/licenses/by/3.0/us/deed.en) · [Original image](https://commons.wikimedia.org/wiki/File:Starr-090713-2635-Solanum_melongena-white_fruit-Lahaina-Maui_(24876145261).jpg)
 
-## Research provenance
-
+<!-- Internal Research provenance
 AI-assisted additions: family, source_url, Summary, Care, Uses. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.
-
-
-## Planning estimates
-
+-->
+<!-- Internal Planning estimates
 UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
 
 Fields/sections guessed in this pass: calendar_region, planting_months, succession_interval_days, diseases, functions, Sowing. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
+-->

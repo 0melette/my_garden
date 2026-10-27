@@ -27,8 +27,20 @@ class CompletionProvenanceTests(unittest.TestCase):
         row = next(r for r in compile_catalogue(self.root)['tables']['plant_references'] if r['slug'] == 'jujube-si-hong')
         self.assertIn('family', row['generated_fields'])
         self.assertEqual(row['field_provenance']['family']['review_status'], 'needs_review')
-        self.assertIn('AI-assisted additions', row['care_notes'])
+        self.assertNotIn('AI-assisted', row['care_notes'])
+        self.assertNotIn('UNVERIFIED', row['care_notes'])
+        self.assertNotIn('Care scope:', row['care_notes'])
         self.assertIn('Watering:', row['care_notes'])
+
+    def test_public_guidance_keeps_generation_labels_out_of_prose(self):
+        rows = compile_catalogue(self.root)['tables']['plant_references']
+        for row in rows:
+            for key in ['summary', 'sowing_notes', 'care_notes', 'management_notes', 'yield_wording', 'uses_notes']:
+                text = row.get(key) or ''
+                with self.subTest(plant=row['slug'], field=key):
+                    self.assertNotIn('AI-assisted', text)
+                    self.assertNotIn('UNVERIFIED AI', text)
+                    self.assertNotIn('needs human review', text)
 
     def test_incomplete_provenance_blocks_export(self):
         path = self.root / 'Plants/Jujube - Si Hong.md'

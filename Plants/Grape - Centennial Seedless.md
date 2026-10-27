@@ -247,7 +247,7 @@ Containers: Supplier lists pots of at least 35 L. Purchase pot size is not the m
 
 Pruning and fertiliser: No cultivar-specific pruning method, dose or application interval is established in this record.
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Support: Provide a climbing framework and training. General Vitis vinifera guidance does not establish the correct cane/spur pruning system for Centennial Seedless. [Source](https://plants.ces.ncsu.edu/plants/vitis-vinifera/).
+Support: Provide a climbing framework and training. General Vitis vinifera guidance does not establish the correct cane/spur pruning system for Centennial Seedless. [Source](https://plants.ces.ncsu.edu/plants/vitis-vinifera/).
 
 ## Management
 
@@ -269,13 +269,11 @@ Fresh fruit.
 Photo added 23 October 2026: Ivanace1, [File:Grapes on a vine.jpg](https://commons.wikimedia.org/wiki/File:Grapes_on_a_vine.jpg), [Public domain](https://creativecommons.org/publicdomain/mark/1.0/). Representative grapevine and green grapes; Centennial Seedless cultivar not verified. Real photograph, not AI-generated. Original file retained without image edits.
 
 
-## Research provenance
-
+<!-- Internal Research provenance
 AI-assisted additions: family, part_used, uses, Care. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.
-
-
-## Planning estimates
-
+-->
+<!-- Internal Planning estimates
 UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
 
 Fields/sections guessed in this pass: calendar_region, planting_months, spacing_cm, row_spacing_cm, feeder, yield_qty, yield_unit, harvest_window_weeks, succession_interval_days, forest_layer, rotation_group, pests, diseases, functions, companions. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
+-->

@@ -139,7 +139,7 @@ Inspect weekly, remove affected plant material, use clean tools and encourage be
 
 ## Uses
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Peas are grown for seeds or edible pods, depending on cultivar. This species source alone does not establish whether this cultivar’s mature pods are suitable for eating. [Source](https://plants.ces.ncsu.edu/plants/lathyrus-oleraceus/).
+Peas are grown for seeds or edible pods, depending on cultivar. This species source alone does not establish whether this cultivar’s mature pods are suitable for eating. [Source](https://plants.ces.ncsu.edu/plants/lathyrus-oleraceus/).
 
 ## Sources & photo
 
@@ -147,13 +147,11 @@ AI-assisted research, 23 October 2026 (species guidance; needs human review): Pe
 - [Public catalogue](https://github.com/0melette/my_garden) · record `pea-oregon-dwarf`
 - Photo: Forest & Kim Starr · [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) · [Original image](https://commons.wikimedia.org/wiki/File:Starr_081009-0039_Pisum_sativum_var._macrocarpum.jpg)
 
-## Research provenance
-
+<!-- Internal Research provenance
 AI-assisted additions: family, Uses. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.
-
-
-## Planning estimates
-
+-->
+<!-- Internal Planning estimates
 UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
 
 Fields/sections guessed in this pass: calendar_region, planting_months. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
+-->

@@ -300,23 +300,23 @@ A root crop commonly direct-sown through much of the year.
 
 ## Sowing
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Direct sow rather than transplant. Thin seedlings to give roots room. [Source](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-carrots-and-parsnips).
+Direct sow rather than transplant. Thin seedlings to give roots room. [Source](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-carrots-and-parsnips).
 
 ## Care
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Watering: Insufficient moisture can produce tough or misshapen roots. Use loose, well-drained sandy loam. [Source](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-carrots-and-parsnips).
+Watering: Insufficient moisture can produce tough or misshapen roots. Use loose, well-drained sandy loam. [Source](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-carrots-and-parsnips).
 
 ## Management
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Weed with shallow cultivation to avoid disturbing roots. Cover exposed root shoulders with soil to prevent greening. [Source](https://www.extension.umd.edu/resource/growing-carrots-home-garden).
+Weed with shallow cultivation to avoid disturbing roots. Cover exposed root shoulders with soil to prevent greening. [Source](https://www.extension.umd.edu/resource/growing-carrots-home-garden).
 
 ## Harvest
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Pull roots when they reach a useful size. [Source](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-carrots-and-parsnips).
+Pull roots when they reach a useful size. [Source](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-carrots-and-parsnips).
 
 ## Uses
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Edible roots. [Source](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-carrots-and-parsnips).
+Edible roots. [Source](https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-carrots-and-parsnips).
 
 ## Sources & photo
 
@@ -324,13 +324,11 @@ AI-assisted research, 23 October 2026 (species guidance; needs human review): Ed
 - [Public catalogue](https://github.com/0melette/my_garden) · record `carrot`
 - Photo: Stephen Ausmus · [Public domain](https://creativecommons.org/publicdomain/mark/1.0/) · [Original image](https://commons.wikimedia.org/wiki/File:Carrots_of_many_colors.jpg)
 
-## Research provenance
-
+<!-- Internal Research provenance
 AI-assisted additions: part_used, uses, source_url, Sowing, Care, Harvest, Uses, sun, Management. See field_provenance for sources, dates and scope. Human review is pending. Untouched content retains its earlier provenance.
-
-
-## Planning estimates
-
+-->
+<!-- Internal Planning estimates
 UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
 
 Fields/sections guessed in this pass: calendar_region, planting_months, spacing_cm, row_spacing_cm, soil_ph_min, soil_ph_max, water, feeder, yield_qty, yield_unit, harvest_window_weeks, succession_interval_days, forest_layer, rotation_group, pests, diseases, functions. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
+-->

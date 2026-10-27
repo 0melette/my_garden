@@ -304,23 +304,23 @@ A vigorous warm-season crop that produces generously.
 
 ## Sowing
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Sow into warm soil after frost risk. [Source](https://plants.ces.ncsu.edu/plants/cucurbita-pepo/).
+Sow into warm soil after frost risk. [Source](https://plants.ces.ncsu.edu/plants/cucurbita-pepo/).
 
 ## Care
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Watering: Maintain moderately moist soil. Mulch helps retain soil moisture. Guidance is for Cucurbita pepo; growth habit varies by cultivar. [Source](https://plants.ces.ncsu.edu/plants/cucurbita-pepo/).
+Watering: Maintain moderately moist soil. Mulch helps retain soil moisture. Guidance is for Cucurbita pepo; growth habit varies by cultivar. [Source](https://plants.ces.ncsu.edu/plants/cucurbita-pepo/).
 
 ## Management
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Monitor for slugs, aphids and beetles. [Source](https://plants.ces.ncsu.edu/plants/cucurbita-pepo/).
+Monitor for slugs, aphids and beetles. [Source](https://plants.ces.ncsu.edu/plants/cucurbita-pepo/).
 
 ## Harvest
 
-UNVERIFIED AI PLANNING GUESS: Use harvest_window_weeks as a rough picking/lifting period; yield_qty is a total per established plant per crop/season, not per picking. Harvest at suitable maturity and adjust after observing your plants.
+Use harvest_window_weeks as a rough picking/lifting period; yield_qty is a total per established plant per crop/season, not per picking. Harvest at suitable maturity and adjust after observing your plants.
 
 ## Uses
 
-AI-assisted research, 23 October 2026 (species guidance; needs human review): Edible fruit. [Source](https://plants.ces.ncsu.edu/plants/cucurbita-pepo/).
+Edible fruit. [Source](https://plants.ces.ncsu.edu/plants/cucurbita-pepo/).
 
 ## Sources & photo
 
@@ -328,13 +328,11 @@ AI-assisted research, 23 October 2026 (species guidance; needs human review): Ed
 - [Public catalogue](https://github.com/0melette/my_garden) · record `zucchini`
 - Photo: Rasbak · [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) · [Original image](https://commons.wikimedia.org/wiki/File:Courgette_plant_begin_augustus_(Cucurbita_pepo_in_August).jpg)
 
-## Research provenance
-
+<!-- Internal Research provenance
 AI-assisted additions: sun, part_used, source_url, uses, Sowing, Care, Management, Uses. Sources were checked on 23 October 2026; human review is pending. Existing text and values retain their earlier provenance. Species guidance does not verify cultivar identity.
-
-
-## Planning estimates
-
+-->
+<!-- Internal Planning estimates
 UNVERIFIED AI GUESSES, generated 23 October 2026 at the user’s request. User-requested AI guess, not researched or measured. Sydney lowland home garden, outdoor soil beds, ordinary care and irrigation; avoid frost and extreme heat. Yield is total per established plant per crop/season, not per picking; woody perennials assume a mature established plant. Row spacing is a planning clearance, not a tested crop density. Pest/disease lists are possible monitoring targets, not observations. Companion/function suggestions are layout ideas, not demonstrated pest control or yield benefits.
 
 Fields/sections guessed in this pass: calendar_region, planting_months, spacing_cm, row_spacing_cm, soil_ph_min, soil_ph_max, water, feeder, yield_qty, yield_unit, harvest_window_weeks, succession_interval_days, forest_layer, rotation_group, pests, diseases, functions, companions, Harvest. All need review. Exact guesses, dates and assumptions are in field_provenance; fields without an applicable value are explained in not_applicable_fields. Existing sourced text remains as historical research and may still describe these values as unknown; the new guesses do not resolve that evidence gap. No photos were invented.
+-->
