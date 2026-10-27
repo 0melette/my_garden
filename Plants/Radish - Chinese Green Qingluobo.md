@@ -6,6 +6,8 @@ slug: radish-chinese-green-qingluobo
 common_name: Radish - Chinese Green Qingluobo
 scientific_name: Raphanus sativus
 family: Brassicaceae
+plant_group: Radish
+variety_name: Chinese Green Qingluobo
 category:
 - Vegetables
 sun: full sun

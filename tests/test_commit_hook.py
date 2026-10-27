@@ -21,6 +21,8 @@ class CommitHookTests(unittest.TestCase):
         shutil.copy2(ROOT/'localdata/plant-image-sources.json',self.root/'localdata/plant-image-sources.json')
         (self.root/'snapshots').mkdir();shutil.copy2(ROOT/'snapshots/almanac-catalogue.json',self.root/'snapshots/almanac-catalogue.json')
         self.git('init','-q');self.git('config','user.name','Test');self.git('config','user.email','test@example.invalid')
+        # Detached maintenance can race with temporary repository cleanup.
+        self.git('config','maintenance.auto','false')
         self.git('add','.');self.git('commit','-qm','Fixture')
     def tearDown(self):self.temp.cleanup()
     def git(self,*args):return subprocess.check_output(['git','-C',str(self.root),*args])
