@@ -6883,6 +6883,111 @@
         },
         "estimated_fields": "[\"calendar_region\", \"planting_months\", \"in_row_spacing_cm\", \"row_spacing_cm\", \"soil_ph_min\", \"soil_ph_max\", \"water_needs\", \"feeder_type\", \"forest_layer\", \"rotation_group\", \"pests\", \"diseases\", \"functions\", \"companions\", \"part_used\", \"uses\"]",
         "rotation_group_id": 8
+      },
+      {
+        "slug": "ashitaba",
+        "common_name": "Ashitaba",
+        "scientific_name": "Angelica keiskei",
+        "family": "Apiaceae",
+        "created_at": null,
+        "yield_qty": null,
+        "row_spacing_cm": null,
+        "succession_interval_days": null,
+        "harvest_window_weeks": null,
+        "soil_ph_min": null,
+        "soil_ph_max": null,
+        "yield_unit": null,
+        "source_url": "https://www.nparks.gov.sg/florafaunaweb/flora/6/3/6399",
+        "notion_url": null,
+        "forest_layer": null,
+        "part_used": null,
+        "id": 47,
+        "sun_needs": "part shade",
+        "water_needs": "moderate",
+        "in_row_spacing_cm": null,
+        "feeder_type": null,
+        "summary": "Ashitaba (*Angelica keiskei*), also called tomorrow leaf, is a leafy herb in the carrot family (Apiaceae). NParks describes it as biennial or perennial, reaching up to 1.5 m, with toothed leaves and clusters of small white flowers.",
+        "sowing_notes": "A Sydney sowing calendar and seed-treatment method have not yet been established for this entry.",
+        "care_notes": "Species guidance: NParks recommends moist, well-drained soil and semi-shade in Singapore. The part-shade and moderate-water properties follow that source; its tropical growing context does not establish a Sydney watering schedule. [NParks species profile](https://www.nparks.gov.sg/florafaunaweb/flora/6/3/6399), checked 3 November 2026.\n\nSydney planting months, spacing, frost tolerance and fertiliser requirements remain unconfirmed.",
+        "management_notes": null,
+        "yield_wording": null,
+        "uses_notes": "The leaves are eaten as a vegetable, raw or cooked, according to NParks.",
+        "generated_fields": [
+          "scientific_name",
+          "family",
+          "sun",
+          "water",
+          "Summary",
+          "Care",
+          "Uses"
+        ],
+        "field_provenance": {
+          "scientific_name": {
+            "method": "ai_assisted_research",
+            "checked_at": "2026-11-03",
+            "scope": "species",
+            "review_status": "needs_review",
+            "sources": [
+              "https://www.nparks.gov.sg/florafaunaweb/flora/6/3/6399"
+            ]
+          },
+          "family": {
+            "method": "ai_assisted_research",
+            "checked_at": "2026-11-03",
+            "scope": "species",
+            "review_status": "needs_review",
+            "sources": [
+              "https://www.nparks.gov.sg/florafaunaweb/flora/6/3/6399"
+            ]
+          },
+          "sun": {
+            "method": "ai_assisted_research",
+            "checked_at": "2026-11-03",
+            "scope": "species",
+            "review_status": "needs_review",
+            "sources": [
+              "https://www.nparks.gov.sg/florafaunaweb/flora/6/3/6399"
+            ]
+          },
+          "water": {
+            "method": "ai_assisted_research",
+            "checked_at": "2026-11-03",
+            "scope": "species",
+            "review_status": "needs_review",
+            "sources": [
+              "https://www.nparks.gov.sg/florafaunaweb/flora/6/3/6399"
+            ]
+          },
+          "Summary": {
+            "method": "ai_assisted_research",
+            "checked_at": "2026-11-03",
+            "scope": "species",
+            "review_status": "needs_review",
+            "sources": [
+              "https://www.nparks.gov.sg/florafaunaweb/flora/6/3/6399"
+            ]
+          },
+          "Care": {
+            "method": "ai_assisted_research",
+            "checked_at": "2026-11-03",
+            "scope": "species",
+            "review_status": "needs_review",
+            "sources": [
+              "https://www.nparks.gov.sg/florafaunaweb/flora/6/3/6399"
+            ]
+          },
+          "Uses": {
+            "method": "ai_assisted_research",
+            "checked_at": "2026-11-03",
+            "scope": "species",
+            "review_status": "needs_review",
+            "sources": [
+              "https://www.nparks.gov.sg/florafaunaweb/flora/6/3/6399"
+            ]
+          }
+        },
+        "estimated_fields": null,
+        "rotation_group_id": null
       }
     ],
     "planting_months": [
@@ -10789,7 +10894,8 @@
       43,
       44,
       45,
-      46
+      46,
+      47
     ],
     "details": "Plant Markdown sowing notes and field_provenance describe calendar scope. AI planning calendars/region assignments are explicitly unverified guesses; estimated_fields labels them, including retained legacy month lists provisionally assigned to Sydney."
   }
